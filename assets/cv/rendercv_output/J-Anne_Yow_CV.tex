@@ -1,0 +1,412 @@
+\documentclass[10pt, letterpaper]{article}
+
+% Packages:
+\usepackage[
+    ignoreheadfoot, % set margins without considering header and footer
+    top=2 cm, % seperation between body and page edge from the top
+    bottom=2 cm, % seperation between body and page edge from the bottom
+    left=2 cm, % seperation between body and page edge from the left
+    right=2 cm, % seperation between body and page edge from the right
+    footskip=1.0 cm, % seperation between body and footer
+    % showframe % for debugging 
+]{geometry} % for adjusting page geometry
+\usepackage{titlesec} % for customizing section titles
+\usepackage{tabularx} % for making tables with fixed width columns
+\usepackage{array} % tabularx requires this
+\usepackage[dvipsnames]{xcolor} % for coloring text
+\definecolor{primaryColor}{RGB}{0, 0, 0} % define primary color
+\usepackage{enumitem} % for customizing lists
+\usepackage{fontawesome5} % for using icons
+\usepackage{amsmath} % for math
+\usepackage[
+    pdftitle={J-Anne Yow's CV},
+    pdfauthor={J-Anne Yow},
+    pdfcreator={LaTeX with RenderCV},
+    colorlinks=true,
+    urlcolor=primaryColor
+]{hyperref} % for links, metadata and bookmarks
+\usepackage[pscoord]{eso-pic} % for floating text on the page
+\usepackage{calc} % for calculating lengths
+\usepackage{bookmark} % for bookmarks
+\usepackage{lastpage} % for getting the total number of pages
+\usepackage{changepage} % for one column entries (adjustwidth environment)
+\usepackage{paracol} % for two and three column entries
+\usepackage{ifthen} % for conditional statements
+\usepackage{needspace} % for avoiding page brake right after the section title
+\usepackage{iftex} % check if engine is pdflatex, xetex or luatex
+
+% Ensure that generate pdf is machine readable/ATS parsable:
+\ifPDFTeX
+    \input{glyphtounicode}
+    \pdfgentounicode=1
+    \usepackage[T1]{fontenc}
+    \usepackage[utf8]{inputenc}
+    \usepackage{lmodern}
+\fi
+
+\usepackage{charter}
+
+% Some settings:
+\raggedright
+\AtBeginEnvironment{adjustwidth}{\partopsep0pt} % remove space before adjustwidth environment
+\pagestyle{empty} % no header or footer
+\setcounter{secnumdepth}{0} % no section numbering
+\setlength{\parindent}{0pt} % no indentation
+\setlength{\topskip}{0pt} % no top skip
+\setlength{\columnsep}{0.15cm} % set column seperation
+\pagenumbering{gobble} % no page numbering
+
+\titleformat{\section}{\needspace{4\baselineskip}\bfseries\large}{}{0pt}{}[\vspace{1pt}\titlerule]
+
+\titlespacing{\section}{
+    % left space:
+    -1pt
+}{
+    % top space:
+    0.3 cm
+}{
+    % bottom space:
+    0.2 cm
+} % section title spacing
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\small$\bullet$}}$} % custom bullet points
+\newenvironment{highlights}{
+    \begin{itemize}[
+        topsep=0.10 cm,
+        parsep=0.10 cm,
+        partopsep=0pt,
+        itemsep=0pt,
+        leftmargin=0 cm + 10pt
+    ]
+}{
+    \end{itemize}
+} % new environment for highlights
+
+
+\newenvironment{highlightsforbulletentries}{
+    \begin{itemize}[
+        topsep=0.10 cm,
+        parsep=0.10 cm,
+        partopsep=0pt,
+        itemsep=0pt,
+        leftmargin=10pt
+    ]
+}{
+    \end{itemize}
+} % new environment for highlights for bullet entries
+
+\newenvironment{onecolentry}{
+    \begin{adjustwidth}{
+        0 cm + 0.00001 cm
+    }{
+        0 cm + 0.00001 cm
+    }
+}{
+    \end{adjustwidth}
+} % new environment for one column entries
+
+\newenvironment{twocolentry}[2][]{
+    \onecolentry
+    \def\secondColumn{#2}
+    \setcolumnwidth{\fill, 4.5 cm}
+    \begin{paracol}{2}
+}{
+    \switchcolumn \raggedleft \secondColumn
+    \end{paracol}
+    \endonecolentry
+} % new environment for two column entries
+
+\newenvironment{threecolentry}[3][]{
+    \onecolentry
+    \def\thirdColumn{#3}
+    \setcolumnwidth{, \fill, 4.5 cm}
+    \begin{paracol}{3}
+    {\raggedright #2} \switchcolumn
+}{
+    \switchcolumn \raggedleft \thirdColumn
+    \end{paracol}
+    \endonecolentry
+} % new environment for three column entries
+
+\newenvironment{header}{
+    \setlength{\topsep}{0pt}\par\kern\topsep\centering\linespread{1.5}
+}{
+    \par\kern\topsep
+} % new environment for the header
+
+\newcommand{\placelastupdatedtext}{% \placetextbox{<horizontal pos>}{<vertical pos>}{<stuff>}
+  \AddToShipoutPictureFG*{% Add <stuff> to current page foreground
+    \put(
+        \LenToUnit{\paperwidth-2 cm-0 cm+0.05cm},
+        \LenToUnit{\paperheight-1.0 cm}
+    ){\vtop{{\null}\makebox[0pt][c]{
+        \small\color{gray}\textit{Last updated in September 2024}\hspace{\widthof{Last updated in September 2024}}
+    }}}%
+  }%
+}%
+
+% save the original href command in a new command:
+\let\hrefWithoutArrow\href
+
+% new command for external links:
+
+
+\begin{document}
+    \newcommand{\AND}{\unskip
+        \cleaders\copy\ANDbox\hskip\wd\ANDbox
+        \ignorespaces
+    }
+    \newsavebox\ANDbox
+    \sbox\ANDbox{$|$}
+
+    \begin{header}
+        \fontsize{25 pt}{25 pt}\selectfont J-Anne Yow
+
+        \vspace{5 pt}
+
+        \normalsize
+        \mbox{Singapore}%
+        \kern 5.0 pt%
+        \AND%
+        \kern 5.0 pt%
+        \mbox{\hrefWithoutArrow{mailto:janne.yow@ntu.edu.sg}{janne.yow@ntu.edu.sg}}%
+        \kern 5.0 pt%
+        \AND%
+        \kern 5.0 pt%
+        \mbox{\hrefWithoutArrow{https://janneyow.github.io/}{janneyow.github.io}}%
+        \kern 5.0 pt%
+        \AND%
+        \kern 5.0 pt%
+        \mbox{\hrefWithoutArrow{https://linkedin.com/in/janneyow}{linkedin.com/in/janneyow}}%
+    \end{header}
+
+    \vspace{5 pt - 0.3 cm}
+
+
+    \section{Education}
+
+
+
+        
+        \begin{twocolentry}{
+            Sept 2021 – present
+        }
+            \textbf{\href{https://www.ntu.edu.sg/}{Nanyang Technological University}}, Ph.D. in Mechanical Engineering\end{twocolentry}
+
+        \vspace{0.10 cm}
+        \begin{onecolentry}
+            \begin{highlights}
+                \item \textbf{Supervisor:} Prof Ang Wei Tech
+                \item \textbf{Proposed Dissertation:} Enhancing Human-Robot Interaction for Personalised Robot Behaviour in Assistive Feeding
+                \item \textbf{Research Interests:} Human-Robot Interaction, Machine Learning, Foundation Models, Continual Learning
+            \end{highlights}
+        \end{onecolentry}
+
+
+        \vspace{0.2 cm}
+
+        \begin{twocolentry}{
+            Aug 2017 – May 2021
+        }
+            \textbf{\href{https://www.ntu.edu.sg/}{Nanyang Technological University}}, BE in Mechanical Engineering with a Second Major in Business\end{twocolentry}
+
+        \vspace{0.10 cm}
+        \begin{onecolentry}
+            \begin{highlights}
+                \item \textbf{GPA:} 4.92/5.00, Dean's List every Academic Year
+                \item \textbf{Awards:} \href{https://www.ntu.edu.sg/mae/admissions/current-students/undergraduate/medals-and-prizes}{Dr Leung Shiu Kee Gold Medal Award}, ASEAN Undergraduate Scholarship
+            \end{highlights}
+        \end{onecolentry}
+
+
+        \vspace{0.2 cm}
+
+        \begin{twocolentry}{
+            Jan 2015 – Nov 2016
+        }
+            \textbf{\href{https://www.hci.edu.sg/}{Hwa Chong Institution}}, A-Levels\end{twocolentry}
+
+        \vspace{0.10 cm}
+        \begin{onecolentry}
+            \begin{highlights}
+                \item \textbf{Awards:} Hwa Chong Diploma with Distinction, ASEAN Scholarship
+            \end{highlights}
+        \end{onecolentry}
+
+
+
+    
+    \section{Research Projects}
+
+
+
+        
+        \begin{twocolentry}{
+            2022 -- present
+        }
+            \textbf{Robot-Assisted Feeding}\end{twocolentry}
+
+        \vspace{0.10 cm}
+        \begin{onecolentry}
+            \begin{highlights}
+                \item Implementing an end-to-end pipeline for robot-assisted feeding, including bite sequencing, food acquisition with a spoon, and transferring food to the user.
+                \item Developing a personalized assistive feeding system that adapts to user preferences and needs, leveraging language corrections to modify robot actions.
+                \item Developing a goal-conditioned scooping policy to scoop a target amount of food while considering different food properties.
+                \item Exploring the integration of foundation models in robotics for more adaptive and intelligent robots.
+            \end{highlights}
+        \end{onecolentry}
+
+
+        \vspace{0.2 cm}
+
+        \begin{twocolentry}{
+            2020 -- 2023
+        }
+            \textbf{Grasping in Clutter}\end{twocolentry}
+
+        \vspace{0.10 cm}
+        \begin{onecolentry}
+            \begin{highlights}
+                \item Developed a shared autonomy framework to decide when and what to query users in scenarios where uncertainty is high, enabling more effective human-robot collaboration.
+                \item Developed a point-and-click interface for robotic grasping in cluttered environments by generating better grasp poses through object segmentation.
+            \end{highlights}
+        \end{onecolentry}
+
+
+
+    
+    \section{Work Experience}
+
+
+
+        
+        \begin{twocolentry}{
+            Aug 2021 – present
+        }
+            \textbf{Research Assistant}, Rehabilitation Research Institute of Singapore -- Singapore\end{twocolentry}
+
+        \vspace{0.10 cm}
+        \begin{onecolentry}
+            \begin{highlights}
+                \item Spearheaded the Robot-Assisted Feeding project, focusing on developing a personalized assistive feeding system.
+                \item Mentored seven undergraduate students on final year projects, guiding them through the research process and providing technical support.
+                \item Assisted in preparing funding proposals to support the project.
+            \end{highlights}
+        \end{onecolentry}
+
+
+        \vspace{0.2 cm}
+
+        \begin{twocolentry}{
+            May 2020 – July 2020
+        }
+            \textbf{SaaS Sales Operations Intern}, \href{https://www.bytedance.com/en/}{ByteDance} -- Singapore\end{twocolentry}
+
+        \vspace{0.10 cm}
+        \begin{onecolentry}
+            \begin{highlights}
+                \item Built and optimized dashboards for the Lark APAC team, improving data-driven decision-making and operational insights.
+                \item Enhanced data quality and integrity in Salesforce.com, streamlining processes and ensuring consistency across regional teams.
+                \item Conducted analysis on daily active user (DAU) trends and tenant health scores, providing product-market fit understanding and insights for the go-to-market strategy.
+            \end{highlights}
+        \end{onecolentry}
+
+
+        \vspace{0.2 cm}
+
+        \begin{twocolentry}{
+            Jan 2020 – Mar 2020
+        }
+            \textbf{Engineering Intern}, \href{https://oishii.com/}{Oishii} -- New Jersey, USA\end{twocolentry}
+
+        \vspace{0.10 cm}
+        \begin{onecolentry}
+            \begin{highlights}
+                \item Oversaw a project which involved integrating farm systems and forecasting future infrastructure requirements to minimize operational risks.
+                \item Evaluated and built communication pathways of sensors and actuators inside the world's largest indoor strawberry vertical farms to automate the farm.
+                \item Coordinated and collaborated with contractors of different expertise to integrate systems and solve current infrastructure limitations.
+            \end{highlights}
+        \end{onecolentry}
+
+
+
+    
+    \section{Publications}
+
+
+
+        
+        \begin{samepage}
+            \begin{twocolentry}{
+                Sept 2024
+            }
+                \textbf{\href{https://www.frontiersin.org/journals/robotics-and-ai/articles/10.3389/frobt.2024.1345693/full}{ExTraCT - Explainable Trajectory Corrections for language-based human-robot interaction using Textual feature descriptions}}
+            \end{twocolentry}
+
+            \vspace{0.10 cm}
+            
+            \begin{onecolentry}
+                \mbox{\textbf{\textit{J-Anne Yow}}}, \mbox{Neha P Garg}, \mbox{Manoj Ramanathan}, \mbox{Wei Tech Ang}
+
+                \vspace{0.10 cm}
+                
+        Frontiers in Robotics and AI\end{onecolentry}
+        \end{samepage}
+
+        \vspace{0.2 cm}
+
+        \begin{samepage}
+            \begin{twocolentry}{
+                Nov 2023
+            }
+                \textbf{\href{https://ieeexplore.ieee.org/document/10323205}{Shared Autonomy of a Robotic Manipulator for Grasping under Human Intent Uncertainty using POMDPs}}
+            \end{twocolentry}
+
+            \vspace{0.10 cm}
+            
+            \begin{onecolentry}
+                \mbox{\textbf{\textit{J-Anne Yow}}}, \mbox{Neha P Garg}, \mbox{Wei Tech Ang}
+
+                \vspace{0.10 cm}
+                
+        IEEE Transactions on Robotics\end{onecolentry}
+        \end{samepage}
+
+
+    
+    \section{Service}
+
+
+
+        
+        \begin{onecolentry}
+            \textbf{Reviewer:} IEEE Robotics and Automation Letters
+        \end{onecolentry}
+
+
+    
+    \section{Skills}
+
+
+
+        
+        \begin{onecolentry}
+            \textbf{Programming Languages:} Python, C/C++, R, LaTeX, SQL
+        \end{onecolentry}
+
+        \vspace{0.2 cm}
+
+        \begin{onecolentry}
+            \textbf{Robotics:} Machine Learning, ROS, MuJoCo, Computer Vision, Linux
+        \end{onecolentry}
+
+        \vspace{0.2 cm}
+
+        \begin{onecolentry}
+            \textbf{Languages:} English, Chinese, Malay
+        \end{onecolentry}
+
+
+    
+
+\end{document}
