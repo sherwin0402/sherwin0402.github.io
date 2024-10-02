@@ -2,38 +2,39 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
+      value: J-Anne Yow
     - name: Date of Birth
-      value: 14th March 1879
+      value: 13 May 1997
     - name: Languages
-      value: English, German
+      value: English, Chinese, Malay
 
 - title: Education
   type: time_table
   contents:
     - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+      institution: Nanyang Technological University, Singapore
+      year: 2021 - Present
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
+        - Research aims to personalize robot behaviour in assistive robotics so that robots can adapt to the needs and preferences of different users. To achieve this, robots need to be able to interpret the user's needs and respond accordingly.      
+        - title: Current work involves
           contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+            - Querying users when there is high uncertainty about user intent
+            - Modifying robot trajectories and skills using natural language
+        - Research interests include human-robot interaction, natural langauge processing and robot learning.
+
+    - title: Bachelor of Mechanical Engineering with a Second Major in Business
+      institution: Nanyang Technological University, Singapore
+      year: 2017 - 2021
       description:
-        - Description 1.
-        - Description 2.
+        - Specialized in Robotics and Mechatronics, and Business Analytics
+        - GPA 4.92/5.00
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Rehabilitation Research Institute of Singapore (RRIS)
+      institution: Nanyang Technological University, Singapore
+      year: 2021 - Present
       description:
         - Description 1.
         - Description 2.
@@ -41,57 +42,58 @@
           contents:
             - Sub-description 1.
             - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+
+    - title: SaaS Sales Operations Intern
+      institution: ByteDance, Singapore
+      year: 2020
       description:
-        - Description 1.
-        - Description 2.
+        - Built dashboards for the Lark APAC team to enable them to make data-driven decisions
+        - Improved data hygiene and data integrity on Salesforce.com and ensured new tracking metrics were adopted by the teams across the region.
+        - Analysed and monitored DAU trends of tenants and their health scores to understand our product-market fit for a go-to-market plan.
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+    - title: Engineering Intern
+      institution: Oishii, New Jersey, USA
+      year: 2020
       description:
+        - Oversaw a project which involved integrating farm systems and forecasting future infrastructure requirements to de-risk current operations.
+        - Coordinated and collaborated with contractors of different expertise to integrate systems and solve current infrastructure limitations.
+        - Evaluated and built communication pathways of sensors and actuators inside the world's largest indoor strawberry vertical farms to automate the farm.
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
-  type: time_table
-  contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+# - title: Projects
+#   type: time_table
+#   contents:
+#     - title: Robot-Assisted Feeding
+#       year: 2022 - Present
+#       description: xxxx
 
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 1921
+    - year: 2021
       items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
-      items:
-        - Max Planck Medal
+        - Dr Leung Shiu Kee Gold Medal Award
 
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Topic 1.
+    - year: 2017 to 2021
       items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
+        - Dean's List
 
-- title: Other Interests
-  type: list
-  contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - year: 2013 to 2021
+      items:
+        - ASEAN Scholarship
+
+# - title: Academic Interests
+#   type: nested_list
+#   contents:
+#     - title: Topic 1.
+#       items:
+#         - Description 1.
+#         - Description 2.
+#     - title: Topic 2.
+#       items:
+#         - Description 1.
+#         - Description 2.
+
+# - title: Other Interests
+#   type: list
+#   contents:
+#     - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
