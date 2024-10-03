@@ -6,7 +6,7 @@ subtitle: 4th Year PhD Candidate | <a href='https://www.ntu.edu.sg/'>NTU</a>, Na
 
 profile:
   align: left
-  image: prof_pic.jpg
+  image: sherwin.jpg
   image_circular: false # crops the image to make it circular
   more_info: # >
     # <p>555 your office number</p>
