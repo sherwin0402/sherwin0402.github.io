@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.5.1)  3 OCT 2024 22:30
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.5.1)  4 OCT 2024 11:04
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -651,9 +651,9 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <5> on input line 160.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <9> on input line 217.
+(Font)              <9> on input line 214.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 217.
+(Font)              <6> on input line 214.
  [1
 
 {/home/sherwin/anaconda3/envs/rendercv/lib/python3.10/site-packages/rendercv/re
@@ -661,17 +661,19 @@ nderer/tinytex-release/TinyTeX/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/h
 ome/sherwin/anaconda3/envs/rendercv/lib/python3.10/site-packages/rendercv/rende
 rer/tinytex-release/TinyTeX/texmf-dist/fonts/enc/dvips/base/8r.enc}{/home/sherw
 in/anaconda3/envs/rendercv/lib/python3.10/site-packages/rendercv/renderer/tinyt
-ex-release/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/home/sherwin/a
-naconda3/envs/rendercv/lib/python3.10/site-packages/rendercv/renderer/tinytex-r
-elease/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/home/sherwin/anaconda3
-/envs/rendercv/lib/python3.10/site-packages/rendercv/renderer/tinytex-release/T
-inyTeX/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}]
+ex-release/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}]
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.387 \end{document}
-                     [2]
+l.462     \section{Technologies}
+                                 [2]
+pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
+een already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.486 \end{document}
+                     [3]
 
 enddocument/afterlastpage: lastpage setting LastPage.
 (./Chan_Sherwin_Stephen_CV.aux)
@@ -681,13 +683,13 @@ L3 programming layer <2024-03-14>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 15060 strings out of 476002
- 272406 string characters out of 5788363
- 1954496 words of memory out of 5000000
- 36985 multiletter control sequences out of 15000+600000
- 597025 words of font info for 66 fonts, out of 8000000 for 9000
+ 15053 strings out of 476002
+ 272260 string characters out of 5788363
+ 1951496 words of memory out of 5000000
+ 36982 multiletter control sequences out of 15000+600000
+ 593978 words of font info for 64 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 75i,7n,79p,421b,655s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,7n,79p,542b,509s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </home/sherwin/anaconda3/envs/rendercv/lib/python3.10/site-packages/rendercv/
 renderer/tinytex-release/TinyTeX/texmf-dist/fonts/type1/bitstrea/charter/bchb8a
 .pfb></home/sherwin/anaconda3/envs/rendercv/lib/python3.10/site-packages/render
@@ -695,21 +697,14 @@ cv/renderer/tinytex-release/TinyTeX/texmf-dist/fonts/type1/bitstrea/charter/bch
 bi8a.pfb></home/sherwin/anaconda3/envs/rendercv/lib/python3.10/site-packages/re
 ndercv/renderer/tinytex-release/TinyTeX/texmf-dist/fonts/type1/bitstrea/charter
 /bchr8a.pfb></home/sherwin/anaconda3/envs/rendercv/lib/python3.10/site-packages
-/rendercv/renderer/tinytex-release/TinyTeX/texmf-dist/fonts/type1/bitstrea/char
-ter/bchri8a.pfb></home/sherwin/anaconda3/envs/rendercv/lib/python3.10/site-pack
-ages/rendercv/renderer/tinytex-release/TinyTeX/texmf-dist/fonts/type1/public/lm
-/lmmi10.pfb></home/sherwin/anaconda3/envs/rendercv/lib/python3.10/site-packages
-/rendercv/renderer/tinytex-release/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr
-10.pfb></home/sherwin/anaconda3/envs/rendercv/lib/python3.10/site-packages/rend
-ercv/renderer/tinytex-release/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr7.pfb
-></home/sherwin/anaconda3/envs/rendercv/lib/python3.10/site-packages/rendercv/r
-enderer/tinytex-release/TinyTeX/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></h
-ome/sherwin/anaconda3/envs/rendercv/lib/python3.10/site-packages/rendercv/rende
-rer/tinytex-release/TinyTeX/texmf-dist/fonts/type1/public/lm/lmsy9.pfb>
-Output written on Chan_Sherwin_Stephen_CV.pdf (2 pages, 108922 bytes).
+/rendercv/renderer/tinytex-release/TinyTeX/texmf-dist/fonts/type1/public/lm/lms
+y10.pfb></home/sherwin/anaconda3/envs/rendercv/lib/python3.10/site-packages/ren
+dercv/renderer/tinytex-release/TinyTeX/texmf-dist/fonts/type1/public/lm/lmsy9.p
+fb>
+Output written on Chan_Sherwin_Stephen_CV.pdf (3 pages, 59787 bytes).
 PDF statistics:
- 108 PDF objects out of 1000 (max. 8388607)
- 85 compressed objects within 1 object stream
+ 85 PDF objects out of 1000 (max. 8388607)
+ 69 compressed objects within 1 object stream
  9 named destinations out of 1000 (max. 500000)
  57 words of extra memory for PDF output out of 10000 (max. 10000000)
 
