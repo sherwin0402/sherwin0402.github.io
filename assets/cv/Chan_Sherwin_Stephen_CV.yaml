@@ -11,7 +11,7 @@ cv:
       username: sherwin0402
   sections:
     About Me:
-      - I am a 4th-year PhD student at Nanyang Technological University, Singapore, focusing on physical human-robot interaction in physics-based simulation, particularly for assistive and rehabilitative devices. My research aims to develop realistic digital twins to enhance personalization and safety in robotics for close human interaction, ultimately accelerating the development of physically interactive robotics.
+      - I am a 4th-year PhD student at Nanyang Technological University, Singapore, advised by Assoc. Prof Ang Wei Tech, focusing on physical human-robot interaction in physics-based simulation, particularly for assistive and rehabilitative devices. My research aims to develop realistic digital twins to enhance personalization and safety in robotics for close human interaction, ultimately accelerating the development of physically interactive robotics.
     education:
       - institution: '[Nanyang Technological University](https://www.ntu.edu.sg/)'
         area: Mechanical Engineering
