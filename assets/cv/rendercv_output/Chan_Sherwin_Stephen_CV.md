@@ -1,80 +1,119 @@
 # Chan Sherwin Stephen's CV
 
-- Phone: +90 541 999 99 99
-- Email: [youremail@yourdomain.com](mailto:youremail@yourdomain.com)
-- Location: Your Location
-- Website: [yourwebsite.com](https://yourwebsite.com/)
-- LinkedIn: [yourusername](https://linkedin.com/in/yourusername)
-- GitHub: [yourusername](https://github.com/yourusername)
+- Email: [sherwins001@e.ntu.edu.sg](mailto:sherwins001@e.ntu.edu.sg)
+- Location: Singapore
+- Website: [sherwin0402.github.io](https://sherwin0402.github.io/)
+- LinkedIn: [sherwin-chan](https://linkedin.com/in/sherwin-chan)
+- GitHub: [sherwin0402](https://github.com/sherwin0402)
 
 
-# Welcome to RenderCV!
+# About Me
 
-[RenderCV](https://github.com/sinaatalay/rendercv) is a LaTeX-based CV/resume framework. It allows you to create a high-quality CV or resume as a PDF file from a YAML file, with **full Markdown syntax support** and **complete control over the LaTeX code**.
+I am a 4th-year PhD student at Nanyang Technological University, Singapore, focusing on physical human-robot interaction in physics-based simulation, particularly for assistive and rehabilitative devices. My research aims to develop realistic digital twins to enhance personalization and safety in robotics for close human interaction, ultimately accelerating the development of physically interactive robotics.
 
-The boilerplate content was inspired by [Gayle McDowell](https://github.com/dnl-blkv/mcdowell-cv).
-
-# Quick Guide
-
-- Each section title is arbitrary and each section contains a list of entries.
-- There are 7 unique entry types: *BulletEntry*, *TextEntry*, *EducationEntry*, *ExperienceEntry*, *NormalEntry*, *PublicationEntry*, and *OneLineEntry*.
-- Select a section title, pick an entry type, and start writing your section!
-- [Here](https://docs.rendercv.com/user_guide/), you can find a comprehensive user guide for RenderCV.
 # Education
 
-## University of Pennsylvania, BS in Computer Science
+## [Nanyang Technological University](https://www.ntu.edu.sg/), Ph.D. in Mechanical Engineering
 
-- Sept 2000 – May 2005
-- GPA: 3.9/4.0 ([a link to somewhere](https://example.com))
-- **Coursework:** Computer Architecture, Comparison of Learning Algorithms, Computational Theory
+- Sept 2021 – present
+- **Supervisor:** Prof Ang Wei Tech
+- **Proposed Dissertation:** Accelerating the Development of Assistive Robotics through Accurate Human-In-The-Loop Robotic Simulation of Physical Human-Robot Interaction
+- **Research Interests:** Physics-Based Simulation, Human-Robot Interaction, Machine Learning, Foundation Models
 
-# Experience
+## [Nanyang Technological University](https://www.ntu.edu.sg/), BE in Mechanical Engineering with a Specialization in Robotics and Mechatronics
 
-## Apple, Software Engineer
+- Aug 2017 – May 2021
+- **GPA:** 4.84/5.00, Dean's List for 2017/2018
+- **Awards:** Nanyang Scholarship
 
-- June 2005 – Aug 2007
-- Cupertino, CA
-- Reduced time to render user buddy lists by 75% by implementing a prediction algorithm
-- Integrated iChat with Spotlight Search by creating a tool to extract metadata from saved chat transcripts and provide metadata to a system-wide search database
-- Redesigned chat file format and implemented backward compatibility for search
+# Research Projects
 
-## Microsoft, Software Engineer Intern
+## Human-In-The-Loop Robotic Simulator
 
-- June 2003 – Aug 2003
-- Redmond, WA
-- Designed a UI for the VS open file switcher (Ctrl-Tab) and extended it to tool windows
-- Created a service to provide gradient across VS and VS add-ins, optimizing its performance via caching
-- Built an app to compute the similarity of all methods in a codebase, reducing the time from $\mathcal{O}(n^2)$ to $\mathcal{O}(n \log n)$
-- Created a test case generation tool that creates random XML docs from XML Schema
-- Automated the extraction and processing of large datasets from legacy systems using SQL and Perl scripts
+- 2021 -- present
+- Creating an end-to-end pipeline for personalized human digital twins with varied abilities for human-in-the-loop robotic simulations of assistive robots, incorporating skeletal, musculoskeletal, and soft body representations.
+- Developing a human-in-the-loop simulator platform and framework for robotic research and development, enabling realistic testing of assistive robots, such as exoskeletons and gait-assistive devices.
+- Investigating various human-robot interaction modalities in simulation, including soft body dynamics, mass-spring-damper models, and other methods to accurately represent physical interactions.
+
+## Mobile Third Arm Robot
+
+- 2020 -- 2022
+- Developed a mobile third arm robot that assists caregivers for moderate assisted pivot transfer between the bed and wheelchair.
+- Implemented a human-tracking computer vision algorithm to perform user following
+- Developed human-robot interaction strategies for safe and intuitive operation of the mobile third arm robot between caregiver, patient and mobile third arm robot.
+
+## Design and Finite Element Analysis of Underwater Manipulator
+
+- 2018 -- 2019
+- Created a 3D printed robotic manipulator for an autonomous underwater vehicle to grasp objects from a swimming pool floor.
+- Conducted finite element analysis to optimize the manipulator design for strength, weight, and underwater operation.
+
+## Flexible Hull Structure for Underwater Vehicle
+
+- 2018 -- 2019
+- Designed a bio-inspired flexible hull structure which deforms at different depths to increase rigidity of the underwater vehicle.
+- Conducted finite element analysis to determine if new design improves depth rating with reduced weight compared to traditional rigid hulls.
+
+# Work Experience
+
+## Rehabilitation Research Institute of Singapore, Project Officer
+
+- Aug 2021 – present
+- Singapore
+- Spearheaded the Human-In-The-Loop Robotic Simulator project, focusing on developing a platform that combines realistic human digital twins with assistive robots for human-in-the-loop simulations.
+- Mentored five undergraduate students on final year projects, guiding them through the research process and providing technical support.
+- Assisted in preparing funding proposals to support current and future projects of the institute.
+
+## [Oishii](https://oishii.com/), Engineering Intern
+
+- June 2019 – June 2020
+- New Jersey, USA
+- Designed an indoor vertical farm structure accommodating 250,000 plants with a novel rack system that increases efficiency of construction and assembly process by 90%.
+- Pioneered development of a USD 400,000 R&D facility consisting of ten independent growing environments tracking more than 80 plant parameters to determine optimal plant growth and yield.
+- Led an engineering team of 12 to implement testing and troubleshooting schedule to all farm sub-systems as lead test engineer to bring the world’s largest indoor strawberry vertical farm facility operational.
+- Evaluated 32 engineering candidates for engineering roles, mentored 19 new engineering technicians to improve mechanical and electrical skillsets and align with company working norms.
+
+## [Hangzhou Jialing Machinery Co. Ltd](http://www.kanon-machine.com/en/index.asp), Engineering Intern
+
+- Dec 2016 – July 2017
+- Hangzhou, China
+- Assisted in machining of injection molding machine parts using 5 axis CNC machines and assembly of Mitsubishi’s injection molding machines on site.
+- Aided in quality control of machine parts by performing CMM tests to ensure dimensional accuracy.
+- Planned and engaged in business negotiations with Engel, KraussMaffei, Grob and Makino Milling Machine Co. Ltd.
+- Assisted in acceptance check of a flexible manufacturing system production line worth RMB 3 million from StarragHeckert.
 
 # Publications
 
-## 3D Finite Element Analysis of No-Insulation Coils ([10.1109/TASC.2023.3340648](https://doi.org/10.1109/TASC.2023.3340648))
-- Jan 2004
-- Frodo Baggins, ***John Doe***, Samwise Gamgee
+## Creation and evaluation of human models with varied walking ability from motion capture for assistive device development 
+- Sept 2023
+- ***Sherwin Stephen Chan***, Mingyuan Lei, Henry Johan, Wei Tech Ang
+- IEEE International Conference on Rehabilitation Robotics (ICORR)
 
-# Projects
+## Investigation of Modeling Differences between OpenSim and Visual3D for Gait Analysis of Healthy Gait 
+- Aug 2023
+- Beth Eng Wan Xuan, ***Sherwin Stephen Chan***, Henry Johan, Lek Syn Lim, Bingran Zuo, Wei Tech Ang
+- International Convention on Rehabilitation Engineering and Assistive Technology
 
-## Multi-User Drawing Tool
+# Other Projects
 
-- [github.com/name/repo](https://github.com/sinaatalay/rendercv)
-- Developed an electronic classroom where multiple users can simultaneously view and draw on a "chalkboard" with each person's edits synchronized
-- Tools Used: C++, MFC
+## Dyson-NTU Innovation Challenge
 
-## Synchronized Desktop Calendar
+- Apr 2021 – Sept 2021
+- Won 1st in the annual Dyson-NTU Innovation Challenge organized by NTUitive and awarded SGD 10,000 MDT grant to prototype a smart planter that makes gardening easier for everyone.
 
-- [github.com/name/repo](https://github.com/sinaatalay/rendercv)
-- Developed a desktop calendar with globally shared and synchronized calendars, allowing users to schedule meetings with other users
-- Tools Used: C#, .NET, SQL, XML
+## OEP Pitch Day Award
 
-## Custom Operating System
+- Sept 2020 – Feb 2021
+- Founded HortiCole and awarded SGD 5,000 to develop a low cost, modular IoT planter system with alpha prototype in 6 months.
+- Conducted market research and received strong market validation of 64.5% from 400 participants.
 
-- 2002
-- Built a UNIX-style OS with a scheduler, file system, text editor, and calculator
-- Tools Used: C
+## SMRT-NTU Innovation Challenge
+
+- Mar 2019 – Apr 2019
+- Finalist for innovation challenge to devise a solution for inspection of rubber bearings and first stage concrete located under a floating slab.
 
 # Technologies
 
-- Languages: C++, C, Java, Objective-C, C#, SQL, JavaScript
-- Technologies: .NET, Microsoft SQL Server, XCode, Interface Builder
+- Programming Languages: Python, C++, C, Latex
+- Robotics: Machine Learning, Reinforcement Learning, MuJoCo, ROS, SolidWorks, SolidEdge, STM32, ESP32, Linux
+- Languages: English, Chinese, Hokkien (Dialect), Tagalog
