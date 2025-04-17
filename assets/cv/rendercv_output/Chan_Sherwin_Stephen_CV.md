@@ -1,6 +1,6 @@
 # Chan Sherwin Stephen's CV
 
-- Email: [sherwins001@e.ntu.edu.sg](mailto:sherwins001@e.ntu.edu.sg)
+- Email: [sherwin0402@gmail.com](mailto:sherwin0402@gmail.com)
 - Location: Singapore
 - Website: [sherwin0402.github.io](https://sherwin0402.github.io/)
 - LinkedIn: [sherwin-chan](https://linkedin.com/in/sherwin-chan)
@@ -9,7 +9,7 @@
 
 # About Me
 
-I am a 4th-year PhD student at Nanyang Technological University, Singapore, focusing on physical human-robot interaction in physics-based simulation, particularly for assistive and rehabilitative devices. My research aims to develop realistic digital twins to enhance personalization and safety in robotics for close human interaction, ultimately accelerating the development of physically interactive robotics.
+I am a 4th-year Ph.D. student at Nanyang Technological University, Singapore, advised by Assoc. Prof Ang Wei Tech, focusing on physical human-robot interaction in physics-based simulation, particularly for assistive and rehabilitative devices. My research aims to develop realistic digital twins to enhance personalization and safety in robotics for close human interaction, ultimately accelerating the development of physically interactive robotics.
 
 # Education
 
@@ -31,9 +31,10 @@ I am a 4th-year PhD student at Nanyang Technological University, Singapore, focu
 ## Human-In-The-Loop Robotic Simulator
 
 - 2021 -- present
-- Creating an end-to-end pipeline for personalized human digital twins with varied abilities for human-in-the-loop robotic simulations of assistive robots, incorporating skeletal, musculoskeletal, and soft body representations.
-- Developing a human-in-the-loop simulator platform and framework for robotic research and development, enabling realistic testing of assistive robots, such as exoskeletons and gait-assistive devices.
+- Developed a human-in-the-loop simulation framework for assistive robotics, featuring personalized digital twins with varying abilities and disabilities. The pipeline incorporates skeletal, musculoskeletal, and soft body models, using reinforcement learning to simulate diverse human capabilities and enable realistic, adaptive testing of robotic systems.
+- Designed and validated a Real2Sim2Real framework to personalize robotic controllers based on individual user characteristics, enabling improved physical human-robot interaction (pHRI) through simulation-informed adaptation and real-world testing.
 - Investigating various human-robot interaction modalities in simulation, including soft body dynamics, mass-spring-damper models, and other methods to accurately represent physical interactions.
+- Simulated a range of assistive robotic systems - including robot-assisted feeding arms, lower limb and upper limb exoskeletons, gait assistive robots, using MuJoCo.
 
 ## Mobile Third Arm Robot
 
@@ -42,17 +43,12 @@ I am a 4th-year PhD student at Nanyang Technological University, Singapore, focu
 - Implemented a human-tracking computer vision algorithm to perform user following
 - Developed human-robot interaction strategies for safe and intuitive operation of the mobile third arm robot between caregiver, patient and mobile third arm robot.
 
-## Design and Finite Element Analysis of Underwater Manipulator
+## Design and Analysis of Underwater Robotic Systems
 
 - 2018 -- 2019
-- Created a 3D printed robotic manipulator for an autonomous underwater vehicle to grasp objects from a swimming pool floor.
-- Conducted finite element analysis to optimize the manipulator design for strength, weight, and underwater operation.
-
-## Flexible Hull Structure for Underwater Vehicle
-
-- 2018 -- 2019
-- Designed a bio-inspired flexible hull structure which deforms at different depths to increase rigidity of the underwater vehicle.
-- Conducted finite element analysis to determine if new design improves depth rating with reduced weight compared to traditional rigid hulls.
+- Designed and 3D printed a robotic manipulator for an autonomous underwater vehicle to grasp objects from the pool floor.
+- Created a bio-inspired flexible hull structure that deforms with depth to enhance rigidity while reducing weight.
+- Conducted finite element analysis to optimize both manipulator and hull designs for strength, hydrodynamic performance, and operational depth.
 
 # Work Experience
 
@@ -61,7 +57,7 @@ I am a 4th-year PhD student at Nanyang Technological University, Singapore, focu
 - Aug 2021 – present
 - Singapore
 - Spearheaded the Human-In-The-Loop Robotic Simulator project, focusing on developing a platform that combines realistic human digital twins with assistive robots for human-in-the-loop simulations.
-- Mentored five undergraduate students on final year projects, guiding them through the research process and providing technical support.
+- Mentored seven undergraduate students on final year projects, guiding them through the research process and providing technical support.
 - Assisted in preparing funding proposals to support current and future projects of the institute.
 
 ## [Oishii](https://oishii.com/), Engineering Intern
@@ -73,16 +69,22 @@ I am a 4th-year PhD student at Nanyang Technological University, Singapore, focu
 - Led an engineering team of 12 to implement testing and troubleshooting schedule to all farm sub-systems as lead test engineer to bring the world’s largest indoor strawberry vertical farm facility operational.
 - Evaluated 32 engineering candidates for engineering roles, mentored 19 new engineering technicians to improve mechanical and electrical skillsets and align with company working norms.
 
-## [Hangzhou Jialing Machinery Co. Ltd](http://www.kanon-machine.com/en/index.asp), Engineering Intern
-
-- Dec 2016 – July 2017
-- Hangzhou, China
-- Assisted in machining of injection molding machine parts using 5 axis CNC machines and assembly of Mitsubishi’s injection molding machines on site.
-- Aided in quality control of machine parts by performing CMM tests to ensure dimensional accuracy.
-- Planned and engaged in business negotiations with Engel, KraussMaffei, Grob and Makino Milling Machine Co. Ltd.
-- Assisted in acceptance check of a flexible manufacturing system production line worth RMB 3 million from StarragHeckert.
-
 # Publications
+
+## A Human-In-The-Loop Simulation Framework for Evaluating Control Strategies in Gait Assistive Robots 
+- May 2025
+- Yifan Wang†, ***Sherwin Stephen Chan†***, Mingyuan Lei, Lek Syn Lim, Henry Johan, Bingran Zuo, Wei Tech Ang
+- IEEE International Conference on Robotics and Automation (ICRA), † Denotes equal contribution
+
+## Simulating Safe Bite Transfer in Robot-Assisted Feeding with a Soft Head and Articulated Jaw 
+- May 2025
+- Yi Heng San, Vasanthamaran Ravichandram, J Anne Yow, ***Sherwin Stephen Chan***, Yifan Wang, Wei Tech Ang
+- IEEE International Conference on Rehabilitation Robotics (ICORR)
+
+## Personalised 3D Human Digital Twin with Soft-Body Feet for Walking Simulation 
+- Dec 2024
+- Kum Yew Loke, ***Sherwin Stephen Chan***, Mingyuan Lei, Henry Johan, Bingran Zuo, Wei Tech Ang
+- International Conference on Social Robotics
 
 ## Creation and evaluation of human models with varied walking ability from motion capture for assistive device development 
 - Sept 2023
@@ -94,26 +96,8 @@ I am a 4th-year PhD student at Nanyang Technological University, Singapore, focu
 - Beth Eng Wan Xuan, ***Sherwin Stephen Chan***, Henry Johan, Lek Syn Lim, Bingran Zuo, Wei Tech Ang
 - International Convention on Rehabilitation Engineering and Assistive Technology
 
-# Other Projects
-
-## Dyson-NTU Innovation Challenge
-
-- Apr 2021 – Sept 2021
-- Won 1st in the annual Dyson-NTU Innovation Challenge organized by NTUitive and awarded SGD 10,000 MDT grant to prototype a smart planter that makes gardening easier for everyone.
-
-## OEP Pitch Day Award
-
-- Sept 2020 – Feb 2021
-- Founded HortiCole and awarded SGD 5,000 to develop a low cost, modular IoT planter system with alpha prototype in 6 months.
-- Conducted market research and received strong market validation of 64.5% from 400 participants.
-
-## SMRT-NTU Innovation Challenge
-
-- Mar 2019 – Apr 2019
-- Finalist for innovation challenge to devise a solution for inspection of rubber bearings and first stage concrete located under a floating slab.
-
-# Technologies
+# Skills
 
 - Programming Languages: Python, C++, C, Latex
-- Robotics: Machine Learning, Reinforcement Learning, MuJoCo, ROS, SolidWorks, SolidEdge, STM32, ESP32, Linux
+- Robotics: MuJoCo, OpenSim, Machine Learning, Reinforcement Learning, IsaacLabs, ROS, SolidWorks, SolidEdge, STM32, ESP32, Linux
 - Languages: English, Chinese, Hokkien (Dialect), Tagalog
