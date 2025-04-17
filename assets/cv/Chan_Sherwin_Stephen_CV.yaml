@@ -1,7 +1,7 @@
 cv:
   name: Chan Sherwin Stephen
   location: Singapore
-  email: sherwins001@e.ntu.edu.sg
+  email: sherwin0402@gmail.com
   # phone: tel:+90-541-999-99-99
   website: https://sherwin0402.github.io/
   social_networks:
@@ -11,7 +11,7 @@ cv:
       username: sherwin0402
   sections:
     About Me:
-      - I am a 4th-year PhD student at Nanyang Technological University, Singapore, advised by Assoc. Prof Ang Wei Tech, focusing on physical human-robot interaction in physics-based simulation, particularly for assistive and rehabilitative devices. My research aims to develop realistic digital twins to enhance personalization and safety in robotics for close human interaction, ultimately accelerating the development of physically interactive robotics.
+      - I am a 4th-year Ph.D. student at Nanyang Technological University, Singapore, advised by Assoc. Prof Ang Wei Tech, focusing on physical human-robot interaction in physics-based simulation, particularly for assistive and rehabilitative devices. My research aims to develop realistic digital twins to enhance personalization and safety in robotics for close human interaction, ultimately accelerating the development of physically interactive robotics.
     education:
       - institution: '[Nanyang Technological University](https://www.ntu.edu.sg/)'
         area: Mechanical Engineering
@@ -35,25 +35,33 @@ cv:
       - name: 'Human-In-The-Loop Robotic Simulator'
         date: 2021 -- present
         highlights:
-          - 'Creating an end-to-end pipeline for personalized human digital twins with varied abilities for human-in-the-loop robotic simulations of assistive robots, incorporating skeletal, musculoskeletal, and soft body representations.'
-          - 'Developing a human-in-the-loop simulator platform and framework for robotic research and development, enabling realistic testing of assistive robots, such as exoskeletons and gait-assistive devices.'
+          - 'Developed a human-in-the-loop simulation framework for assistive robotics, featuring personalized digital twins with varying abilities and disabilities. The pipeline incorporates skeletal, musculoskeletal, and soft body models, using reinforcement learning to simulate diverse human capabilities and enable realistic, adaptive testing of robotic systems.'
+          - 'Designed and validated a Real2Sim2Real framework to personalize robotic controllers based on individual user characteristics, enabling improved physical human-robot interaction (pHRI) through simulation-informed adaptation and real-world testing.'
           - 'Investigating various human-robot interaction modalities in simulation, including soft body dynamics, mass-spring-damper models, and other methods to accurately represent physical interactions.'
+          - 'Simulated a range of assistive robotic systems - including robot-assisted feeding arms, lower limb and upper limb exoskeletons, gait assistive robots, using MuJoCo.'
       - name: 'Mobile Third Arm Robot'
         date: 2020 -- 2022
         highlights:
           - 'Developed a mobile third arm robot that assists caregivers for moderate assisted pivot transfer between the bed and wheelchair.'
           - 'Implemented a human-tracking computer vision algorithm to perform user following'
           - 'Developed human-robot interaction strategies for safe and intuitive operation of the mobile third arm robot between caregiver, patient and mobile third arm robot.'
-      - name: 'Design and Finite Element Analysis of Underwater Manipulator'
+      - name: 'Design and Analysis of Underwater Robotic Systems'
         date: 2018 -- 2019
         highlights:
-          - 'Created a 3D printed robotic manipulator for an autonomous underwater vehicle to grasp objects from a swimming pool floor.'
-          - 'Conducted finite element analysis to optimize the manipulator design for strength, weight, and underwater operation.'
-      - name: 'Flexible Hull Structure for Underwater Vehicle'
-        date: 2018 -- 2019
-        highlights:
-          - 'Designed a bio-inspired flexible hull structure which deforms at different depths to increase rigidity of the underwater vehicle.'
-          - 'Conducted finite element analysis to determine if new design improves depth rating with reduced weight compared to traditional rigid hulls.'
+          - Designed and 3D printed a robotic manipulator for an autonomous underwater vehicle to grasp objects from the pool floor.
+          - Created a bio-inspired flexible hull structure that deforms with depth to enhance rigidity while reducing weight.
+          - Conducted finite element analysis to optimize both manipulator and hull designs for strength, hydrodynamic performance, and operational depth.
+
+      # - name: 'Design and Finite Element Analysis of Underwater Manipulator'
+      #   date: 2018 -- 2019
+      #   highlights:
+      #     - 'Created a 3D printed robotic manipulator for an autonomous underwater vehicle to grasp objects from a swimming pool floor.'
+      #     - 'Conducted finite element analysis to optimize the manipulator design for strength, weight, and underwater operation.'
+      # - name: 'Flexible Hull Structure for Underwater Vehicle'
+      #   date: 2018 -- 2019
+      #   highlights:
+      #     - 'Designed a bio-inspired flexible hull structure which deforms at different depths to increase rigidity of the underwater vehicle.'
+      #     - 'Conducted finite element analysis to determine if new design improves depth rating with reduced weight compared to traditional rigid hulls.'
     work experience:
       - company: Rehabilitation Research Institute of Singapore
         position: Project Officer
@@ -62,7 +70,7 @@ cv:
         end_date: present
         highlights:
           - Spearheaded the Human-In-The-Loop Robotic Simulator project, focusing on developing a platform that combines realistic human digital twins with assistive robots for human-in-the-loop simulations.
-          - Mentored five undergraduate students on final year projects, guiding them through the research process and providing technical support.
+          - Mentored seven undergraduate students on final year projects, guiding them through the research process and providing technical support.
           - Assisted in preparing funding proposals to support current and future projects of the institute.
       - company: '[Oishii](https://oishii.com/)'
         position: Engineering Intern
@@ -74,17 +82,48 @@ cv:
           - Pioneered development of a USD 400,000 R&D facility consisting of ten independent growing environments tracking more than 80 plant parameters to determine optimal plant growth and yield.
           - Led an engineering team of 12 to implement testing and troubleshooting schedule to all farm sub-systems as lead test engineer to bring the world’s largest indoor strawberry vertical farm facility operational.
           - Evaluated 32 engineering candidates for engineering roles, mentored 19 new engineering technicians to improve mechanical and electrical skillsets and align with company working norms.
-      - company: '[Hangzhou Jialing Machinery Co. Ltd](http://www.kanon-machine.com/en/index.asp)'
-        position: Engineering Intern
-        location: Hangzhou, China
-        start_date: 2016-12
-        end_date: 2017-07
-        highlights:
-          - Assisted in machining of injection molding machine parts using 5 axis CNC machines and assembly of Mitsubishi’s injection molding machines on site.
-          - Aided in quality control of machine parts by performing CMM tests to ensure dimensional accuracy. 
-          - Planned and engaged in business negotiations with Engel, KraussMaffei, Grob and Makino Milling Machine Co. Ltd. 
-          - Assisted in acceptance check of a flexible manufacturing system production line worth RMB 3 million from StarragHeckert.
+      # - company: '[Hangzhou Jialing Machinery Co. Ltd](http://www.kanon-machine.com/en/index.asp)'
+      #   position: Engineering Intern
+      #   location: Hangzhou, China
+      #   start_date: 2016-12
+      #   end_date: 2017-07
+      #   highlights:
+      #     - Assisted in machining of injection molding machine parts using 5 axis CNC machines and assembly of Mitsubishi’s injection molding machines on site.
+      #     - Aided in quality control of machine parts by performing CMM tests to ensure dimensional accuracy. 
+      #     - Planned and engaged in business negotiations with Engel, KraussMaffei, Grob and Makino Milling Machine Co. Ltd. 
+      #     - Assisted in acceptance check of a flexible manufacturing system production line worth RMB 3 million from StarragHeckert.
     publications:
+      - title: A Human-In-The-Loop Simulation Framework for Evaluating Control Strategies in Gait Assistive Robots
+        authors:
+          - Yifan Wang†
+          - '***Sherwin Stephen Chan†***'
+          - Mingyuan Lei
+          - Lek Syn Lim
+          - Henry Johan
+          - Bingran Zuo
+          - Wei Tech Ang
+        journal: 'IEEE International Conference on Robotics and Automation (ICRA), † Denotes equal contribution'
+        date: 2025-05
+      - title: Simulating Safe Bite Transfer in Robot-Assisted Feeding with a Soft Head and Articulated Jaw
+        authors:
+          - Yi Heng San
+          - Vasanthamaran Ravichandram
+          - J Anne Yow
+          - '***Sherwin Stephen Chan***'
+          - Yifan Wang
+          - Wei Tech Ang
+        journal: 'IEEE International Conference on Rehabilitation Robotics (ICORR)'
+        date: 2025-05
+      - title: Personalised 3D Human Digital Twin with Soft-Body Feet for Walking Simulation
+        authors:
+          - Kum Yew Loke
+          - '***Sherwin Stephen Chan***'
+          - Mingyuan Lei
+          - Henry Johan
+          - Bingran Zuo
+          - Wei Tech Ang
+        journal: 'International Conference on Social Robotics'
+        date: 2024-12
       - title: Creation and evaluation of human models with varied walking ability from motion capture for assistive device development
         authors:
           - '***Sherwin Stephen Chan***'
@@ -103,28 +142,28 @@ cv:
           - Wei Tech Ang
         journal: 'International Convention on Rehabilitation Engineering and Assistive Technology'
         date: 2023-08
-    Other Projects:
-      - name: Dyson-NTU Innovation Challenge
-        start_date: 2021-04
-        end_date: 2021-09
-        highlights:
-          - Won 1st in the annual Dyson-NTU Innovation Challenge organized by NTUitive and awarded SGD 10,000 MDT grant to prototype a smart planter that makes gardening easier for everyone.
-      - name: OEP Pitch Day Award
-        start_date: 2020-09
-        end_date: 2021-02
-        highlights:
-          - Founded HortiCole and awarded SGD 5,000 to develop a low cost, modular IoT planter system with alpha prototype in 6 months.
-          - Conducted market research and received strong market validation of 64.5% from 400 participants.
-      - name: SMRT-NTU Innovation Challenge
-        start_date: 2019-03
-        end_date: 2019-04
-        highlights:
-          - Finalist for innovation challenge to devise a solution for inspection of rubber bearings and first stage concrete located under a floating slab.
-    technologies:
+    # Other Projects:
+    #   - name: Dyson-NTU Innovation Challenge
+    #     start_date: 2021-04
+    #     end_date: 2021-09
+    #     highlights:
+    #       - Won 1st in the annual Dyson-NTU Innovation Challenge organized by NTUitive and awarded SGD 10,000 MDT grant to prototype a smart planter that makes gardening easier for everyone.
+    #   - name: OEP Pitch Day Award
+    #     start_date: 2020-09
+    #     end_date: 2021-02
+    #     highlights:
+    #       - Founded HortiCole and awarded SGD 5,000 to develop a low cost, modular IoT planter system with alpha prototype in 6 months.
+    #       - Conducted market research and received strong market validation of 64.5% from 400 participants.
+    #   - name: SMRT-NTU Innovation Challenge
+    #     start_date: 2019-03
+    #     end_date: 2019-04
+    #     highlights:
+    #       - Finalist for innovation challenge to devise a solution for inspection of rubber bearings and first stage concrete located under a floating slab.
+    Skills:
       - label: Programming Languages
         details: Python, C++, C, Latex
       - label: Robotics
-        details: Machine Learning, Reinforcement Learning, MuJoCo, ROS, SolidWorks, SolidEdge, STM32, ESP32, Linux
+        details: MuJoCo, OpenSim, Machine Learning, Reinforcement Learning, IsaacLabs, ROS, SolidWorks, SolidEdge, STM32, ESP32, Linux
       - label: Languages
         details: English, Chinese, Hokkien (Dialect), Tagalog
 design:
