@@ -4,18 +4,18 @@
 - Location: Singapore
 - Website: [sherwin0402.github.io](https://sherwin0402.github.io/)
 - LinkedIn: [sherwin-chan](https://linkedin.com/in/sherwin-chan)
+- GitHub: [sherwin0402](https://github.com/sherwin0402)
 
 
 # About Me
 
-I am a final-year Ph.D. student at NTU, Singapore, advised by Prof. Ang Wei Tech, specializing in physics-based simulation of physical human-robot interaction for assistive and rehabilitative devices. I use MuJoCo as my primary platform to build realistic digital twins with skeletal, musculoskeletal, and soft-body models and design Real2Sim2Real frameworks for personalised robotic controller. My work bridges simulation-driven machine learning afor safe and intuitive HRI strategies to develop intelligent, physically interactive systems. I am currently exploring the use of foundation models to improve the fidelity of human-robot interaction in simulation.
+I am a 4th-year Ph.D. student at Nanyang Technological University, Singapore, advised by Assoc. Prof Ang Wei Tech, focusing on physical human-robot interaction in physics-based simulation, particularly for assistive and rehabilitative devices. My research aims to develop realistic digital twins to enhance personalization and safety in robotics for close human interaction, ultimately accelerating the development of physically interactive robotics.
 
 # Education
 
 ## [Nanyang Technological University](https://www.ntu.edu.sg/), Ph.D. in Mechanical Engineering
 
-- Sept 2021 -- Aug 2025 (Expected)
-- Singapore
+- Sept 2021 – present
 - **Supervisor:** Prof Ang Wei Tech
 - **Proposed Dissertation:** Accelerating the Development of Assistive Robotics through Accurate Human-In-The-Loop Robotic Simulation of Physical Human-Robot Interaction
 - **Research Interests:** Physics-Based Simulation, Human-Robot Interaction, Machine Learning, Foundation Models
@@ -23,7 +23,6 @@ I am a final-year Ph.D. student at NTU, Singapore, advised by Prof. Ang Wei Tech
 ## [Nanyang Technological University](https://www.ntu.edu.sg/), BE in Mechanical Engineering with a Specialization in Robotics and Mechatronics
 
 - Aug 2017 – May 2021
-- Singapore
 - **GPA:** 4.84/5.00, Dean's List for 2017/2018
 - **Awards:** Nanyang Scholarship
 
@@ -31,9 +30,9 @@ I am a final-year Ph.D. student at NTU, Singapore, advised by Prof. Ang Wei Tech
 
 ## Human-In-The-Loop Robotic Simulator
 
-- Sept 2021 – present
+- 2021 -- present
 - Developed a human-in-the-loop simulation framework for assistive robotics, featuring personalized digital twins with varying abilities and disabilities. The pipeline incorporates skeletal, musculoskeletal, and soft body models, using reinforcement learning to simulate diverse human capabilities and enable realistic, adaptive testing of robotic systems.
-- Designed and validated a Real2Sim2Real framework to personalize robotic controllers based on individual user characteristics, enabling improved pHRI through simulation-informed adaptation and real-world testing.
+- Designed and validated a Real2Sim2Real framework to personalize robotic controllers based on individual user characteristics, enabling improved physical human-robot interaction (pHRI) through simulation-informed adaptation and real-world testing.
 - Investigating various human-robot interaction modalities in simulation, including soft body dynamics, mass-spring-damper models, and other methods to accurately represent physical interactions.
 - Simulated a range of assistive robotic systems - including robot-assisted feeding arms, lower limb and upper limb exoskeletons, gait assistive robots, using MuJoCo.
 
@@ -99,6 +98,6 @@ I am a final-year Ph.D. student at NTU, Singapore, advised by Prof. Ang Wei Tech
 
 # Skills
 
-- Programming Languages: Python, C++, C
+- Programming Languages: Python, C++, C, Latex
 - Robotics: MuJoCo, OpenSim, Machine Learning, Reinforcement Learning, IsaacLabs, ROS, SolidWorks, SolidEdge, STM32, ESP32, Linux
 - Languages: English, Chinese, Hokkien (Dialect), Tagalog
