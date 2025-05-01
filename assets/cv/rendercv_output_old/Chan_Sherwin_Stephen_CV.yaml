@@ -2,67 +2,67 @@ cv:
   name: Chan Sherwin Stephen
   location: Singapore
   email: sherwin0402@gmail.com
-  # phone: +1-609-999-9995
+  # phone: tel:+90-541-999-99-99
   website: https://sherwin0402.github.io/
   social_networks:
     - network: LinkedIn
       username: sherwin-chan
-    # - network: GitHub
-    #   username: sherwin0402
+    - network: GitHub
+      username: sherwin0402
   sections:
     About Me:
-      - I am a final-year Ph.D. student at NTU, Singapore, advised by Prof. Ang Wei Tech, specializing in physics-based simulation of physical human-robot interaction for assistive and rehabilitative devices. I use MuJoCo as my primary platform to build realistic digital twins with skeletal, musculoskeletal, and soft-body models and design Real2Sim2Real frameworks for personalised robotic controller. My work bridges simulation-driven machine learning afor safe and intuitive HRI strategies to develop intelligent, physically interactive systems. I am currently exploring the use of foundation models to improve the fidelity of human-robot interaction in simulation.
+      - I am a 4th-year Ph.D. student at Nanyang Technological University, Singapore, advised by Assoc. Prof Ang Wei Tech, focusing on physical human-robot interaction in physics-based simulation, particularly for assistive and rehabilitative devices. My research aims to develop realistic digital twins to enhance personalization and safety in robotics for close human interaction, ultimately accelerating the development of physically interactive robotics.
     education:
       - institution: '[Nanyang Technological University](https://www.ntu.edu.sg/)'
         area: Mechanical Engineering
         degree: Ph.D.
-        date: Sept 2021 -- Aug 2025 (Expected)
         start_date: 2021-09
-        end_date: 2021-09 # ! Expected
-        location: Singapore
-        summary:
+        end_date: 2021-09 (expected)
         highlights:
           - '**Supervisor:** Prof Ang Wei Tech'
           - '**Proposed Dissertation:** Accelerating the Development of Assistive Robotics through Accurate Human-In-The-Loop Robotic Simulation of Physical Human-Robot Interaction'
           - '**Research Interests:** Physics-Based Simulation, Human-Robot Interaction, Machine Learning, Foundation Models'
+
       - institution: '[Nanyang Technological University](https://www.ntu.edu.sg/)'
         area: Mechanical Engineering with a Specialization in Robotics and Mechatronics
         degree: BE
-        date:
         start_date: 2017-08
         end_date: 2021-05
-        location: Singapore
-        summary:
         highlights:
           - "**GPA:** 4.84/5.00, Dean's List for 2017/2018"
           - '**Awards:** Nanyang Scholarship'
     research projects:
       - name: 'Human-In-The-Loop Robotic Simulator'
-        date:
-        start_date: 2021-09
-        end_date: present
-        location:
-        summary: A simulation framework for physical human-robot interaction (pHRI) investigation to personalise robotic systems.
+        date: 2021 -- present
         highlights:
           - 'Developed a human-in-the-loop simulation framework for assistive robotics, featuring personalized digital twins with varying abilities and disabilities. The pipeline incorporates skeletal, musculoskeletal, and soft body models, using reinforcement learning to simulate diverse human capabilities and enable realistic, adaptive testing of robotic systems.'
-          - 'Designed and validated a Real2Sim2Real framework to personalize robotic controllers based on individual user characteristics, enabling improved pHRI through simulation-informed adaptation and real-world testing.'
+          - 'Designed and validated a Real2Sim2Real framework to personalize robotic controllers based on individual user characteristics, enabling improved physical human-robot interaction (pHRI) through simulation-informed adaptation and real-world testing.'
           - 'Investigating various human-robot interaction modalities in simulation, including soft body dynamics, mass-spring-damper models, and other methods to accurately represent physical interactions.'
           - 'Simulated a range of assistive robotic systems - including robot-assisted feeding arms, lower limb and upper limb exoskeletons, gait assistive robots, using MuJoCo.'
       - name: 'Mobile Third Arm Robot'
         date: 2020 -- 2022
-        summary: Vision-guided mobile third arm co-bot for patient transfers between bed and wheelchair.
         highlights:
           - 'Developed a mobile third arm robot that assists caregivers for moderate assisted pivot transfer between the bed and wheelchair.'
           - 'Implemented a human-tracking computer vision algorithm to perform user following'
           - 'Developed human-robot interaction strategies for safe and intuitive operation of the mobile third arm robot between caregiver, patient and mobile third arm robot.'
       - name: 'Design and Analysis of Underwater Robotic Systems'
         date: 2018 -- 2019
-        summary: 3D printed underwater robotic manipulator for object grasping.
         highlights:
           - Designed and 3D printed a robotic manipulator for an autonomous underwater vehicle to grasp objects from the pool floor.
           - Created a bio-inspired flexible hull structure that deforms with depth to enhance rigidity while reducing weight.
           - Conducted finite element analysis to optimize both manipulator and hull designs for strength, hydrodynamic performance, and operational depth.
-    Work experience:
+
+      # - name: 'Design and Finite Element Analysis of Underwater Manipulator'
+      #   date: 2018 -- 2019
+      #   highlights:
+      #     - 'Created a 3D printed robotic manipulator for an autonomous underwater vehicle to grasp objects from a swimming pool floor.'
+      #     - 'Conducted finite element analysis to optimize the manipulator design for strength, weight, and underwater operation.'
+      # - name: 'Flexible Hull Structure for Underwater Vehicle'
+      #   date: 2018 -- 2019
+      #   highlights:
+      #     - 'Designed a bio-inspired flexible hull structure which deforms at different depths to increase rigidity of the underwater vehicle.'
+      #     - 'Conducted finite element analysis to determine if new design improves depth rating with reduced weight compared to traditional rigid hulls.'
+    work experience:
       - company: Rehabilitation Research Institute of Singapore
         position: Project Officer
         location: Singapore
@@ -92,7 +92,7 @@ cv:
       #     - Aided in quality control of machine parts by performing CMM tests to ensure dimensional accuracy. 
       #     - Planned and engaged in business negotiations with Engel, KraussMaffei, Grob and Makino Milling Machine Co. Ltd. 
       #     - Assisted in acceptance check of a flexible manufacturing system production line worth RMB 3 million from StarragHeckert.
-    Publications:
+    publications:
       - title: A Human-In-The-Loop Simulation Framework for Evaluating Control Strategies in Gait Assistive Robots
         authors:
           - Yifan Wang†
@@ -142,13 +142,6 @@ cv:
           - Wei Tech Ang
         journal: 'International Convention on Rehabilitation Engineering and Assistive Technology'
         date: 2023-08
-    Skills:
-      - label: Programming Languages
-        details: Python, C++, C
-      - label: Robotics
-        details: MuJoCo, OpenSim, Machine Learning, Reinforcement Learning, IsaacLabs, ROS, SolidWorks, SolidEdge, STM32, ESP32, Linux
-      - label: Languages
-        details: English, Chinese, Hokkien (Dialect), Tagalog
     # Other Projects:
     #   - name: Dyson-NTU Innovation Challenge
     #     start_date: 2021-04
@@ -166,158 +159,46 @@ cv:
     #     end_date: 2019-04
     #     highlights:
     #       - Finalist for innovation challenge to devise a solution for inspection of rubber bearings and first stage concrete located under a floating slab.
-    # extracurricular_activities:
-    #   - bullet: 'There are 7 unique entry types in RenderCV: *BulletEntry*, *TextEntry*, *EducationEntry*, *ExperienceEntry*, *NormalEntry*, *PublicationEntry*, and *OneLineEntry*.'
-    #   - bullet: Each entry type has a different structure and layout. This document demonstrates all of them.
-    # numbered_entries:
-    #   - number: This is a numbered entry.
-    #   - number: This is another numbered entry.
-    #   - number: This is the third numbered entry.
-    # reversed_numbered_entries:
-    #   - reversed_number: This is a reversed numbered entry.
-    #   - reversed_number: This is another reversed numbered entry.
-    #   - reversed_number: This is the third reversed numbered entry.
+    Skills:
+      - label: Programming Languages
+        details: Python, C++, C, Latex
+      - label: Robotics
+        details: MuJoCo, OpenSim, Machine Learning, Reinforcement Learning, IsaacLabs, ROS, SolidWorks, SolidEdge, STM32, ESP32, Linux
+      - label: Languages
+        details: English, Chinese, Hokkien (Dialect), Tagalog
 design:
   theme: engineeringresumes
-  page:
-    size: us-letter
-    top_margin: 2cm
-    bottom_margin: 2cm
-    left_margin: 2cm
-    right_margin: 2cm
-    show_page_numbering: false
-    show_last_updated_date: true
-  colors:
-    text: rgb(0, 0, 0)
-    name: rgb(0, 0, 0)
-    connections: rgb(0, 0, 0)
-    section_titles: rgb(0, 0, 0)
-    links: rgb(0, 0, 0)
-    last_updated_date_and_page_numbering: rgb(128, 128, 128)
-  text:
-    font_family: XCharter
-    font_size: 10pt
-    leading: 0.6em
-    alignment: justified
-    date_and_location_column_alignment: right
-  links:
-    underline: false
-    use_external_link_icon: false
-  header:
-    name_font_family: XCharter
-    name_font_size: 25pt
-    name_bold: false
-    photo_width: 3.5cm
-    vertical_space_between_name_and_connections: 0.7cm
-    vertical_space_between_connections_and_first_section: 0.7cm
-    horizontal_space_between_connections: 0.5cm
-    connections_font_family: XCharter
-    separator_between_connections: '|'
-    use_icons_for_connections: true
-    alignment: center
-  section_titles:
-    type: with-parial-line
-    font_family: XCharter
-    font_size: 1.2em
-    bold: true
-    small_caps: false
-    line_thickness: 0.5pt
-    vertical_space_above: 0.55cm
-    vertical_space_below: 0.3cm
-    line_type: with-full-line
-  entries:
-    date_and_location_width: 6cm
-    left_and_right_margin: 0cm
-    horizontal_space_between_columns: 0.1cm
-    vertical_space_between_entries: 0.4cm
-    allow_page_break_in_sections: true
-    allow_page_break_in_entries: true
-    short_second_row: false
-    show_time_spans_in: []
-  highlights:
-    bullet: •
-    top_margin: 0.25cm
-    left_margin: 0cm
-    vertical_space_between_highlights: 0.19cm
-    horizontal_space_between_bullet_and_highlight: 0.3em
-    summary_left_margin: 0cm
-  entry_types:
-    one_line_entry:
-      template: '**LABEL:** DETAILS'
-    education_entry:
-      # main_column_first_row_template: '**INSTITUTION**, DEGREE in AREA -- LOCATION'
-      main_column_first_row_template: |-
-        **INSTITUTION**, LOCATION
-        **DEGREE in AREA**
-      degree_column_template:
-      degree_column_width: 1cm
-      main_column_second_row_template: |-
-        SUMMARY
-        HIGHLIGHTS
-      date_and_location_column_template: DATE
-    normal_entry:
-      main_column_first_row_template: '**NAME** -- **LOCATION**'
-      main_column_second_row_template: |-
-        SUMMARY
-        HIGHLIGHTS
-      date_and_location_column_template: DATE
-    experience_entry:
-      main_column_first_row_template: '**POSITION**, COMPANY -- LOCATION'
-      main_column_second_row_template: |-
-        SUMMARY
-        HIGHLIGHTS
-      date_and_location_column_template: DATE
-    publication_entry:
-      main_column_first_row_template: '**TITLE**'
-      main_column_second_row_template: |-
-        AUTHORS
-        URL (JOURNAL)
-      main_column_second_row_without_journal_template: |-
-        AUTHORS
-        URL
-      main_column_second_row_without_url_template: |-
-        AUTHORS
-        JOURNAL
-      date_and_location_column_template: DATE
-locale:
-  language: en
-  phone_number_format: national
-  page_numbering_template: NAME - Page PAGE_NUMBER of TOTAL_PAGES
-  last_updated_date_template: Last updated in TODAY
-  date_template: MONTH_ABBREVIATION YEAR
-  month: month
-  months: months
-  year: year
-  years: years
-  present: present
-  to: –
-  abbreviations_for_months:
-    - Jan
-    - Feb
-    - Mar
-    - Apr
-    - May
-    - June
-    - July
-    - Aug
-    - Sept
-    - Oct
-    - Nov
-    - Dec
-  full_names_of_months:
-    - January
-    - February
-    - March
-    - April
-    - May
-    - June
-    - July
-    - August
-    - September
-    - October
-    - November
-    - December
-rendercv_settings:
-  date: '2025-04-14'
-  render_command:
-  bold_keywords: []
+  font: Charter
+  font_size: 10pt
+  page_size: letterpaper
+  color: black
+  disable_external_link_icons: true
+  disable_page_numbering: true
+  page_numbering_style: NAME - Page PAGE_NUMBER of TOTAL_PAGES
+  disable_last_updated_date: true
+  last_updated_date_style: Last updated in TODAY
+  header_font_size: 25 pt
+  text_alignment: left-aligned
+  seperator_between_connections: $|$
+  use_icons_for_connections: false
+  margins:
+    page:
+      top: 2 cm
+      bottom: 2 cm
+      left: 2 cm
+      right: 2 cm
+    section_title:
+      top: 0.3 cm
+      bottom: 0.2 cm
+    entry_area:
+      left_and_right: 0 cm
+      vertical_between: 0.2 cm
+      date_and_location_width: 4.5 cm
+    highlights_area:
+      top: 0.10 cm
+      left: 0 cm
+      vertical_between_bullet_points: 0.10 cm
+    header:
+      vertical_between_name_and_connections: 5 pt
+      bottom: 5 pt
+      horizontal_between_connections: 10 pt
