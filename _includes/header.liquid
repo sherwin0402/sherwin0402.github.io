@@ -55,13 +55,20 @@
               {% endif %}
             </a>
           </li>
-
+          <!-- CV (language‑specific) -->
           <li class="nav-item">
-            <a class="nav-link" href="/assets/cv/rendercv_output/Chan_Sherwin_Stephen_CV.pdf">
-              cv
-            </a>
+            {% if site.active_lang contains "zh" %}
+              <a class="nav-link"
+                href="{{ "/assets/cv/rendercv_output/陈健怡_CV.pdf" | relative_url }}">
+                简历
+              </a>
+            {% else %}
+              <a class="nav-link"
+                href="{{ "/assets/cv/rendercv_output/Chan_Sherwin_Stephen_CV.pdf" | relative_url }}">
+                cv
+              </a>
+            {% endif %}
           </li>
-
           <!-- Other pages -->
           {% assign sorted_pages = site.pages | sort: 'nav_order' %}
           {% for p in sorted_pages %}
@@ -93,7 +100,10 @@
                       {% if child.title == 'divider' %}
                         <div class="dropdown-divider"></div>
                       {% else %}
-                        <a class="dropdown-item {% if page.title == child.title %}active{% endif %}" href="{{ child.permalink | relative_url }}">
+                        <a
+                          class="dropdown-item {% if page.title == child.title %}active{% endif %}"
+                          href="{% if child.permalink contains '://' %}{{ child.permalink }}{% else %}{{ child.permalink | relative_url }}{% endif %}"
+                        >
                           {{- child.title -}}
                         </a>
                       {% endif %}
@@ -103,7 +113,13 @@
               {% else %}
                 {% assign parent_link = p.permalink | remove: 'index.html' %}
                 <li class="nav-item {% if page.url contains parent_link %}active{% endif %}">
-                  {% if p.permalink contains '/blog/' %}{% assign url = '/blog/' %} {% else %}{% assign url = p.url %}{% endif %}
+                  {%- if p.permalink contains '://' -%}
+                    {%- assign url = p.permalink -%}
+                  {%- elsif p.permalink contains '/blog/' -%}
+                    {%- assign url = '/blog/' -%}
+                  {%- else -%}
+                    {%- assign url = p.url -%}
+                  {%- endif %}
                   <a class="nav-link" href="{{ url | relative_url }}">
                     {{- p.title }}
                     {% if page.url contains p.url %}
@@ -122,6 +138,33 @@
               </button>
             </li>
           {% endif %}
+
+          <!-- Toogle language -->
+          {% if site.languages.size >= 2 and site.languages.size == 2 %}
+            {%- assign first_lang = site.languages.first -%}
+            {%- assign last_lang  = site.languages.last  -%}
+
+            {%- if site.active_lang == first_lang -%}
+              {%- assign other_language = last_lang -%}
+            {%- else -%}
+              {%- assign other_language = first_lang -%}
+            {%- endif -%}
+
+            {%- assign other_code = other_language | downcase | split: '-' | first -%}
+            <li class="nav-item active">
+              <a class="nav-link" {% static_href -%}
+                href="{% if other_language == site.default_lang %}{{ site.baseurl }}{{ page.url }}{% else %}{{ site.baseurl }}/{{ other_language }}{{ page.url }}{% endif %}"
+              {%- endstatic_href %}>
+                {% if other_code == 'zh' %}
+                  中文
+                {% else %}
+                  {{ other_code | upcase }}
+                {% endif %}
+              </a>
+            </li>
+          {% endif %}
+       
+          
           {% if site.enable_darkmode %}
             <!-- Toogle theme mode -->
             <li class="toggle-container">
