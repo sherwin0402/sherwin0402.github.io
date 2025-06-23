@@ -74,8 +74,8 @@
 
 ## ORBiT: Optimizing Robot-Assisted Bite Transfer Leveraging a Real2Sim2Real Framework 
 - Oct 2025
-- ***Sherwin Stephen Chan***, J Anne Yow, Yi Heng San, Vasanthamaran Ravichandram, Yifan Wang, Lek Syn Lim, Wei Tech Ang
-- IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)
+- ***Sherwin Stephen Chan†***, J Anne Yow†, Yi Heng San, Vasanthamaran Ravichandram, Yifan Wang, Lek Syn Lim, Wei Tech Ang
+- IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), † Denotes equal contribution
 
 ## A Human-In-The-Loop Simulation Framework for Evaluating Control Strategies in Gait Assistive Robots 
 - May 2025
@@ -84,8 +84,8 @@
 
 ## Simulating Safe Bite Transfer in Robot-Assisted Feeding with a Soft Head and Articulated Jaw 
 - May 2025
-- Yi Heng San, Vasanthamaran Ravichandram, J Anne Yow, ***Sherwin Stephen Chan***, Yifan Wang, Wei Tech Ang
-- IEEE International Conference on Rehabilitation Robotics (ICORR)
+- Yi Heng San†, Vasanthamaran Ravichandram†, J Anne Yow, ***Sherwin Stephen Chan***, Yifan Wang, Wei Tech Ang
+- IEEE International Conference on Rehabilitation Robotics (ICORR), † Denotes equal contribution
 
 ## Personalised 3D Human Digital Twin with Soft-Body Feet for Walking Simulation 
 - Dec 2024
