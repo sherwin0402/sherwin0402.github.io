@@ -464,7 +464,7 @@
 
 
 #one-col-entry(
-  content: [I am a final-year Ph.D. student at NTU, Singapore, advised by Prof. Ang Wei Tech, specializing in physics-based simulation of physical human-robot interaction for assistive and rehabilitative devices. I use MuJoCo as my primary platform to build realistic digital twins with skeletal, musculoskeletal, and soft-body models and design Real2Sim2Real frameworks for personalised robotic controller. My work bridges simulation-driven machine learning afor safe and intuitive HRI strategies to develop intelligent, physically interactive systems. I am currently exploring the use of foundation models to improve the fidelity of human-robot interaction in simulation.]
+  content: [I am a final-year Ph.D. student at NTU, Singapore, advised by Prof. Ang Wei Tech, specializing in physics-based simulation of physical human-robot interaction for assistive and rehabilitative devices. I use MuJoCo as my primary platform to build realistic digital twins with skeletal, musculoskeletal, and soft-body models and design Real2Sim2Real frameworks for personalised robotic controller. My work bridges simulation-driven machine learning afor safe and intuitive HRI strategies to develop intelligent, physically interactive systems. I am currently exploring the use of foundation models and large language models to improve the fidelity of human-robot interaction in simulation.]
 )
 
 
@@ -485,7 +485,7 @@
 #block(
   [
     #set par(spacing: 0pt)
-    #v(design-highlights-top-margin);#highlights([#strong[Supervisor:] Prof Ang Wei Tech],[#strong[Proposed Dissertation:] Accelerating the Development of Assistive Robotics through Accurate Human-In-The-Loop Robotic Simulation of Physical Human-Robot Interaction],[#strong[Research Interests:] Physics-Based Simulation, Human-Robot Interaction, Machine Learning, Foundation Models],)
+    #v(design-highlights-top-margin);#highlights([#strong[Supervisor:] Prof Ang Wei Tech],[#strong[Proposed Dissertation:] Accelerating the Development of Assistive Robotics through Accurate Human-In-The-Loop Robotic Simulation of Physical Human-Robot Interaction],[#strong[Research Interests:] Physics-Based Simulation, Human-Robot Interaction, Machine Learning, Foundation Models, Large Language Models],)
   ],
   inset: (
     left: design-entries-left-and-right-margin,
@@ -610,6 +610,21 @@
 == Publications
 
 
+#two-col-entry(
+  left-content: [
+    #strong[ORBiT: Optimizing Robot-Assisted Bite Transfer Leveraging a Real2Sim2Real Framework]
+
+  ],
+  right-content: [
+    Oct 2025
+  ],
+)
+#one-col-entry(content:[
+  #v(design-highlights-top-margin);#strong[#emph[Sherwin Stephen Chan]], J Anne Yow, Yi Heng San, Vasanthamaran Ravichandram, Yifan Wang, Lek Syn Lim, Wei Tech Ang
+
+#v(design-highlights-top-margin - design-text-leading)IEEE\/RSJ International Conference on Intelligent Robots and Systems \(IROS\)])
+
+#v(design-entries-vertical-space-between-entries)
 #two-col-entry(
   left-content: [
     #strong[A Human-In-The-Loop Simulation Framework for Evaluating Control Strategies in Gait Assistive Robots]

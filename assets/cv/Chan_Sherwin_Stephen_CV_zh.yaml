@@ -11,31 +11,31 @@ cv:
     #   username: sherwin0402
   sections:
     About Me:
-      - I am a final-year Ph.D. student at NTU, Singapore, advised by Prof. Ang Wei Tech, specializing in physics-based simulation of physical human-robot interaction for assistive and rehabilitative devices. I use MuJoCo as my primary platform to build realistic digital twins with skeletal, musculoskeletal, and soft-body models and design Real2Sim2Real frameworks for personalised robotic controller. My work bridges simulation-driven machine learning afor safe and intuitive HRI strategies to develop intelligent, physically interactive systems. I am currently exploring the use of foundation models to improve the fidelity of human-robot interaction in simulation.
+      - 我是一名新加坡南洋理工大学（NTU）的博士毕业年学生，在洪伟德教授（Prof. Ang Wei Tech）指导下，专注于辅助与康复设备中的物理人机交互仿真研究。我主要使用 MuJoCo 平台，构建融合骨骼、肌肉骨骼与软体模型的数字人体，并设计 Real2Sim2Real 框架，实现个性化机器人控制策略。我的研究结合仿真驱动的机器学习，旨在开发安全直观的交互策略，推动智能物理交互系统的发展。目前，我也在探索将基础模型与大语言模型（Foundation & Large Language Models）融入仿真中，以提升人机交互的真实性、理解能力与泛化性。
     education:
       - institution: '[南洋理工大学](https://www.ntu.edu.sg/)'
-        area: Mechanical Engineering
-        degree: Ph.D.
-        date: Sept 2021 -- Aug 2025 (Expected)
+        area: 机械工程
+        degree: 博士
+        date: 2021年9月 -- 2025年8月(预计)
         start_date: 2021-09
         end_date: 2021-09 # ! Expected
-        location: Singapore
+        location: 新加坡
         summary:
         highlights:
-          - '**Supervisor:** Prof Ang Wei Tech'
-          - '**Proposed Dissertation:** Accelerating the Development of Assistive Robotics through Accurate Human-In-The-Loop Robotic Simulation of Physical Human-Robot Interaction'
-          - '**Research Interests:** Physics-Based Simulation, Human-Robot Interaction, Machine Learning, Foundation Models'
+          - '**导师：** 洪伟德教授(Prof Ang Wei Tech)'
+          - '**拟定论文题目：** 通过精确的人机闭环仿真，加速辅助机器人的发展'
+          - '**研究方向：** 基于物理的仿真、人机交互、机器学习、基础模型，大语言模型'
       - institution: '[南洋理工大学](https://www.ntu.edu.sg/)'
-        area: Mechanical Engineering with a Specialization in Robotics and Mechatronics
-        degree: BE
+        area: 机械工程（机器人与机电一体化方向）
+        degree: 本科
         date:
         start_date: 2017-08
         end_date: 2021-05
-        location: Singapore
+        location: 新加坡
         summary:
         highlights:
-          - "**GPA:** 4.84/5.00, Dean's List for 2017/2018"
-          - '**Awards:** Nanyang Scholarship'
+          - "**绩点:** 4.84/5.00, 学年入选院长名单 (Dean's List) 2017/2018"
+          - '**奖项:** 南洋奖学金 (Nanyang Scholarship)'
     research projects:
       - name: 'Human-In-The-Loop Robotic Simulator'
         date:
@@ -93,6 +93,17 @@ cv:
       #     - Planned and engaged in business negotiations with Engel, KraussMaffei, Grob and Makino Milling Machine Co. Ltd. 
       #     - Assisted in acceptance check of a flexible manufacturing system production line worth RMB 3 million from StarragHeckert.
     Publications:
+      - title: "ORBiT: Optimizing Robot-Assisted Bite Transfer Leveraging a Real2Sim2Real Framework"
+        authors:
+          - '***Sherwin Stephen Chan***'
+          - J Anne Yow
+          - Yi Heng San
+          - Vasanthamaran Ravichandram
+          - Yifan Wang
+          - Lek Syn Lim
+          - Wei Tech Ang
+        journal: 'IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)'
+        date: 2025-10
       - title: A Human-In-The-Loop Simulation Framework for Evaluating Control Strategies in Gait Assistive Robots
         authors:
           - Yifan Wang†

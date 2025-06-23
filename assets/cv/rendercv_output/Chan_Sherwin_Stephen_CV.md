@@ -8,7 +8,7 @@
 
 # About Me
 
-I am a final-year Ph.D. student at NTU, Singapore, advised by Prof. Ang Wei Tech, specializing in physics-based simulation of physical human-robot interaction for assistive and rehabilitative devices. I use MuJoCo as my primary platform to build realistic digital twins with skeletal, musculoskeletal, and soft-body models and design Real2Sim2Real frameworks for personalised robotic controller. My work bridges simulation-driven machine learning afor safe and intuitive HRI strategies to develop intelligent, physically interactive systems. I am currently exploring the use of foundation models to improve the fidelity of human-robot interaction in simulation.
+I am a final-year Ph.D. student at NTU, Singapore, advised by Prof. Ang Wei Tech, specializing in physics-based simulation of physical human-robot interaction for assistive and rehabilitative devices. I use MuJoCo as my primary platform to build realistic digital twins with skeletal, musculoskeletal, and soft-body models and design Real2Sim2Real frameworks for personalised robotic controller. My work bridges simulation-driven machine learning afor safe and intuitive HRI strategies to develop intelligent, physically interactive systems. I am currently exploring the use of foundation models and large language models to improve the fidelity of human-robot interaction in simulation.
 
 # Education
 
@@ -18,7 +18,7 @@ I am a final-year Ph.D. student at NTU, Singapore, advised by Prof. Ang Wei Tech
 - Singapore
 - **Supervisor:** Prof Ang Wei Tech
 - **Proposed Dissertation:** Accelerating the Development of Assistive Robotics through Accurate Human-In-The-Loop Robotic Simulation of Physical Human-Robot Interaction
-- **Research Interests:** Physics-Based Simulation, Human-Robot Interaction, Machine Learning, Foundation Models
+- **Research Interests:** Physics-Based Simulation, Human-Robot Interaction, Machine Learning, Foundation Models, Large Language Models
 
 ## [Nanyang Technological University](https://www.ntu.edu.sg/), BE in Mechanical Engineering with a Specialization in Robotics and Mechatronics
 
@@ -71,6 +71,11 @@ I am a final-year Ph.D. student at NTU, Singapore, advised by Prof. Ang Wei Tech
 - Evaluated 32 engineering candidates for engineering roles, mentored 19 new engineering technicians to improve mechanical and electrical skillsets and align with company working norms.
 
 # Publications
+
+## ORBiT: Optimizing Robot-Assisted Bite Transfer Leveraging a Real2Sim2Real Framework 
+- Oct 2025
+- ***Sherwin Stephen Chan***, J Anne Yow, Yi Heng San, Vasanthamaran Ravichandram, Yifan Wang, Lek Syn Lim, Wei Tech Ang
+- IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)
 
 ## A Human-In-The-Loop Simulation Framework for Evaluating Control Strategies in Gait Assistive Robots 
 - May 2025

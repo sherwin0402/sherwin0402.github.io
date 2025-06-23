@@ -473,3 +473,24 @@ Our most active contributors are welcome to join the maintainers team. If you ar
 The theme is available as open source under the terms of the [MIT License](https://github.com/alshedivat/al-folio/blob/master/LICENSE).
 
 Originally, **al-folio** was based on the [\*folio theme](https://github.com/bogoli/-folio) (published by [Lia Bogoev](https://liabogoev.com) and under the MIT license). Since then, it got a full re-write of the styles and many additional cool features.
+
+
+# Locally
+```bash
+export PATH="/opt/homebrew/opt/ruby/bin:$PATH"
+bundle exec jekyll clean
+bundle exec jekyll serve --livereload --incremental
+```
+
+CV
+```bash
+cd assets/cv
+# Render the CV for English
+rendercv render Chan_Sherwin_Stephen_CV.yaml
+# Render the CV for Chinese
+rendercv render Chan_Sherwin_Stephen_CV_zh.yaml
+
+# To have rendercv run automatically on changes on yaml files, use the --watch flag
+rendercv render --watch Chan_Sherwin_Stephen_CV.yaml 
+rendercv render --watch Chan_Sherwin_Stephen_CV_zh.yaml
+```
