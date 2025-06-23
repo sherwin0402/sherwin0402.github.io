@@ -502,7 +502,7 @@
 #strong[本科 in 机械工程（机器人与机电一体化方向）]
   ],
   right-content: [
-    Aug 2017 – May 2021
+    2017年8月 -- 2021年5月
   ],
 )
 #block(
@@ -523,41 +523,41 @@
 
 #two-col-entry(
   left-content: [
-    #strong[Human-In-The-Loop Robotic Simulator] 
+    #strong[人机闭环仿真平台\(Human-In-The-Loop Robotic Simulator\)] 
   ],
   right-content: [
-    Sept 2021 – present
+    2021年9月 -- 至今
   ],
 )
 #one-col-entry(
   content: [
-    #two-col(left-column-width: design-highlights-summary-left-margin, right-column-width: 1fr, left-content: [], right-content: [#v(design-highlights-top-margin);#align(left, [A simulation framework for physical human-robot interaction \(pHRI\) investigation to personalise robotic systems.])], column-gutter: 0cm)
+    #two-col(left-column-width: design-highlights-summary-left-margin, right-column-width: 1fr, left-content: [], right-content: [#v(design-highlights-top-margin);#align(left, [一个用于物理人机交互（pHRI）研究的仿真框架，以实现机器人系统的个性化。])], column-gutter: 0cm)
 
-#v(-design-text-leading)  #v(design-highlights-top-margin);#highlights([Developed a human-in-the-loop simulation framework for assistive robotics, featuring personalized digital twins with varying abilities and disabilities. The pipeline incorporates skeletal, musculoskeletal, and soft body models, using reinforcement learning to simulate diverse human capabilities and enable realistic, adaptive testing of robotic systems.],[Designed and validated a Real2Sim2Real framework to personalize robotic controllers based on individual user characteristics, enabling improved pHRI through simulation-informed adaptation and real-world testing.],[Investigating various human-robot interaction modalities in simulation, including soft body dynamics, mass-spring-damper models, and other methods to accurately represent physical interactions.],[Simulated a range of assistive robotic systems - including robot-assisted feeding arms, lower limb and upper limb exoskeletons, gait assistive robots, using MuJoCo.],)
+#v(-design-text-leading)  #v(design-highlights-top-margin);#highlights([开发了一套用于辅助机器人研究的人机闭环仿真框架，支持构建具备不同能力与障碍的个性化数字人体。该流程集成了骨骼、肌肉骨骼与软体模型，并使用强化学习模拟多样化的人体能力，实现真实、可适应的交互测试。],[设计并验证了 Real2Sim2Real 框架，依据个体用户特征个性化调整机器人控制器，通过仿真辅助实现更优的物理人机交互，并可在现实中进行验证。],[在仿真中探索多种人机交互建模方式，包括软体动力学、质量-弹簧-阻尼系统等，以准确还原物理交互特性。],[使用 MuJoCo 平台模拟多种辅助机器人系统，包括机器人辅助喂食机械臂、上下肢外骨骼、步态辅助机器人等。],)
   ],
 )
 
 #v(design-entries-vertical-space-between-entries)
 #two-col-entry(
   left-content: [
-    #strong[Mobile Third Arm Robot] 
+    #strong[移动式第三机械臂机器人\(Mobile Third Arm Robot\)] 
   ],
   right-content: [
-    2020 -- 2022
+    2020年8月 -- 2021年5月
   ],
 )
 #one-col-entry(
   content: [
-    #two-col(left-column-width: design-highlights-summary-left-margin, right-column-width: 1fr, left-content: [], right-content: [#v(design-highlights-top-margin);#align(left, [Vision-guided mobile third arm co-bot for patient transfers between bed and wheelchair.])], column-gutter: 0cm)
+    #two-col(left-column-width: design-highlights-summary-left-margin, right-column-width: 1fr, left-content: [], right-content: [#v(design-highlights-top-margin);#align(left, [一种用于病患从床到轮椅转移的视觉引导型移动第三机械臂协作机器人。])], column-gutter: 0cm)
 
-#v(-design-text-leading)  #v(design-highlights-top-margin);#highlights([Developed a mobile third arm robot that assists caregivers for moderate assisted pivot transfer between the bed and wheelchair.],[Implemented a human-tracking computer vision algorithm to perform user following],[Developed human-robot interaction strategies for safe and intuitive operation of the mobile third arm robot between caregiver, patient and mobile third arm robot.],)
+#v(-design-text-leading)  #v(design-highlights-top-margin);#highlights([开发了一款移动式第三机械臂机器人，协助护理人员完成从床到轮椅的中度辅助枢轴转移操作。],[实现了基于计算机视觉的人体追踪算法，用于跟随用户行动。],[设计了人与机器人之间的交互策略，确保在护理人员、病患与机械臂之间的协作过程中操作直观且安全。],)
   ],
 )
 
 #v(design-entries-vertical-space-between-entries)
 #two-col-entry(
   left-content: [
-    #strong[Design and Analysis of Underwater Robotic Systems] 
+    #strong[水下机器人系统的设计与分析\(Design and Analysis of Underwater Robotic Systems\)] 
   ],
   right-content: [
     2018 -- 2019
@@ -565,9 +565,9 @@
 )
 #one-col-entry(
   content: [
-    #two-col(left-column-width: design-highlights-summary-left-margin, right-column-width: 1fr, left-content: [], right-content: [#v(design-highlights-top-margin);#align(left, [3D printed underwater robotic manipulator for object grasping.])], column-gutter: 0cm)
+    #two-col(left-column-width: design-highlights-summary-left-margin, right-column-width: 1fr, left-content: [], right-content: [#v(design-highlights-top-margin);#align(left, [采用3D打印技术制造的水下机械臂，用于抓取水池底部的物体。])], column-gutter: 0cm)
 
-#v(-design-text-leading)  #v(design-highlights-top-margin);#highlights([Designed and 3D printed a robotic manipulator for an autonomous underwater vehicle to grasp objects from the pool floor.],[Created a bio-inspired flexible hull structure that deforms with depth to enhance rigidity while reducing weight.],[Conducted finite element analysis to optimize both manipulator and hull designs for strength, hydrodynamic performance, and operational depth.],)
+#v(-design-text-leading)  #v(design-highlights-top-margin);#highlights([为自主水下航行器设计并3D打印了水下机械臂，用于抓取水池底部的物体。],[设计了一种仿生柔性艇体结构，能随着水深变化变形，以增强刚性并降低整体重量。],[进行了有限元分析，优化机械臂与艇体结构的强度、水动力性能及最大工作深度。],)
   ],
 )
 
@@ -578,30 +578,30 @@
 
 #two-col-entry(
   left-content: [
-    #strong[Project Officer], Rehabilitation Research Institute of Singapore -- Singapore
+    #strong[项目主管], 南洋理工大学 -- 新加坡
   ],
   right-content: [
-    Aug 2021 – present
+    2021年8月 -- 至今
   ],
 )
 #one-col-entry(
   content: [
-    #v(design-highlights-top-margin);#highlights([Spearheaded the Human-In-The-Loop Robotic Simulator project, focusing on developing a platform that combines realistic human digital twins with assistive robots for human-in-the-loop simulations.],[Mentored seven undergraduate students on final year projects, guiding them through the research process and providing technical support.],[Assisted in preparing funding proposals to support current and future projects of the institute.],)
+    #v(design-highlights-top-margin);#highlights([主导人机闭环仿真平台项目，开发结合高保真人体数字模型与辅助机器人的仿真平台，用于研究人机交互。],[指导7名本科生完成毕业设计，协助其进行研究工作并提供技术支持。],[协助撰写研究资金提案，支持研究院当前及未来项目的发展。],)
   ],
 )
 
 #v(design-entries-vertical-space-between-entries)
 #two-col-entry(
   left-content: [
-    #strong[Engineering Intern], #link("https://oishii.com/")[Oishii] -- New Jersey, USA
+    #strong[工程实习生], #link("https://oishii.com/")[Oishii] -- 新泽西州，美国
   ],
   right-content: [
-    June 2019 – June 2020
+    2019年6月 -- 2020年6月
   ],
 )
 #one-col-entry(
   content: [
-    #v(design-highlights-top-margin);#highlights([Designed an indoor vertical farm structure accommodating 250,000 plants with a novel rack system that increases efficiency of construction and assembly process by 90\%.],[Pioneered development of a USD 400,000 R&D facility consisting of ten independent growing environments tracking more than 80 plant parameters to determine optimal plant growth and yield.],[Led an engineering team of 12 to implement testing and troubleshooting schedule to all farm sub-systems as lead test engineer to bring the world’s largest indoor strawberry vertical farm facility operational.],[Evaluated 32 engineering candidates for engineering roles, mentored 19 new engineering technicians to improve mechanical and electrical skillsets and align with company working norms.],)
+    #v(design-highlights-top-margin);#highlights([设计了一套室内垂直农场结构，可容纳25万株植物，并采用创新托架系统，将建造与组装效率提升了90\%。],[主导开发了价值40万美元的研发设施，包含10个独立生长环境，追踪超过80项植物参数，以优化生长与产量。],[作为主测试工程师，带领12人工程团队制定测试与故障排查流程，成功推动全球最大草莓室内垂直农场投入运营。],[参与筛选32名工程职位候选人，并指导19位新进技术人员，提升其机械与电气技能，同时协助其融入公司工作规范。],)
   ],
 )
 
@@ -622,7 +622,7 @@
 #one-col-entry(content:[
   #v(design-highlights-top-margin);#strong[#emph[Sherwin Stephen Chan†]], J Anne Yow†, Yi Heng San, Vasanthamaran Ravichandram, Yifan Wang, Lek Syn Lim, Wei Tech Ang
 
-#v(design-highlights-top-margin - design-text-leading)IEEE\/RSJ International Conference on Intelligent Robots and Systems \(IROS\), † Denotes equal contribution])
+#v(design-highlights-top-margin - design-text-leading)IEEE\/RSJ International Conference on Intelligent Robots and Systems \(IROS\), † 贡献相同])
 
 #v(design-entries-vertical-space-between-entries)
 #two-col-entry(
@@ -637,7 +637,7 @@
 #one-col-entry(content:[
   #v(design-highlights-top-margin);Yifan Wang†, #strong[#emph[Sherwin Stephen Chan†]], Mingyuan Lei, Lek Syn Lim, Henry Johan, Bingran Zuo, Wei Tech Ang
 
-#v(design-highlights-top-margin - design-text-leading)IEEE International Conference on Robotics and Automation \(ICRA\), † Denotes equal contribution])
+#v(design-highlights-top-margin - design-text-leading)IEEE International Conference on Robotics and Automation \(ICRA\), † 贡献相同])
 
 #v(design-entries-vertical-space-between-entries)
 #two-col-entry(
@@ -652,7 +652,7 @@
 #one-col-entry(content:[
   #v(design-highlights-top-margin);Yi Heng San†, Vasanthamaran Ravichandram†, J Anne Yow, #strong[#emph[Sherwin Stephen Chan]], Yifan Wang, Wei Tech Ang
 
-#v(design-highlights-top-margin - design-text-leading)IEEE International Conference on Rehabilitation Robotics \(ICORR\), † Denotes equal contribution])
+#v(design-highlights-top-margin - design-text-leading)IEEE International Conference on Rehabilitation Robotics \(ICORR\), † 贡献相同])
 
 #v(design-entries-vertical-space-between-entries)
 #two-col-entry(
@@ -705,15 +705,15 @@
 
 
 #one-col-entry(
-  content: [#strong[Programming Languages:] Python, C++, C]
+  content: [#strong[编程语言:] Python, C++, C]
 )
 #v(design-entries-vertical-space-between-entries)
 #one-col-entry(
-  content: [#strong[Robotics:] MuJoCo, OpenSim, Machine Learning, Reinforcement Learning, IsaacLabs, ROS, SolidWorks, SolidEdge, STM32, ESP32, Linux]
+  content: [#strong[机器人:] MuJoCo, OpenSim, Machine Learning, Reinforcement Learning, IsaacLabs, ROS, SolidWorks, SolidEdge, STM32, ESP32, Linux]
 )
 #v(design-entries-vertical-space-between-entries)
 #one-col-entry(
-  content: [#strong[Languages:] English, Chinese, Hokkien \(Dialect\), Tagalog]
+  content: [#strong[语言能力:] 英语、中文、福建话（方言）、菲律宾语]
 )
 
 

@@ -53,7 +53,7 @@ I am a final-year Ph.D. student at NTU, Singapore, advised by Prof. Ang Wei Tech
 
 # Work Experience
 
-## Rehabilitation Research Institute of Singapore, Project Officer
+## Nanyang Technological University, Singapore, Project Officer
 
 - Aug 2021 – present
 - Singapore
