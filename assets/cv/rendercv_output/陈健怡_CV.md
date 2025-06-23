@@ -1,16 +1,16 @@
 # 陈健怡's CV
 
 - Email: [sherwin0402@gmail.com](mailto:sherwin0402@gmail.com)
-- Location: 新加坡
+- Location: 新加坡 | 微信: chenjianyi0402
 - Website: [sherwin0402.github.io](https://sherwin0402.github.io/)
 - LinkedIn: [sherwin-chan](https://linkedin.com/in/sherwin-chan)
 
 
-# About Me
+# 自我介绍
 
 我是一名新加坡南洋理工大学（NTU）的博士毕业年学生，在洪伟德教授（Prof. Ang Wei Tech）指导下，专注于辅助与康复设备中的物理人机交互仿真研究。我主要使用 MuJoCo 平台，构建融合骨骼、肌肉骨骼与软体模型的数字人体，并设计 Real2Sim2Real 框架，实现个性化机器人控制策略。我的研究结合仿真驱动的机器学习，旨在开发安全直观的交互策略，推动智能物理交互系统的发展。目前，我也在探索将基础模型与大语言模型（Foundation & Large Language Models）融入仿真中，以提升人机交互的真实性、理解能力与泛化性。
 
-# Education
+# 教育背景
 
 ## [南洋理工大学](https://www.ntu.edu.sg/), 博士 in 机械工程
 
@@ -27,7 +27,7 @@
 - **绩点:** 4.84/5.00, 学年入选院长名单 (Dean's List) 2017/2018
 - **奖项:** 南洋奖学金 (Nanyang Scholarship)
 
-# Research Projects
+# 研究项目
 
 ## 人机闭环仿真平台(Human-In-The-Loop Robotic Simulator)
 
@@ -51,7 +51,7 @@
 - 设计了一种仿生柔性艇体结构，能随着水深变化变形，以增强刚性并降低整体重量。
 - 进行了有限元分析，优化机械臂与艇体结构的强度、水动力性能及最大工作深度。
 
-# Work Experience
+# 工作经历
 
 ## 南洋理工大学, 项目主管
 
@@ -70,7 +70,7 @@
 - 作为主测试工程师，带领12人工程团队制定测试与故障排查流程，成功推动全球最大草莓室内垂直农场投入运营。
 - 参与筛选32名工程职位候选人，并指导19位新进技术人员，提升其机械与电气技能，同时协助其融入公司工作规范。
 
-# Publications
+# 出版物
 
 ## ORBiT: Optimizing Robot-Assisted Bite Transfer Leveraging a Real2Sim2Real Framework 
 - Oct 2025
@@ -102,7 +102,7 @@
 - Beth Eng Wan Xuan, ***Sherwin Stephen Chan***, Henry Johan, Lek Syn Lim, Bingran Zuo, Wei Tech Ang
 - International Convention on Rehabilitation Engineering and Assistive Technology
 
-# Skills
+# 技能
 
 - 编程语言: Python, C++, C
 - 机器人: MuJoCo, OpenSim, Machine Learning, Reinforcement Learning, IsaacLabs, ROS, SolidWorks, SolidEdge, STM32, ESP32, Linux

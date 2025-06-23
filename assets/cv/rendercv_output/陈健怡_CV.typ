@@ -451,7 +451,7 @@
 
 // Print connections:
 #let connections-list = (
-  [#fa-icon("location-dot", size: 0.9em) #h(0.05cm)新加坡],
+  [#fa-icon("location-dot", size: 0.9em) #h(0.05cm)新加坡 | 微信: chenjianyi0402],
   [#box(original-link("mailto:sherwin0402@gmail.com")[#fa-icon("envelope", size: 0.9em) #h(0.05cm)sherwin0402\@gmail.com])],
   [#box(original-link("https://sherwin0402.github.io/")[#fa-icon("link", size: 0.9em) #h(0.05cm)sherwin0402.github.io])],
   [#box(original-link("https://linkedin.com/in/sherwin-chan")[#fa-icon("linkedin", size: 0.9em) #h(0.05cm)sherwin-chan])],
@@ -460,7 +460,7 @@
 
 
 
-== About Me
+== 自我介绍
 
 
 #one-col-entry(
@@ -468,7 +468,7 @@
 )
 
 
-== Education
+== 教育背景
 
 
 // YES DATE, NO DEGREE
@@ -476,7 +476,7 @@
   left-content: [
     #link("https://www.ntu.edu.sg/")[#strong[南洋理工大学]], 新加坡
 
-#strong[博士 in 机械工程]
+#strong[博士 -- 机械工程]
   ],
   right-content: [
     2021年9月 -- 2025年8月\(预计\)
@@ -499,7 +499,7 @@
   left-content: [
     #link("https://www.ntu.edu.sg/")[#strong[南洋理工大学]], 新加坡
 
-#strong[本科 in 机械工程（机器人与机电一体化方向）]
+#strong[本科 -- 机械工程（机器人与机电一体化方向）]
   ],
   right-content: [
     2017年8月 -- 2021年5月
@@ -518,7 +518,7 @@
 
 
 
-== Research Projects
+== 研究项目
 
 
 #two-col-entry(
@@ -573,7 +573,7 @@
 
 
 
-== Work Experience
+== 工作经历
 
 
 #two-col-entry(
@@ -607,7 +607,7 @@
 
 
 
-== Publications
+== 出版物
 
 
 #two-col-entry(
@@ -701,7 +701,7 @@
 
 
 
-== Skills
+== 技能
 
 
 #one-col-entry(
