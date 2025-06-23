@@ -1,6 +1,6 @@
 cv:
   name: 陈健怡
-  location: 新加坡
+  location: "新加坡 | 微信: chenjianyi0402"
   email: sherwin0402@gmail.com
   # phone: +1-609-999-9995
   website: https://sherwin0402.github.io/
@@ -10,9 +10,9 @@ cv:
     # - network: GitHub
     #   username: sherwin0402
   sections:
-    About Me:
+    自我介绍:
       - 我是一名新加坡南洋理工大学（NTU）的博士毕业年学生，在洪伟德教授（Prof. Ang Wei Tech）指导下，专注于辅助与康复设备中的物理人机交互仿真研究。我主要使用 MuJoCo 平台，构建融合骨骼、肌肉骨骼与软体模型的数字人体，并设计 Real2Sim2Real 框架，实现个性化机器人控制策略。我的研究结合仿真驱动的机器学习，旨在开发安全直观的交互策略，推动智能物理交互系统的发展。目前，我也在探索将基础模型与大语言模型（Foundation & Large Language Models）融入仿真中，以提升人机交互的真实性、理解能力与泛化性。
-    education:
+    教育背景:
       - institution: '[南洋理工大学](https://www.ntu.edu.sg/)'
         area: 机械工程
         degree: 博士
@@ -36,7 +36,7 @@ cv:
         highlights:
           - "**绩点:** 4.84/5.00, 学年入选院长名单 (Dean's List) 2017/2018"
           - '**奖项:** 南洋奖学金 (Nanyang Scholarship)'
-    research projects:
+    研究项目:
       - name: '人机闭环仿真平台(Human-In-The-Loop Robotic Simulator)'
         date: 2021年9月 -- 至今
         start_date: 2021-09
@@ -62,7 +62,7 @@ cv:
           - '为自主水下航行器设计并3D打印了水下机械臂，用于抓取水池底部的物体。'
           - '设计了一种仿生柔性艇体结构，能随着水深变化变形，以增强刚性并降低整体重量。'
           - '进行了有限元分析，优化机械臂与艇体结构的强度、水动力性能及最大工作深度。'
-    Work experience:
+    工作经历:
       - company: 南洋理工大学
         position: 项目主管
         location: 新加坡
@@ -95,7 +95,7 @@ cv:
       #     - Aided in quality control of machine parts by performing CMM tests to ensure dimensional accuracy. 
       #     - Planned and engaged in business negotiations with Engel, KraussMaffei, Grob and Makino Milling Machine Co. Ltd. 
       #     - Assisted in acceptance check of a flexible manufacturing system production line worth RMB 3 million from StarragHeckert.
-    Publications:
+    出版物:
       - title: "ORBiT: Optimizing Robot-Assisted Bite Transfer Leveraging a Real2Sim2Real Framework"
         authors:
           - '***Sherwin Stephen Chan†***'
@@ -156,7 +156,7 @@ cv:
           - Wei Tech Ang
         journal: 'International Convention on Rehabilitation Engineering and Assistive Technology'
         date: 2023-08
-    Skills:
+    技能:
       - label: 编程语言
         details: Python, C++, C
       - label: 机器人
@@ -262,7 +262,7 @@ design:
       # main_column_first_row_template: '**INSTITUTION**, DEGREE in AREA -- LOCATION'
       main_column_first_row_template: |-
         **INSTITUTION**, LOCATION
-        **DEGREE in AREA**
+        **DEGREE -- AREA**
       degree_column_template:
       degree_column_width: 1cm
       main_column_second_row_template: |-
