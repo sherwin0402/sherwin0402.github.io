@@ -578,7 +578,7 @@
 
 #two-col-entry(
   left-content: [
-    #strong[Project Officer], Rehabilitation Research Institute of Singapore -- Singapore
+    #strong[Project Officer], Nanyang Technological University, Singapore -- Singapore
   ],
   right-content: [
     Aug 2021 – present
