@@ -620,9 +620,9 @@
   ],
 )
 #one-col-entry(content:[
-  #v(design-highlights-top-margin);#strong[#emph[Sherwin Stephen Chan]], J Anne Yow, Yi Heng San, Vasanthamaran Ravichandram, Yifan Wang, Lek Syn Lim, Wei Tech Ang
+  #v(design-highlights-top-margin);#strong[#emph[Sherwin Stephen Chan†]], J Anne Yow†, Yi Heng San, Vasanthamaran Ravichandram, Yifan Wang, Lek Syn Lim, Wei Tech Ang
 
-#v(design-highlights-top-margin - design-text-leading)IEEE\/RSJ International Conference on Intelligent Robots and Systems \(IROS\)])
+#v(design-highlights-top-margin - design-text-leading)IEEE\/RSJ International Conference on Intelligent Robots and Systems \(IROS\), † Denotes equal contribution])
 
 #v(design-entries-vertical-space-between-entries)
 #two-col-entry(
@@ -650,9 +650,9 @@
   ],
 )
 #one-col-entry(content:[
-  #v(design-highlights-top-margin);Yi Heng San, Vasanthamaran Ravichandram, J Anne Yow, #strong[#emph[Sherwin Stephen Chan]], Yifan Wang, Wei Tech Ang
+  #v(design-highlights-top-margin);Yi Heng San†, Vasanthamaran Ravichandram†, J Anne Yow, #strong[#emph[Sherwin Stephen Chan]], Yifan Wang, Wei Tech Ang
 
-#v(design-highlights-top-margin - design-text-leading)IEEE International Conference on Rehabilitation Robotics \(ICORR\)])
+#v(design-highlights-top-margin - design-text-leading)IEEE International Conference on Rehabilitation Robotics \(ICORR\), † Denotes equal contribution])
 
 #v(design-entries-vertical-space-between-entries)
 #two-col-entry(

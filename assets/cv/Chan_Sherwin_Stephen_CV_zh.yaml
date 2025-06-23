@@ -95,14 +95,14 @@ cv:
     Publications:
       - title: "ORBiT: Optimizing Robot-Assisted Bite Transfer Leveraging a Real2Sim2Real Framework"
         authors:
-          - '***Sherwin Stephen Chan***'
-          - J Anne Yow
+          - '***Sherwin Stephen Chan†***'
+          - J Anne Yow†
           - Yi Heng San
           - Vasanthamaran Ravichandram
           - Yifan Wang
           - Lek Syn Lim
           - Wei Tech Ang
-        journal: 'IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)'
+        journal: 'IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), † Denotes equal contribution'
         date: 2025-10
       - title: A Human-In-The-Loop Simulation Framework for Evaluating Control Strategies in Gait Assistive Robots
         authors:
@@ -117,13 +117,13 @@ cv:
         date: 2025-05
       - title: Simulating Safe Bite Transfer in Robot-Assisted Feeding with a Soft Head and Articulated Jaw
         authors:
-          - Yi Heng San
-          - Vasanthamaran Ravichandram
+          - Yi Heng San†
+          - Vasanthamaran Ravichandram†
           - J Anne Yow
           - '***Sherwin Stephen Chan***'
           - Yifan Wang
           - Wei Tech Ang
-        journal: 'IEEE International Conference on Rehabilitation Robotics (ICORR)'
+        journal: 'IEEE International Conference on Rehabilitation Robotics (ICORR), † Denotes equal contribution'
         date: 2025-05
       - title: Personalised 3D Human Digital Twin with Soft-Body Feet for Walking Simulation
         authors:
