@@ -84,7 +84,7 @@
 
 ## Simulating Safe Bite Transfer in Robot-Assisted Feeding with a Soft Head and Articulated Jaw 
 - May 2025
-- Yi Heng San†, Vasanthamaran Ravichandram†, J Anne Yow, ***Sherwin Stephen Chan***, Yifan Wang, Wei Tech Ang
+- Yi Heng San†, Vasanthamaran Ravichandram†, J Anne Yow†, ***Sherwin Stephen Chan†***, Yifan Wang, Wei Tech Ang
 - IEEE International Conference on Rehabilitation Robotics (ICORR), † 贡献相同
 
 ## Personalised 3D Human Digital Twin with Soft-Body Feet for Walking Simulation 
