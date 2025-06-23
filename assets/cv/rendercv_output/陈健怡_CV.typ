@@ -464,7 +464,7 @@
 
 
 #one-col-entry(
-  content: [I am a final-year Ph.D. student at NTU, Singapore, advised by Prof. Ang Wei Tech, specializing in physics-based simulation of physical human-robot interaction for assistive and rehabilitative devices. I use MuJoCo as my primary platform to build realistic digital twins with skeletal, musculoskeletal, and soft-body models and design Real2Sim2Real frameworks for personalised robotic controller. My work bridges simulation-driven machine learning afor safe and intuitive HRI strategies to develop intelligent, physically interactive systems. I am currently exploring the use of foundation models to improve the fidelity of human-robot interaction in simulation.]
+  content: [我是一名新加坡南洋理工大学（NTU）的博士毕业年学生，在洪伟德教授（Prof. Ang Wei Tech）指导下，专注于辅助与康复设备中的物理人机交互仿真研究。我主要使用 MuJoCo 平台，构建融合骨骼、肌肉骨骼与软体模型的数字人体，并设计 Real2Sim2Real 框架，实现个性化机器人控制策略。我的研究结合仿真驱动的机器学习，旨在开发安全直观的交互策略，推动智能物理交互系统的发展。目前，我也在探索将基础模型与大语言模型（Foundation & Large Language Models）融入仿真中，以提升人机交互的真实性、理解能力与泛化性。]
 )
 
 
@@ -474,18 +474,18 @@
 // YES DATE, NO DEGREE
 #two-col-entry(
   left-content: [
-    #link("https://www.ntu.edu.sg/")[#strong[南洋理工大学]], Singapore
+    #link("https://www.ntu.edu.sg/")[#strong[南洋理工大学]], 新加坡
 
-#strong[Ph.D. in Mechanical Engineering]
+#strong[博士 in 机械工程]
   ],
   right-content: [
-    Sept 2021 -- Aug 2025 \(Expected\)
+    2021年9月 -- 2025年8月\(预计\)
   ],
 )
 #block(
   [
     #set par(spacing: 0pt)
-    #v(design-highlights-top-margin);#highlights([#strong[Supervisor:] Prof Ang Wei Tech],[#strong[Proposed Dissertation:] Accelerating the Development of Assistive Robotics through Accurate Human-In-The-Loop Robotic Simulation of Physical Human-Robot Interaction],[#strong[Research Interests:] Physics-Based Simulation, Human-Robot Interaction, Machine Learning, Foundation Models],)
+    #v(design-highlights-top-margin);#highlights([#strong[导师：] 洪伟德教授\(Prof Ang Wei Tech\)],[#strong[拟定论文题目：] 通过精确的人机闭环仿真，加速辅助机器人的发展],[#strong[研究方向：] 基于物理的仿真、人机交互、机器学习、基础模型，大语言模型],)
   ],
   inset: (
     left: design-entries-left-and-right-margin,
@@ -497,9 +497,9 @@
 // YES DATE, NO DEGREE
 #two-col-entry(
   left-content: [
-    #link("https://www.ntu.edu.sg/")[#strong[南洋理工大学]], Singapore
+    #link("https://www.ntu.edu.sg/")[#strong[南洋理工大学]], 新加坡
 
-#strong[BE in Mechanical Engineering with a Specialization in Robotics and Mechatronics]
+#strong[本科 in 机械工程（机器人与机电一体化方向）]
   ],
   right-content: [
     Aug 2017 – May 2021
@@ -508,7 +508,7 @@
 #block(
   [
     #set par(spacing: 0pt)
-    #v(design-highlights-top-margin);#highlights([#strong[GPA:] 4.84\/5.00, Dean's List for 2017\/2018],[#strong[Awards:] Nanyang Scholarship],)
+    #v(design-highlights-top-margin);#highlights([#strong[绩点:] 4.84\/5.00, 学年入选院长名单 \(Dean's List\) 2017\/2018],[#strong[奖项:] 南洋奖学金 \(Nanyang Scholarship\)],)
   ],
   inset: (
     left: design-entries-left-and-right-margin,
@@ -610,6 +610,21 @@
 == Publications
 
 
+#two-col-entry(
+  left-content: [
+    #strong[ORBiT: Optimizing Robot-Assisted Bite Transfer Leveraging a Real2Sim2Real Framework]
+
+  ],
+  right-content: [
+    Oct 2025
+  ],
+)
+#one-col-entry(content:[
+  #v(design-highlights-top-margin);#strong[#emph[Sherwin Stephen Chan]], J Anne Yow, Yi Heng San, Vasanthamaran Ravichandram, Yifan Wang, Lek Syn Lim, Wei Tech Ang
+
+#v(design-highlights-top-margin - design-text-leading)IEEE\/RSJ International Conference on Intelligent Robots and Systems \(IROS\)])
+
+#v(design-entries-vertical-space-between-entries)
 #two-col-entry(
   left-content: [
     #strong[A Human-In-The-Loop Simulation Framework for Evaluating Control Strategies in Gait Assistive Robots]
