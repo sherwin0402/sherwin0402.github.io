@@ -479,7 +479,7 @@
 #strong[Ph.D. in Mechanical Engineering]
   ],
   right-content: [
-    Sept 2021 -- Aug 2025 \(Expected\)
+    Sept 2021 -- Feb 2026 \(Expected\)
   ],
 )
 #block(
