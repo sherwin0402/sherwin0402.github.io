@@ -14,7 +14,7 @@ I am a final-year Ph.D. student at NTU, Singapore, advised by Prof. Ang Wei Tech
 
 ## [Nanyang Technological University](https://www.ntu.edu.sg/), Ph.D. in Mechanical Engineering
 
-- Sept 2021 -- Aug 2025 (Expected)
+- Sept 2021 -- Feb 2026 (Expected)
 - Singapore
 - **Supervisor:** Prof Ang Wei Tech
 - **Proposed Dissertation:** Accelerating the Development of Assistive Robotics through Accurate Human-In-The-Loop Robotic Simulation of Physical Human-Robot Interaction
