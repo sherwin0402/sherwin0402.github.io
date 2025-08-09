@@ -453,6 +453,7 @@
 #let connections-list = (
   [#fa-icon("location-dot", size: 0.9em) #h(0.05cm)Singapore],
   [#box(original-link("mailto:sherwin0402@gmail.com")[#fa-icon("envelope", size: 0.9em) #h(0.05cm)sherwin0402\@gmail.com])],
+  [#box(original-link("tel:+65-9765-6780")[#fa-icon("phone", size: 0.9em) #h(0.05cm)9765 6780])],
   [#box(original-link("https://sherwin0402.github.io/")[#fa-icon("link", size: 0.9em) #h(0.05cm)sherwin0402.github.io])],
   [#box(original-link("https://linkedin.com/in/sherwin-chan")[#fa-icon("linkedin", size: 0.9em) #h(0.05cm)sherwin-chan])],
 )
@@ -460,11 +461,11 @@
 
 
 
-== About Me
+== Summary
 
 
 #one-col-entry(
-  content: [I am a final-year Ph.D. student at NTU, Singapore, advised by Prof. Ang Wei Tech, specializing in physics-based simulation of physical human-robot interaction for assistive and rehabilitative devices. I use MuJoCo as my primary platform to build realistic digital twins with skeletal, musculoskeletal, and soft-body models and design Real2Sim2Real frameworks for personalised robotic controller. My work bridges simulation-driven machine learning afor safe and intuitive HRI strategies to develop intelligent, physically interactive systems. I am currently exploring the use of foundation models and large language models to improve the fidelity of human-robot interaction in simulation.]
+  content: [Final-year Ph.D. student at NTU \(expected completion Feb 2026\) specializing in physics-based simulation of pHRI for assistive and rehabilitative devices. Develops realistic digital twins and personalized controllers using MuJoCo and Real2Sim2Real frameworks, bridging simulation-driven ML for safe, intuitive HRI. Currently exploring foundation models and LLMs to enhance fidelity and adaptability of HRI in simulation.]
 )
 
 
@@ -476,16 +477,16 @@
   left-content: [
     #link("https://www.ntu.edu.sg/")[#strong[Nanyang Technological University]], Singapore
 
-#strong[Ph.D. in Mechanical Engineering]
+#strong[#strong[Ph.D.] in #strong[Mechanical Engineering]]
   ],
   right-content: [
-    Sept 2021 -- Feb 2026 \(Expected\)
+    Aug 2021 -- Feb 2026 \(Expected\)
   ],
 )
 #block(
   [
     #set par(spacing: 0pt)
-    #v(design-highlights-top-margin);#highlights([#strong[Supervisor:] Prof Ang Wei Tech],[#strong[Proposed Dissertation:] Accelerating the Development of Assistive Robotics through Accurate Human-In-The-Loop Robotic Simulation of Physical Human-Robot Interaction],[#strong[Research Interests:] Physics-Based Simulation, Human-Robot Interaction, Machine Learning, Foundation Models, Large Language Models],)
+    #v(design-highlights-top-margin);#highlights([#strong[Advisor:] Prof Ang Wei Tech],[#strong[Proposed Dissertation:] Human-in-the-Loop Simulation for Adaptive Assistive Robots: Personalising Human Models and Robot Control],[#strong[Research Interests:] Physics-Based Simulation, Human-Robot Interaction, Machine Learning, Foundation Models, Large Language Models],)
   ],
   inset: (
     left: design-entries-left-and-right-margin,
@@ -499,7 +500,7 @@
   left-content: [
     #link("https://www.ntu.edu.sg/")[#strong[Nanyang Technological University]], Singapore
 
-#strong[BE in Mechanical Engineering with a Specialization in Robotics and Mechatronics]
+#strong[#strong[B.E.] in #strong[Mechanical Engineering] with a Specialization in Robotics and Mechatronics]
   ],
   right-content: [
     Aug 2017 – May 2021
@@ -533,7 +534,7 @@
   content: [
     #two-col(left-column-width: design-highlights-summary-left-margin, right-column-width: 1fr, left-content: [], right-content: [#v(design-highlights-top-margin);#align(left, [A simulation framework for physical human-robot interaction \(pHRI\) investigation to personalise robotic systems.])], column-gutter: 0cm)
 
-#v(-design-text-leading)  #v(design-highlights-top-margin);#highlights([Developed a human-in-the-loop simulation framework for assistive robotics, featuring personalized digital twins with varying abilities and disabilities. The pipeline incorporates skeletal, musculoskeletal, and soft body models, using reinforcement learning to simulate diverse human capabilities and enable realistic, adaptive testing of robotic systems.],[Designed and validated a Real2Sim2Real framework to personalize robotic controllers based on individual user characteristics, enabling improved pHRI through simulation-informed adaptation and real-world testing.],[Investigating various human-robot interaction modalities in simulation, including soft body dynamics, mass-spring-damper models, and other methods to accurately represent physical interactions.],[Simulated a range of assistive robotic systems - including robot-assisted feeding arms, lower limb and upper limb exoskeletons, gait assistive robots, using MuJoCo.],)
+#v(-design-text-leading)  #v(design-highlights-top-margin);#highlights([Led the development of a human-in-the-loop simulation framework for assistive robotics, featuring personalized digital twins with varying abilities and disabilities. The pipeline incorporates skeletal, musculoskeletal, and soft body models, using reinforcement learning to simulate diverse human capabilities and enable realistic, adaptive testing of robotic systems.],[Designed and validated a Real2Sim2Real framework to personalize robotic controllers for robot-assisted feeding and gait-assistive robots, enabling improved pHRI through simulation-informed adaptation and real-world testing.],[Investigated various human-robot interaction modalities in simulation, including soft body interaction dynamics, mass-spring-damper models, and other methods to accurately represent physical interactions.],)
   ],
 )
 
@@ -550,7 +551,7 @@
   content: [
     #two-col(left-column-width: design-highlights-summary-left-margin, right-column-width: 1fr, left-content: [], right-content: [#v(design-highlights-top-margin);#align(left, [Vision-guided mobile third arm co-bot for patient transfers between bed and wheelchair.])], column-gutter: 0cm)
 
-#v(-design-text-leading)  #v(design-highlights-top-margin);#highlights([Developed a mobile third arm robot that assists caregivers for moderate assisted pivot transfer between the bed and wheelchair.],[Implemented a human-tracking computer vision algorithm to perform user following],[Developed human-robot interaction strategies for safe and intuitive operation of the mobile third arm robot between caregiver, patient and mobile third arm robot.],)
+#v(-design-text-leading)  #v(design-highlights-top-margin);#highlights([Designed and developed a complete mobile third arm robot to assist caregivers in moderate assisted pivot transfers between a bed and wheelchair, covering mechanical design, electronics integration, and control systems.],[Implemented a human-tracking computer vision algorithm and developed human-robot interaction strategies to enable safe, intuitive operation between the caregiver, patient, and mobile third arm robot.],)
   ],
 )
 
@@ -567,7 +568,7 @@
   content: [
     #two-col(left-column-width: design-highlights-summary-left-margin, right-column-width: 1fr, left-content: [], right-content: [#v(design-highlights-top-margin);#align(left, [3D printed underwater robotic manipulator for object grasping.])], column-gutter: 0cm)
 
-#v(-design-text-leading)  #v(design-highlights-top-margin);#highlights([Designed and 3D printed a robotic manipulator for an autonomous underwater vehicle to grasp objects from the pool floor.],[Created a bio-inspired flexible hull structure that deforms with depth to enhance rigidity while reducing weight.],[Conducted finite element analysis to optimize both manipulator and hull designs for strength, hydrodynamic performance, and operational depth.],)
+#v(-design-text-leading)  #v(design-highlights-top-margin);#highlights([Designed and 3D printed a bio-inspired underwater robotic manipulator and flexible hull structure for an autonomous underwater vehicle, enabling object grasping and enhanced rigidity with reduced weight at depth.],[Performed finite element analysis to optimize manipulator and hull designs for strength, hydrodynamic performance, and operational depth.],)
   ],
 )
 
@@ -586,7 +587,7 @@
 )
 #one-col-entry(
   content: [
-    #v(design-highlights-top-margin);#highlights([Spearheaded the Human-In-The-Loop Robotic Simulator project, focusing on developing a platform that combines realistic human digital twins with assistive robots for human-in-the-loop simulations.],[Mentored seven undergraduate students on final year projects, guiding them through the research process and providing technical support.],[Assisted in preparing funding proposals to support current and future projects of the institute.],)
+    #v(design-highlights-top-margin);#highlights([Spearheaded the Human-In-The-Loop Robotic Simulator project, focusing on developing a platform that combines realistic human digital twins with assistive robots for human-in-the-loop simulations.],[Mentored seven final-year project students and collaborated with cross-functional research teams, including biomechanics experts, therapists, engineers, and research leads, to advance the development and application of the simulator.],[Prepared funding proposals ranging from small grants of SGD 200K to large multi-institutional proposals of over SGD 3 million \(currently under review\) to support ongoing and upcoming research initiatives.],)
   ],
 )
 
@@ -667,7 +668,7 @@
 #one-col-entry(content:[
   #v(design-highlights-top-margin);Kum Yew Loke, #strong[#emph[Sherwin Stephen Chan]], Mingyuan Lei, Henry Johan, Bingran Zuo, Wei Tech Ang
 
-#v(design-highlights-top-margin - design-text-leading)International Conference on Social Robotics])
+#v(design-highlights-top-margin - design-text-leading)International Conference on Social Robotics \(ICSR\)])
 
 #v(design-entries-vertical-space-between-entries)
 #two-col-entry(
@@ -683,21 +684,6 @@
   #v(design-highlights-top-margin);#strong[#emph[Sherwin Stephen Chan]], Mingyuan Lei, Henry Johan, Wei Tech Ang
 
 #v(design-highlights-top-margin - design-text-leading)IEEE International Conference on Rehabilitation Robotics \(ICORR\)])
-
-#v(design-entries-vertical-space-between-entries)
-#two-col-entry(
-  left-content: [
-    #strong[Investigation of Modeling Differences between OpenSim and Visual3D for Gait Analysis of Healthy Gait]
-
-  ],
-  right-content: [
-    Aug 2023
-  ],
-)
-#one-col-entry(content:[
-  #v(design-highlights-top-margin);Beth Eng Wan Xuan, #strong[#emph[Sherwin Stephen Chan]], Henry Johan, Lek Syn Lim, Bingran Zuo, Wei Tech Ang
-
-#v(design-highlights-top-margin - design-text-leading)International Convention on Rehabilitation Engineering and Assistive Technology])
 
 
 

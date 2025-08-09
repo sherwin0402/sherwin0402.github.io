@@ -453,6 +453,7 @@
 #let connections-list = (
   [#fa-icon("location-dot", size: 0.9em) #h(0.05cm)新加坡 | 微信: chenjianyi0402],
   [#box(original-link("mailto:sherwin0402@gmail.com")[#fa-icon("envelope", size: 0.9em) #h(0.05cm)sherwin0402\@gmail.com])],
+  [#box(original-link("tel:+65-9765-6780")[#fa-icon("phone", size: 0.9em) #h(0.05cm)9765 6780])],
   [#box(original-link("https://sherwin0402.github.io/")[#fa-icon("link", size: 0.9em) #h(0.05cm)sherwin0402.github.io])],
   [#box(original-link("https://linkedin.com/in/sherwin-chan")[#fa-icon("linkedin", size: 0.9em) #h(0.05cm)sherwin-chan])],
 )
@@ -460,11 +461,11 @@
 
 
 
-== 自我介绍
+== 概要
 
 
 #one-col-entry(
-  content: [我是一名新加坡南洋理工大学（NTU）的博士毕业年学生，在洪伟德教授（Prof. Ang Wei Tech）指导下，专注于辅助与康复设备中的物理人机交互仿真研究。我主要使用 MuJoCo 平台，构建融合骨骼、肌肉骨骼与软体模型的数字人体，并设计 Real2Sim2Real 框架，实现个性化机器人控制策略。我的研究结合仿真驱动的机器学习，旨在开发安全直观的交互策略，推动智能物理交互系统的发展。目前，我也在探索将基础模型与大语言模型（Foundation & Large Language Models）融入仿真中，以提升人机交互的真实性、理解能力与泛化性。]
+  content: [南洋理工大学（NTU）博士毕业年学生（预计2026年2月毕业），专注于辅助与康复设备的物理人机交互仿真。使用 MuJoCo 与 Real2Sim2Real 框架开发真实感数字人体与个性化控制器，结合仿真驱动的机器学习实现安全、直观的人机交互。目前正探索将基础模型与大语言模型（Foundation Models 与 LLMs）融入仿真，以提升人机交互的真实性与适应性。]
 )
 
 
@@ -476,7 +477,7 @@
   left-content: [
     #link("https://www.ntu.edu.sg/")[#strong[南洋理工大学]], 新加坡
 
-#strong[博士 -- 机械工程]
+#strong[#strong[博士] -- #strong[机械工程]]
   ],
   right-content: [
     2021年9月 -- 2026年2月\(预计\)
@@ -485,7 +486,7 @@
 #block(
   [
     #set par(spacing: 0pt)
-    #v(design-highlights-top-margin);#highlights([#strong[导师：] 洪伟德教授\(Prof Ang Wei Tech\)],[#strong[拟定论文题目：] 通过精确的人机闭环仿真，加速辅助机器人的发展],[#strong[研究方向：] 基于物理的仿真、人机交互、机器学习、基础模型，大语言模型],)
+    #v(design-highlights-top-margin);#highlights([#strong[导师：] 洪伟德教授 \(Prof Ang Wei Tech\)],[#strong[拟定论文题目：] 通过精确的人机闭环仿真，加速辅助机器人的发展],[#strong[研究方向：] 基于物理的仿真、人机交互、机器学习、基础模型，大语言模型],)
   ],
   inset: (
     left: design-entries-left-and-right-margin,
@@ -499,7 +500,7 @@
   left-content: [
     #link("https://www.ntu.edu.sg/")[#strong[南洋理工大学]], 新加坡
 
-#strong[本科 -- 机械工程（机器人与机电一体化方向）]
+#strong[#strong[本科] -- #strong[机械工程]（机器人与机电一体化方向）]
   ],
   right-content: [
     2017年8月 -- 2021年5月
@@ -533,7 +534,7 @@
   content: [
     #two-col(left-column-width: design-highlights-summary-left-margin, right-column-width: 1fr, left-content: [], right-content: [#v(design-highlights-top-margin);#align(left, [一个用于物理人机交互（pHRI）研究的仿真框架，以实现机器人系统的个性化。])], column-gutter: 0cm)
 
-#v(-design-text-leading)  #v(design-highlights-top-margin);#highlights([开发了一套用于辅助机器人研究的人机闭环仿真框架，支持构建具备不同能力与障碍的个性化数字人体。该流程集成了骨骼、肌肉骨骼与软体模型，并使用强化学习模拟多样化的人体能力，实现真实、可适应的交互测试。],[设计并验证了 Real2Sim2Real 框架，依据个体用户特征个性化调整机器人控制器，通过仿真辅助实现更优的物理人机交互，并可在现实中进行验证。],[在仿真中探索多种人机交互建模方式，包括软体动力学、质量-弹簧-阻尼系统等，以准确还原物理交互特性。],[使用 MuJoCo 平台模拟多种辅助机器人系统，包括机器人辅助喂食机械臂、上下肢外骨骼、步态辅助机器人等。],)
+#v(-design-text-leading)  #v(design-highlights-top-margin);#highlights([主导开发了一套用于辅助机器人研究的人机闭环仿真框架，具备可个性化调整的数字人体模型，涵盖骨骼、肌肉骨骼与软体模型，并结合强化学习模拟不同人类能力，实现真实且可自适应的交互测试。],[设计并验证了 Real2Sim2Real 框架，用于个性化调整机器人控制器，已应用于机器人辅助喂食与步态辅助机器人，实现基于仿真的优化并在现实中验证。],[研究了多种人机交互建模方法，包括软体交互动力学、质量-弹簧-阻尼模型等，以更准确地再现物理交互特性。],)
   ],
 )
 
@@ -550,7 +551,7 @@
   content: [
     #two-col(left-column-width: design-highlights-summary-left-margin, right-column-width: 1fr, left-content: [], right-content: [#v(design-highlights-top-margin);#align(left, [一种用于病患从床到轮椅转移的视觉引导型移动第三机械臂协作机器人。])], column-gutter: 0cm)
 
-#v(-design-text-leading)  #v(design-highlights-top-margin);#highlights([开发了一款移动式第三机械臂机器人，协助护理人员完成从床到轮椅的中度辅助枢轴转移操作。],[实现了基于计算机视觉的人体追踪算法，用于跟随用户行动。],[设计了人与机器人之间的交互策略，确保在护理人员、病患与机械臂之间的协作过程中操作直观且安全。],)
+#v(-design-text-leading)  #v(design-highlights-top-margin);#highlights([设计并开发了一套完整的移动式第三机械臂机器人，用于协助护理人员完成从床到轮椅的中度辅助枢轴转移，涵盖机械设计、电子集成与控制系统。],[实现了基于计算机视觉的人体追踪算法，并设计了人机交互策略，以确保在护理人员、病患与机械臂之间的协作过程安全且直观。],)
   ],
 )
 
@@ -567,7 +568,7 @@
   content: [
     #two-col(left-column-width: design-highlights-summary-left-margin, right-column-width: 1fr, left-content: [], right-content: [#v(design-highlights-top-margin);#align(left, [采用3D打印技术制造的水下机械臂，用于抓取水池底部的物体。])], column-gutter: 0cm)
 
-#v(-design-text-leading)  #v(design-highlights-top-margin);#highlights([为自主水下航行器设计并3D打印了水下机械臂，用于抓取水池底部的物体。],[设计了一种仿生柔性艇体结构，能随着水深变化变形，以增强刚性并降低整体重量。],[进行了有限元分析，优化机械臂与艇体结构的强度、水动力性能及最大工作深度。],)
+#v(-design-text-leading)  #v(design-highlights-top-margin);#highlights([设计并3D打印了一款仿生水下机械臂与柔性艇体结构，适用于自主水下航行器，实现物体抓取并在减轻重量的同时增强深水刚性。],[进行有限元分析以优化机械臂与艇体的强度、水动力性能及工作深度。],)
   ],
 )
 
@@ -586,7 +587,7 @@
 )
 #one-col-entry(
   content: [
-    #v(design-highlights-top-margin);#highlights([主导人机闭环仿真平台项目，开发结合高保真人体数字模型与辅助机器人的仿真平台，用于研究人机交互。],[指导7名本科生完成毕业设计，协助其进行研究工作并提供技术支持。],[协助撰写研究资金提案，支持研究院当前及未来项目的发展。],)
+    #v(design-highlights-top-margin);#highlights([主导人机闭环仿真平台项目，开发结合高保真人体数字模型与辅助机器人的仿真平台，用于研究人机交互。],[指导7名本科毕业设计学生，并与跨学科团队（生物力学专家、治疗师、工程师、研究负责人等）合作，推进仿真平台的开发与应用。],[撰写金额从20万新元至超过300万新元的大型多机构研究资金提案（目前处于评审阶段），以支持正在进行及即将开展的科研项目。],)
   ],
 )
 
