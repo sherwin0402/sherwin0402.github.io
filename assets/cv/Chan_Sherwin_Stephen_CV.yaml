@@ -2,7 +2,7 @@ cv:
   name: Chan Sherwin Stephen
   location: Singapore
   email: sherwin0402@gmail.com
-  phone: +65-97656780
+  # phone: +65-97656780
   website: https://sherwin0402.github.io/
   social_networks:
     - network: LinkedIn
@@ -11,7 +11,7 @@ cv:
     #   username: sherwin0402
   sections:
     Summary:
-      - Final-year Ph.D. student at NTU (expected completion Feb 2026) specializing in physics-based simulation of pHRI for assistive and rehabilitative devices. Develops realistic digital twins and personalized controllers using MuJoCo and Real2Sim2Real frameworks, bridging simulation-driven ML for safe, intuitive HRI. Currently exploring foundation models and LLMs to enhance fidelity and adaptability of HRI in simulation.
+      - Final-year Ph.D. student at NTU (expected completion Feb 2026) specializing in physics-based simulation of physical human–robot interaction (pHRI) for assistive and rehabilitative devices. Develops realistic digital human twins and personalized controllers in MuJoCo within a Real2Sim2Real workflow to study safe, intuitive HRI. Currently exploring foundation models and LLMs to improve simulation fidelity and adaptability.
     education:
       - institution: '[Nanyang Technological University](https://www.ntu.edu.sg/)'
         area: '**Mechanical Engineering**'
@@ -154,8 +154,8 @@ cv:
       - label: Programming Languages
         details: Python, C++, C
       - label: Robotics
-        details: MuJoCo, OpenSim, Machine Learning, Reinforcement Learning, IsaacLabs, ROS, SolidWorks, SolidEdge, STM32, ESP32, Linux
-      - label: Languages
+        details: MuJoCo, OpenSim, Reinforcement Learning, Machine Learning (PyTorch, TensorFlow), Isaac Lab (Gym), ROS, SolidWorks, SolidEdge, STM32, ESP32, Linux
+      - label: Spoken Languages
         details: English, Chinese, Hokkien (Dialect), Tagalog
     # Other Projects:
     #   - name: Dyson-NTU Innovation Challenge
