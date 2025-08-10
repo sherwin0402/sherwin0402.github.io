@@ -453,7 +453,6 @@
 #let connections-list = (
   [#fa-icon("location-dot", size: 0.9em) #h(0.05cm)Singapore],
   [#box(original-link("mailto:sherwin0402@gmail.com")[#fa-icon("envelope", size: 0.9em) #h(0.05cm)sherwin0402\@gmail.com])],
-  [#box(original-link("tel:+65-9765-6780")[#fa-icon("phone", size: 0.9em) #h(0.05cm)9765 6780])],
   [#box(original-link("https://sherwin0402.github.io/")[#fa-icon("link", size: 0.9em) #h(0.05cm)sherwin0402.github.io])],
   [#box(original-link("https://linkedin.com/in/sherwin-chan")[#fa-icon("linkedin", size: 0.9em) #h(0.05cm)sherwin-chan])],
 )
@@ -465,7 +464,7 @@
 
 
 #one-col-entry(
-  content: [Final-year Ph.D. student at NTU \(expected completion Feb 2026\) specializing in physics-based simulation of pHRI for assistive and rehabilitative devices. Develops realistic digital twins and personalized controllers using MuJoCo and Real2Sim2Real frameworks, bridging simulation-driven ML for safe, intuitive HRI. Currently exploring foundation models and LLMs to enhance fidelity and adaptability of HRI in simulation.]
+  content: [Final-year Ph.D. student at NTU \(expected completion Feb 2026\) specializing in physics-based simulation of physical human–robot interaction \(pHRI\) for assistive and rehabilitative devices. Develops realistic digital human twins and personalized controllers in MuJoCo within a Real2Sim2Real workflow to study safe, intuitive HRI. Currently exploring foundation models and LLMs to improve simulation fidelity and adaptability.]
 )
 
 
@@ -695,11 +694,11 @@
 )
 #v(design-entries-vertical-space-between-entries)
 #one-col-entry(
-  content: [#strong[Robotics:] MuJoCo, OpenSim, Machine Learning, Reinforcement Learning, IsaacLabs, ROS, SolidWorks, SolidEdge, STM32, ESP32, Linux]
+  content: [#strong[Robotics:] MuJoCo, OpenSim, Reinforcement Learning, Machine Learning \(PyTorch, TensorFlow\), Isaac Lab \(Gym\), ROS, SolidWorks, SolidEdge, STM32, ESP32, Linux]
 )
 #v(design-entries-vertical-space-between-entries)
 #one-col-entry(
-  content: [#strong[Languages:] English, Chinese, Hokkien \(Dialect\), Tagalog]
+  content: [#strong[Spoken Languages:] English, Chinese, Hokkien \(Dialect\), Tagalog]
 )
 
 
