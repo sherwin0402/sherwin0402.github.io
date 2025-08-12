@@ -53,12 +53,12 @@ cv:
         highlights:
           - 'Designed and developed a complete mobile third arm robot to assist caregivers in moderate assisted pivot transfers between a bed and wheelchair, covering mechanical design, electronics integration, and control systems.'
           - 'Implemented a human-tracking computer vision algorithm and developed human-robot interaction strategies to enable safe, intuitive operation between the caregiver, patient, and mobile third arm robot.'
-      - name: 'Design and Analysis of Underwater Robotic Systems'
-        date: 2018 -- 2019
-        summary: 3D printed underwater robotic manipulator for object grasping.
-        highlights:
-          - Designed and 3D printed a bio-inspired underwater robotic manipulator and flexible hull structure for an autonomous underwater vehicle, enabling object grasping and enhanced rigidity with reduced weight at depth.
-          - Performed finite element analysis to optimize manipulator and hull designs for strength, hydrodynamic performance, and operational depth.
+      # - name: 'Design and Analysis of Underwater Robotic Systems'
+      #   date: 2018 -- 2019
+      #   summary: 3D printed underwater robotic manipulator for object grasping.
+      #   highlights:
+      #     - Designed and 3D printed a bio-inspired underwater robotic manipulator and flexible hull structure for an autonomous underwater vehicle, enabling object grasping and enhanced rigidity with reduced weight at depth.
+      #     - Performed finite element analysis to optimize manipulator and hull designs for strength, hydrodynamic performance, and operational depth.
     Work experience:
       - company: Nanyang Technological University, Singapore
         position: Project Officer
@@ -89,7 +89,7 @@ cv:
       #     - Aided in quality control of machine parts by performing CMM tests to ensure dimensional accuracy. 
       #     - Planned and engaged in business negotiations with Engel, KraussMaffei, Grob and Makino Milling Machine Co. Ltd. 
       #     - Assisted in acceptance check of a flexible manufacturing system production line worth RMB 3 million from StarragHeckert.
-    Publications:
+    Selected Publications:
       - title: "ORBiT: Optimizing Robot-Assisted Bite Transfer Leveraging a Real2Sim2Real Framework"
         authors:
           - '***Sherwin Stephen Chan†***'
@@ -112,16 +112,16 @@ cv:
           - Wei Tech Ang
         journal: 'IEEE International Conference on Robotics and Automation (ICRA), † Denotes equal contribution'
         date: 2025-05
-      - title: Simulating Safe Bite Transfer in Robot-Assisted Feeding with a Soft Head and Articulated Jaw
-        authors:
-          - Yi Heng San†
-          - Vasanthamaran Ravichandram†
-          - J Anne Yow†
-          - '***Sherwin Stephen Chan†***'
-          - Yifan Wang
-          - Wei Tech Ang
-        journal: 'IEEE International Conference on Rehabilitation Robotics (ICORR), † Denotes equal contribution'
-        date: 2025-05
+      # - title: Simulating Safe Bite Transfer in Robot-Assisted Feeding with a Soft Head and Articulated Jaw
+      #   authors:
+      #     - Yi Heng San†
+      #     - Vasanthamaran Ravichandram†
+      #     - J Anne Yow†
+      #     - '***Sherwin Stephen Chan†***'
+      #     - Yifan Wang
+      #     - Wei Tech Ang
+      #   journal: 'IEEE International Conference on Rehabilitation Robotics (ICORR), † Denotes equal contribution'
+      #   date: 2025-05
       - title: Personalised 3D Human Digital Twin with Soft-Body Feet for Walking Simulation
         authors:
           - Kum Yew Loke
@@ -157,6 +157,26 @@ cv:
         details: MuJoCo, OpenSim, Reinforcement Learning, Machine Learning (PyTorch, TensorFlow), Isaac Lab (Gym), ROS, SolidWorks, SolidEdge, STM32, ESP32, Linux
       - label: Spoken Languages
         details: English, Chinese, Hokkien (Dialect), Tagalog
+    Awards and Achievements:
+      - name: 'Dyson-NTU Innovation Challenge'
+        date: 2021-04 -- 2021-09
+        location: Singapore
+        summary: Won 1st place in the annual innovation challenge organized by NTUitive.
+        highlights:
+          - 'Awarded SGD 10,000 MDT grant to prototype a innovative smart planter to address urban gardening challenges'
+      - name: 'OEP Pitch Day Award'
+        date: 2020-09 -- 2021-02
+        location: Singapore
+        summary: Founded HortiCole startup and secured funding for IoT agricultural solution.
+        highlights:
+          - 'Awarded SGD 5,000 to develop a low-cost, modular IoT planter system with alpha prototype in 6 months'
+          - 'Conducted market research and received strong market validation of 64.5% from 400 participants'
+      - name: 'SMRT-NTU Innovation Challenge Finalist'
+        date: 2019-03 -- 2019-04
+        location: Singapore
+        summary: Finalist for innovation challenge to devise inspection solutions for railway infrastructure.
+        highlights:
+          - 'Developed solution for inspection of rubber bearings and first stage concrete located under floating slab'
     # Other Projects:
     #   - name: Dyson-NTU Innovation Challenge
     #     start_date: 2021-04

@@ -453,7 +453,6 @@
 #let connections-list = (
   [#fa-icon("location-dot", size: 0.9em) #h(0.05cm)新加坡 | 微信: chenjianyi0402],
   [#box(original-link("mailto:sherwin0402@gmail.com")[#fa-icon("envelope", size: 0.9em) #h(0.05cm)sherwin0402\@gmail.com])],
-  [#box(original-link("tel:+65-9765-6780")[#fa-icon("phone", size: 0.9em) #h(0.05cm)9765 6780])],
   [#box(original-link("https://sherwin0402.github.io/")[#fa-icon("link", size: 0.9em) #h(0.05cm)sherwin0402.github.io])],
   [#box(original-link("https://linkedin.com/in/sherwin-chan")[#fa-icon("linkedin", size: 0.9em) #h(0.05cm)sherwin-chan])],
 )
@@ -555,23 +554,6 @@
   ],
 )
 
-#v(design-entries-vertical-space-between-entries)
-#two-col-entry(
-  left-content: [
-    #strong[水下机器人系统的设计与分析\(Design and Analysis of Underwater Robotic Systems\)] 
-  ],
-  right-content: [
-    2018 -- 2019
-  ],
-)
-#one-col-entry(
-  content: [
-    #two-col(left-column-width: design-highlights-summary-left-margin, right-column-width: 1fr, left-content: [], right-content: [#v(design-highlights-top-margin);#align(left, [采用3D打印技术制造的水下机械臂，用于抓取水池底部的物体。])], column-gutter: 0cm)
-
-#v(-design-text-leading)  #v(design-highlights-top-margin);#highlights([设计并3D打印了一款仿生水下机械臂与柔性艇体结构，适用于自主水下航行器，实现物体抓取并在减轻重量的同时增强深水刚性。],[进行有限元分析以优化机械臂与艇体的强度、水动力性能及工作深度。],)
-  ],
-)
-
 
 
 == 工作经历
@@ -608,7 +590,7 @@
 
 
 
-== 出版物
+== 精选出版物
 
 
 #two-col-entry(
@@ -643,21 +625,6 @@
 #v(design-entries-vertical-space-between-entries)
 #two-col-entry(
   left-content: [
-    #strong[Simulating Safe Bite Transfer in Robot-Assisted Feeding with a Soft Head and Articulated Jaw]
-
-  ],
-  right-content: [
-    May 2025
-  ],
-)
-#one-col-entry(content:[
-  #v(design-highlights-top-margin);Yi Heng San†, Vasanthamaran Ravichandram†, J Anne Yow†, #strong[#emph[Sherwin Stephen Chan†]], Yifan Wang, Wei Tech Ang
-
-#v(design-highlights-top-margin - design-text-leading)IEEE International Conference on Rehabilitation Robotics \(ICORR\), † 贡献相同])
-
-#v(design-entries-vertical-space-between-entries)
-#two-col-entry(
-  left-content: [
     #strong[Personalised 3D Human Digital Twin with Soft-Body Feet for Walking Simulation]
 
   ],
@@ -685,20 +652,60 @@
 
 #v(design-highlights-top-margin - design-text-leading)IEEE International Conference on Rehabilitation Robotics \(ICORR\)])
 
+
+
+== 奖项与成就
+
+
+#two-col-entry(
+  left-content: [
+    #strong[Dyson-NTU创新挑战赛] -- #strong[新加坡]
+  ],
+  right-content: [
+    2021年4月 -- 2021年9月
+  ],
+)
+#one-col-entry(
+  content: [
+    #two-col(left-column-width: design-highlights-summary-left-margin, right-column-width: 1fr, left-content: [], right-content: [#v(design-highlights-top-margin);#align(left, [荣获由NTUitive主办的年度创新挑战赛第一名。])], column-gutter: 0cm)
+
+#v(-design-text-leading)  #v(design-highlights-top-margin);#highlights([获得新币10,000新币MDT资助，用于开发创新智能花盆原型以解决城市园艺挑战],)
+  ],
+)
+
 #v(design-entries-vertical-space-between-entries)
 #two-col-entry(
   left-content: [
-    #strong[Investigation of Modeling Differences between OpenSim and Visual3D for Gait Analysis of Healthy Gait]
-
+    #strong[OEP推介日奖项] -- #strong[新加坡]
   ],
   right-content: [
-    Aug 2023
+    2020年9月 -- 2021年2月
   ],
 )
-#one-col-entry(content:[
-  #v(design-highlights-top-margin);Beth Eng Wan Xuan, #strong[#emph[Sherwin Stephen Chan]], Henry Johan, Lek Syn Lim, Bingran Zuo, Wei Tech Ang
+#one-col-entry(
+  content: [
+    #two-col(left-column-width: design-highlights-summary-left-margin, right-column-width: 1fr, left-content: [], right-content: [#v(design-highlights-top-margin);#align(left, [创立HortiCole初创公司，获得物联网农业解决方案资助。])], column-gutter: 0cm)
 
-#v(design-highlights-top-margin - design-text-leading)International Convention on Rehabilitation Engineering and Assistive Technology])
+#v(-design-text-leading)  #v(design-highlights-top-margin);#highlights([获得新币5,000新币资助，用于开发低成本模块化物联网种植系统，并在6个月内完成原型],[进行市场调研，从400名参与者中获得64.5\%的强烈市场验证],)
+  ],
+)
+
+#v(design-entries-vertical-space-between-entries)
+#two-col-entry(
+  left-content: [
+    #strong[SMRT-NTU创新挑战赛入围者] -- #strong[新加坡]
+  ],
+  right-content: [
+    2019年3月 -- 2019年4月
+  ],
+)
+#one-col-entry(
+  content: [
+    #two-col(left-column-width: design-highlights-summary-left-margin, right-column-width: 1fr, left-content: [], right-content: [#v(design-highlights-top-margin);#align(left, [创新挑战赛入围者，为铁路基础设施检查设计解决方案。])], column-gutter: 0cm)
+
+#v(-design-text-leading)  #v(design-highlights-top-margin);#highlights([开发浮动板下橡胶轴承和一级混凝土检查解决方案],)
+  ],
+)
 
 
 

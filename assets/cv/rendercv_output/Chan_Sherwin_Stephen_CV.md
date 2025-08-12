@@ -42,12 +42,6 @@ Final-year Ph.D. student at NTU (expected completion Feb 2026) specializing in p
 - Designed and developed a complete mobile third arm robot to assist caregivers in moderate assisted pivot transfers between a bed and wheelchair, covering mechanical design, electronics integration, and control systems.
 - Implemented a human-tracking computer vision algorithm and developed human-robot interaction strategies to enable safe, intuitive operation between the caregiver, patient, and mobile third arm robot.
 
-## Design and Analysis of Underwater Robotic Systems
-
-- 2018 -- 2019
-- Designed and 3D printed a bio-inspired underwater robotic manipulator and flexible hull structure for an autonomous underwater vehicle, enabling object grasping and enhanced rigidity with reduced weight at depth.
-- Performed finite element analysis to optimize manipulator and hull designs for strength, hydrodynamic performance, and operational depth.
-
 # Work Experience
 
 ## Nanyang Technological University, Singapore, Project Officer
@@ -67,7 +61,7 @@ Final-year Ph.D. student at NTU (expected completion Feb 2026) specializing in p
 - Led an engineering team of 12 to implement testing and troubleshooting schedule to all farm sub-systems as lead test engineer to bring the world’s largest indoor strawberry vertical farm facility operational.
 - Evaluated 32 engineering candidates for engineering roles, mentored 19 new engineering technicians to improve mechanical and electrical skillsets and align with company working norms.
 
-# Publications
+# Selected Publications
 
 ## ORBiT: Optimizing Robot-Assisted Bite Transfer Leveraging a Real2Sim2Real Framework 
 - Oct 2025
@@ -78,11 +72,6 @@ Final-year Ph.D. student at NTU (expected completion Feb 2026) specializing in p
 - May 2025
 - Yifan Wang†, ***Sherwin Stephen Chan†***, Mingyuan Lei, Lek Syn Lim, Henry Johan, Bingran Zuo, Wei Tech Ang
 - IEEE International Conference on Robotics and Automation (ICRA), † Denotes equal contribution
-
-## Simulating Safe Bite Transfer in Robot-Assisted Feeding with a Soft Head and Articulated Jaw 
-- May 2025
-- Yi Heng San†, Vasanthamaran Ravichandram†, J Anne Yow†, ***Sherwin Stephen Chan†***, Yifan Wang, Wei Tech Ang
-- IEEE International Conference on Rehabilitation Robotics (ICORR), † Denotes equal contribution
 
 ## Personalised 3D Human Digital Twin with Soft-Body Feet for Walking Simulation 
 - Dec 2024
@@ -99,3 +88,24 @@ Final-year Ph.D. student at NTU (expected completion Feb 2026) specializing in p
 - Programming Languages: Python, C++, C
 - Robotics: MuJoCo, OpenSim, Reinforcement Learning, Machine Learning (PyTorch, TensorFlow), Isaac Lab (Gym), ROS, SolidWorks, SolidEdge, STM32, ESP32, Linux
 - Spoken Languages: English, Chinese, Hokkien (Dialect), Tagalog
+# Awards and Achievements
+
+## Dyson-NTU Innovation Challenge
+
+- 2021-04 -- 2021-09
+- Singapore
+- Awarded SGD 10,000 MDT grant to prototype a innovative smart planter to address urban gardening challenges
+
+## OEP Pitch Day Award
+
+- 2020-09 -- 2021-02
+- Singapore
+- Awarded SGD 5,000 to develop a low-cost, modular IoT planter system with alpha prototype in 6 months
+- Conducted market research and received strong market validation of 64.5% from 400 participants
+
+## SMRT-NTU Innovation Challenge Finalist
+
+- 2019-03 -- 2019-04
+- Singapore
+- Developed solution for inspection of rubber bearings and first stage concrete located under floating slab
+
