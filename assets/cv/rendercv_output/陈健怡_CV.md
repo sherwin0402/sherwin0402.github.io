@@ -1,6 +1,5 @@
 # 陈健怡's CV
 
-- Phone: +65 9765 6780
 - Email: [sherwin0402@gmail.com](mailto:sherwin0402@gmail.com)
 - Location: 新加坡 | 微信: chenjianyi0402
 - Website: [sherwin0402.github.io](https://sherwin0402.github.io/)
@@ -43,12 +42,6 @@
 - 设计并开发了一套完整的移动式第三机械臂机器人，用于协助护理人员完成从床到轮椅的中度辅助枢轴转移，涵盖机械设计、电子集成与控制系统。
 - 实现了基于计算机视觉的人体追踪算法，并设计了人机交互策略，以确保在护理人员、病患与机械臂之间的协作过程安全且直观。
 
-## 水下机器人系统的设计与分析(Design and Analysis of Underwater Robotic Systems)
-
-- 2018 -- 2019
-- 设计并3D打印了一款仿生水下机械臂与柔性艇体结构，适用于自主水下航行器，实现物体抓取并在减轻重量的同时增强深水刚性。
-- 进行有限元分析以优化机械臂与艇体的强度、水动力性能及工作深度。
-
 # 工作经历
 
 ## 南洋理工大学, 项目主管
@@ -68,7 +61,7 @@
 - 作为主测试工程师，带领12人工程团队制定测试与故障排查流程，成功推动全球最大草莓室内垂直农场投入运营。
 - 参与筛选32名工程职位候选人，并指导19位新进技术人员，提升其机械与电气技能，同时协助其融入公司工作规范。
 
-# 出版物
+# 精选出版物
 
 ## ORBiT: Optimizing Robot-Assisted Bite Transfer Leveraging a Real2Sim2Real Framework 
 - Oct 2025
@@ -80,11 +73,6 @@
 - Yifan Wang†, ***Sherwin Stephen Chan†***, Mingyuan Lei, Lek Syn Lim, Henry Johan, Bingran Zuo, Wei Tech Ang
 - IEEE International Conference on Robotics and Automation (ICRA), † 贡献相同
 
-## Simulating Safe Bite Transfer in Robot-Assisted Feeding with a Soft Head and Articulated Jaw 
-- May 2025
-- Yi Heng San†, Vasanthamaran Ravichandram†, J Anne Yow†, ***Sherwin Stephen Chan†***, Yifan Wang, Wei Tech Ang
-- IEEE International Conference on Rehabilitation Robotics (ICORR), † 贡献相同
-
 ## Personalised 3D Human Digital Twin with Soft-Body Feet for Walking Simulation 
 - Dec 2024
 - Kum Yew Loke, ***Sherwin Stephen Chan***, Mingyuan Lei, Henry Johan, Bingran Zuo, Wei Tech Ang
@@ -95,10 +83,26 @@
 - ***Sherwin Stephen Chan***, Mingyuan Lei, Henry Johan, Wei Tech Ang
 - IEEE International Conference on Rehabilitation Robotics (ICORR)
 
-## Investigation of Modeling Differences between OpenSim and Visual3D for Gait Analysis of Healthy Gait 
-- Aug 2023
-- Beth Eng Wan Xuan, ***Sherwin Stephen Chan***, Henry Johan, Lek Syn Lim, Bingran Zuo, Wei Tech Ang
-- International Convention on Rehabilitation Engineering and Assistive Technology
+# 奖项与成就
+
+## Dyson-NTU创新挑战赛
+
+- 2021年4月 -- 2021年9月
+- 新加坡
+- 获得新币10,000新币MDT资助，用于开发创新智能花盆原型以解决城市园艺挑战
+
+## OEP推介日奖项
+
+- 2020年9月 -- 2021年2月
+- 新加坡
+- 获得新币5,000新币资助，用于开发低成本模块化物联网种植系统，并在6个月内完成原型
+- 进行市场调研，从400名参与者中获得64.5%的强烈市场验证
+
+## SMRT-NTU创新挑战赛入围者
+
+- 2019年3月 -- 2019年4月
+- 新加坡
+- 开发浮动板下橡胶轴承和一级混凝土检查解决方案
 
 # 技能
 

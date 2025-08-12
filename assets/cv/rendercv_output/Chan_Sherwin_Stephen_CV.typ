@@ -554,23 +554,6 @@
   ],
 )
 
-#v(design-entries-vertical-space-between-entries)
-#two-col-entry(
-  left-content: [
-    #strong[Design and Analysis of Underwater Robotic Systems] 
-  ],
-  right-content: [
-    2018 -- 2019
-  ],
-)
-#one-col-entry(
-  content: [
-    #two-col(left-column-width: design-highlights-summary-left-margin, right-column-width: 1fr, left-content: [], right-content: [#v(design-highlights-top-margin);#align(left, [3D printed underwater robotic manipulator for object grasping.])], column-gutter: 0cm)
-
-#v(-design-text-leading)  #v(design-highlights-top-margin);#highlights([Designed and 3D printed a bio-inspired underwater robotic manipulator and flexible hull structure for an autonomous underwater vehicle, enabling object grasping and enhanced rigidity with reduced weight at depth.],[Performed finite element analysis to optimize manipulator and hull designs for strength, hydrodynamic performance, and operational depth.],)
-  ],
-)
-
 
 
 == Work Experience
@@ -607,7 +590,7 @@
 
 
 
-== Publications
+== Selected Publications
 
 
 #two-col-entry(
@@ -638,21 +621,6 @@
   #v(design-highlights-top-margin);Yifan Wang†, #strong[#emph[Sherwin Stephen Chan†]], Mingyuan Lei, Lek Syn Lim, Henry Johan, Bingran Zuo, Wei Tech Ang
 
 #v(design-highlights-top-margin - design-text-leading)IEEE International Conference on Robotics and Automation \(ICRA\), † Denotes equal contribution])
-
-#v(design-entries-vertical-space-between-entries)
-#two-col-entry(
-  left-content: [
-    #strong[Simulating Safe Bite Transfer in Robot-Assisted Feeding with a Soft Head and Articulated Jaw]
-
-  ],
-  right-content: [
-    May 2025
-  ],
-)
-#one-col-entry(content:[
-  #v(design-highlights-top-margin);Yi Heng San†, Vasanthamaran Ravichandram†, J Anne Yow†, #strong[#emph[Sherwin Stephen Chan†]], Yifan Wang, Wei Tech Ang
-
-#v(design-highlights-top-margin - design-text-leading)IEEE International Conference on Rehabilitation Robotics \(ICORR\), † Denotes equal contribution])
 
 #v(design-entries-vertical-space-between-entries)
 #two-col-entry(
@@ -700,5 +668,60 @@
 #one-col-entry(
   content: [#strong[Spoken Languages:] English, Chinese, Hokkien \(Dialect\), Tagalog]
 )
+
+
+== Awards and Achievements
+
+
+#two-col-entry(
+  left-content: [
+    #strong[Dyson-NTU Innovation Challenge] -- #strong[Singapore]
+  ],
+  right-content: [
+    2021-04 -- 2021-09
+  ],
+)
+#one-col-entry(
+  content: [
+    #two-col(left-column-width: design-highlights-summary-left-margin, right-column-width: 1fr, left-content: [], right-content: [#v(design-highlights-top-margin);#align(left, [Won 1st place in the annual innovation challenge organized by NTUitive.])], column-gutter: 0cm)
+
+#v(-design-text-leading)  #v(design-highlights-top-margin);#highlights([Awarded SGD 10,000 MDT grant to prototype a innovative smart planter to address urban gardening challenges],)
+  ],
+)
+
+#v(design-entries-vertical-space-between-entries)
+#two-col-entry(
+  left-content: [
+    #strong[OEP Pitch Day Award] -- #strong[Singapore]
+  ],
+  right-content: [
+    2020-09 -- 2021-02
+  ],
+)
+#one-col-entry(
+  content: [
+    #two-col(left-column-width: design-highlights-summary-left-margin, right-column-width: 1fr, left-content: [], right-content: [#v(design-highlights-top-margin);#align(left, [Founded HortiCole startup and secured funding for IoT agricultural solution.])], column-gutter: 0cm)
+
+#v(-design-text-leading)  #v(design-highlights-top-margin);#highlights([Awarded SGD 5,000 to develop a low-cost, modular IoT planter system with alpha prototype in 6 months],[Conducted market research and received strong market validation of 64.5\% from 400 participants],)
+  ],
+)
+
+#v(design-entries-vertical-space-between-entries)
+#two-col-entry(
+  left-content: [
+    #strong[SMRT-NTU Innovation Challenge Finalist] -- #strong[Singapore]
+  ],
+  right-content: [
+    2019-03 -- 2019-04
+  ],
+)
+#one-col-entry(
+  content: [
+    #two-col(left-column-width: design-highlights-summary-left-margin, right-column-width: 1fr, left-content: [], right-content: [#v(design-highlights-top-margin);#align(left, [Finalist for innovation challenge to devise inspection solutions for railway infrastructure.])], column-gutter: 0cm)
+
+#v(-design-text-leading)  #v(design-highlights-top-margin);#highlights([Developed solution for inspection of rubber bearings and first stage concrete located under floating slab],)
+  ],
+)
+
 
 
