@@ -676,7 +676,7 @@
 #v(design-entries-vertical-space-between-entries)
 #two-col-entry(
   left-content: [
-    #strong[OEP推介日奖项] -- #strong[新加坡]
+    #strong[Overseas Entrepreneurship Program \(OEP\)推介日奖项] -- #strong[新加坡]
   ],
   right-content: [
     2020年9月 -- 2021年2月
