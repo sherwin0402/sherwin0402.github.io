@@ -692,7 +692,7 @@
 #v(design-entries-vertical-space-between-entries)
 #two-col-entry(
   left-content: [
-    #strong[OEP Pitch Day Award] -- #strong[Singapore]
+    #strong[Overseas Entrepreneurship Program \(OEP\) Pitch Day Award] -- #strong[Singapore]
   ],
   right-content: [
     2020-09 -- 2021-02

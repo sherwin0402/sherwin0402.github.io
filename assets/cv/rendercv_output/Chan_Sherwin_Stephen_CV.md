@@ -96,7 +96,7 @@ Final-year Ph.D. student at NTU (expected completion Feb 2026) specializing in p
 - Singapore
 - Awarded SGD 10,000 MDT grant to prototype a innovative smart planter to address urban gardening challenges
 
-## OEP Pitch Day Award
+## Overseas Entrepreneurship Program (OEP) Pitch Day Award
 
 - 2020-09 -- 2021-02
 - Singapore
