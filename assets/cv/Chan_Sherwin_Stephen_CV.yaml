@@ -171,12 +171,12 @@ cv:
         highlights:
           - 'Awarded SGD 5,000 to develop a low-cost, modular IoT planter system with alpha prototype in 6 months'
           - 'Conducted market research and received strong market validation of 64.5% from 400 participants'
-      - name: 'SMRT-NTU Innovation Challenge Finalist'
-        date: 2019-03 -- 2019-04
-        location: Singapore
-        summary: Finalist for innovation challenge to devise inspection solutions for railway infrastructure.
-        highlights:
-          - 'Developed solution for inspection of rubber bearings and first stage concrete located under floating slab'
+      # - name: 'SMRT-NTU Innovation Challenge Finalist'
+      #   date: 2019-03 -- 2019-04
+      #   location: Singapore
+      #   summary: Finalist for innovation challenge to devise inspection solutions for railway infrastructure.
+      #   highlights:
+      #     - 'Developed solution for inspection of rubber bearings and first stage concrete located under floating slab'
     # Other Projects:
     #   - name: Dyson-NTU Innovation Challenge
     #     start_date: 2021-04
