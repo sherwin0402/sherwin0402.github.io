@@ -706,22 +706,5 @@
   ],
 )
 
-#v(design-entries-vertical-space-between-entries)
-#two-col-entry(
-  left-content: [
-    #strong[SMRT-NTU Innovation Challenge Finalist] -- #strong[Singapore]
-  ],
-  right-content: [
-    2019-03 -- 2019-04
-  ],
-)
-#one-col-entry(
-  content: [
-    #two-col(left-column-width: design-highlights-summary-left-margin, right-column-width: 1fr, left-content: [], right-content: [#v(design-highlights-top-margin);#align(left, [Finalist for innovation challenge to devise inspection solutions for railway infrastructure.])], column-gutter: 0cm)
-
-#v(-design-text-leading)  #v(design-highlights-top-margin);#highlights([Developed solution for inspection of rubber bearings and first stage concrete located under floating slab],)
-  ],
-)
-
 
 

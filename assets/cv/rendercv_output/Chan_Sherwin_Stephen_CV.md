@@ -103,9 +103,3 @@ Final-year Ph.D. student at NTU (expected completion Feb 2026) specializing in p
 - Awarded SGD 5,000 to develop a low-cost, modular IoT planter system with alpha prototype in 6 months
 - Conducted market research and received strong market validation of 64.5% from 400 participants
 
-## SMRT-NTU Innovation Challenge Finalist
-
-- 2019-03 -- 2019-04
-- Singapore
-- Developed solution for inspection of rubber bearings and first stage concrete located under floating slab
-
