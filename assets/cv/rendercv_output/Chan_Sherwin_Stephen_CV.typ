@@ -464,7 +464,7 @@
 
 
 #one-col-entry(
-  content: [Final-year Ph.D. student at NTU \(expected completion Feb 2026\) specializing in physics-based simulation of physical human–robot interaction \(pHRI\) for assistive and rehabilitative devices. Develops realistic digital human twins and personalized controllers in MuJoCo within a Real2Sim2Real workflow to study safe, intuitive HRI. Currently exploring foundation models and LLMs to improve simulation fidelity and adaptability.]
+  content: [Final-year Ph.D. student at NTU \(expected completion Feb 2026\) specializing in physics-based simulation of physical human–robot interaction \(pHRI\) for assistive robots. Develops realistic digital human twins and personalized controllers in MuJoCo within a Real2Sim2Real workflow to study safe, intuitive HRI. Currently building an Embodied AI data factory for scalable, high-fidelity teleop data that trains robust, generalizable VLA\/FM policies.]
 )
 
 
@@ -523,6 +523,21 @@
 
 #two-col-entry(
   left-content: [
+    #strong[Embodied AI Data Factory] 
+  ],
+  right-content: [
+    July 2025 – present
+  ],
+)
+#one-col-entry(
+  content: [
+    #v(design-highlights-top-margin);#highlights([Leading the development of a next-generation teleoperation framework for whole-body, dual-arm, and dexterous manipulation, optimised to lower operator cognitive load and preserve natural human motion.],[Building a scalable, end-to-end data generation pipeline that fuses markerless motion capture, multi-sensor perception, and real-time retargeting for both physical humanoids and simulated agents.],[Advancing methods to bridge the embodiment gap between human demonstrations and robot execution, enabling high-throughput collection of richly annotated datasets for training robust, foundation model–based vision-language-action \(VLA\) policies.],)
+  ],
+)
+
+#v(design-entries-vertical-space-between-entries)
+#two-col-entry(
+  left-content: [
     #strong[Human-In-The-Loop Robotic Simulator] 
   ],
   right-content: [
@@ -531,9 +546,7 @@
 )
 #one-col-entry(
   content: [
-    #two-col(left-column-width: design-highlights-summary-left-margin, right-column-width: 1fr, left-content: [], right-content: [#v(design-highlights-top-margin);#align(left, [A simulation framework for physical human-robot interaction \(pHRI\) investigation to personalise robotic systems.])], column-gutter: 0cm)
-
-#v(-design-text-leading)  #v(design-highlights-top-margin);#highlights([Led the development of a human-in-the-loop simulation framework for assistive robotics, featuring personalized digital twins with varying abilities and disabilities. The pipeline incorporates skeletal, musculoskeletal, and soft body models, using reinforcement learning to simulate diverse human capabilities and enable realistic, adaptive testing of robotic systems.],[Designed and validated a Real2Sim2Real framework to personalize robotic controllers for robot-assisted feeding and gait-assistive robots, enabling improved pHRI through simulation-informed adaptation and real-world testing.],[Investigated various human-robot interaction modalities in simulation, including soft body interaction dynamics, mass-spring-damper models, and other methods to accurately represent physical interactions.],)
+    #v(design-highlights-top-margin);#highlights([Led development of a human-in-the-loop simulation framework for assistive robotics, with personalized digital twins across abilities. The pipeline integrates skeletal, musculoskeletal, and soft-body models, using reinforcement learning to simulate diverse capabilities and enable realistic, adaptive robot testing.],[Designed and validated a Real2Sim2Real framework to personalize robotic controllers for robot-assisted feeding and gait-assistive robots, enabling improved pHRI through simulation-informed adaptation and real-world testing.],[Investigated various human-robot interaction modalities in simulation, including soft body interaction dynamics, mass-spring-damper models, and other methods to accurately represent physical interactions.],)
   ],
 )
 
@@ -548,9 +561,7 @@
 )
 #one-col-entry(
   content: [
-    #two-col(left-column-width: design-highlights-summary-left-margin, right-column-width: 1fr, left-content: [], right-content: [#v(design-highlights-top-margin);#align(left, [Vision-guided mobile third arm co-bot for patient transfers between bed and wheelchair.])], column-gutter: 0cm)
-
-#v(-design-text-leading)  #v(design-highlights-top-margin);#highlights([Designed and developed a complete mobile third arm robot to assist caregivers in moderate assisted pivot transfers between a bed and wheelchair, covering mechanical design, electronics integration, and control systems.],[Implemented a human-tracking computer vision algorithm and developed human-robot interaction strategies to enable safe, intuitive operation between the caregiver, patient, and mobile third arm robot.],)
+    #v(design-highlights-top-margin);#highlights([Designed and developed a complete vision guided mobile third arm cobot to assist caregivers in moderate assisted pivot transfers between a bed and wheelchair, covering mechanical design, electronics integration, and control systems.],[Implemented a human-tracking computer vision algorithm and developed human-robot interaction strategies to enable safe, intuitive operation between the caregiver, patient, and mobile third arm robot.],)
   ],
 )
 
@@ -569,7 +580,7 @@
 )
 #one-col-entry(
   content: [
-    #v(design-highlights-top-margin);#highlights([Spearheaded the Human-In-The-Loop Robotic Simulator project, focusing on developing a platform that combines realistic human digital twins with assistive robots for human-in-the-loop simulations.],[Mentored seven final-year project students and collaborated with cross-functional research teams, including biomechanics experts, therapists, engineers, and research leads, to advance the development and application of the simulator.],[Prepared funding proposals ranging from small grants of SGD 200K to large multi-institutional proposals of over SGD 3 million \(currently under review\) to support ongoing and upcoming research initiatives.],)
+    #v(design-highlights-top-margin);#highlights([Mentored seven final-year project students and collaborated with cross-functional research teams, including biomechanics experts, therapists, engineers, and research leads, to advance the development and application of the simulator.],[Prepared funding proposals ranging from small grants of SGD 200K to large multi-institutional proposals of over SGD 3 million \(currently under review\) to support ongoing and upcoming research initiatives.],)
   ],
 )
 
