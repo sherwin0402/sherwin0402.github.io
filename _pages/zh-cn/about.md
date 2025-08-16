@@ -1,7 +1,7 @@
 ---
 layout: about
 title: 关于
-permalink: /zh/
+permalink: /zh-cn/
 subtitle: 博士最后一年研究生（预计2026年2月毕业） | <a href="https://www.ntu.edu.sg/">南洋理工大学</a>，新加坡 | <a href="https://www.linkedin.com/company/rris?originalSubdomain=sg/">RRIS</a>，新加坡康复研究院
 
 profile:
