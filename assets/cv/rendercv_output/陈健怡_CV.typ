@@ -5,8 +5,8 @@
 #let locale-catalog-page-numbering-style = context { "陈健怡 - Page " + str(here().page()) + " of " + str(counter(page).final().first()) + "" }
 #let locale-catalog-last-updated-date-style = "Last updated in Apr 2025"
 #let locale-catalog-language = "en"
-#let design-page-size = "us-letter"
-#let design-section-titles-font-size = 1.2em
+#let design-page-size = "a4"
+#let design-section-titles-font-size = 1.3em
 #let design-colors-text = rgb(0, 0, 0)
 #let design-colors-section-titles = rgb(0, 0, 0)
 #let design-colors-last-updated-date-and-page-numbering = rgb(128, 128, 128)
@@ -15,15 +15,15 @@
 #let design-colors-links = rgb(0, 0, 0)
 #let design-section-titles-font-family = "XCharter"
 #let design-section-titles-bold = true
-#let design-section-titles-line-thickness = 0.5pt
-#let design-section-titles-font-size = 1.2em
+#let design-section-titles-line-thickness = 0.8pt
+#let design-section-titles-font-size = 1.3em
 #let design-section-titles-type = "with-parial-line"
-#let design-section-titles-vertical-space-above = 0.55cm
-#let design-section-titles-vertical-space-below = 0.3cm
+#let design-section-titles-vertical-space-above = 0.6cm
+#let design-section-titles-vertical-space-below = 0.4cm
 #let design-section-titles-small-caps = false
 #let design-links-use-external-link-icon = false
 #let design-text-font-size = 10pt
-#let design-text-leading = 0.6em
+#let design-text-leading = 0.65em
 #let design-text-font-family = "XCharter"
 #let design-text-alignment = "justified"
 #let design-text-date-and-location-column-alignment = right
@@ -31,24 +31,24 @@
 #let design-header-use-icons-for-connections = true
 #let design-header-name-font-family = "XCharter"
 #let design-header-name-font-size = 25pt
-#let design-header-name-bold = false
+#let design-header-name-bold = true
 #let design-header-connections-font-family = "XCharter"
 #let design-header-vertical-space-between-name-and-connections = 0.7cm
 #let design-header-vertical-space-between-connections-and-first-section = 0.7cm
 #let design-header-use-icons-for-connections = true
 #let design-header-horizontal-space-between-connections = 0.5cm
-#let design-header-separator-between-connections = "|"
+#let design-header-separator-between-connections = "·"
 #let design-header-alignment = center
 #let design-highlights-summary-left-margin = 0cm
 #let design-highlights-bullet = "•"
-#let design-highlights-top-margin = 0.25cm
+#let design-highlights-top-margin = 0.3cm
 #let design-highlights-left-margin = 0cm
-#let design-highlights-vertical-space-between-highlights = 0.19cm
-#let design-highlights-horizontal-space-between-bullet-and-highlights = 0.3em
-#let design-entries-vertical-space-between-entries = 0.4cm
+#let design-highlights-vertical-space-between-highlights = 0.25cm
+#let design-highlights-horizontal-space-between-bullet-and-highlights = 0.4em
+#let design-entries-vertical-space-between-entries = 0.5cm
 #let design-entries-date-and-location-width = 6cm
 #let design-entries-allow-page-break-in-entries = true
-#let design-entries-horizontal-space-between-columns = 0.1cm
+#let design-entries-horizontal-space-between-columns = 0.15cm
 #let design-entries-left-and-right-margin = 0cm
 #let design-page-top-margin = 2cm
 #let design-page-bottom-margin = 2cm
@@ -464,7 +464,7 @@
 
 
 #one-col-entry(
-  content: [南洋理工大学（NTU）博士毕业年学生（预计2026年2月毕业），专注于辅助机器人的物理人机交互（pHRI）仿真。使用 MuJoCo 与 Real2Sim2Real 框架开发真实感数字人体与个性化控制器，研究安全、直观的人机交互。目前正在构建人形机器人数据工厂，用于生成可扩展、高保真的远程操作数据，以训练强大、可泛化的视觉-语言-动作（VLA）\/基础模型（FM）策略。]
+  content: [南洋理工大学博士最后一年学生（预计2026年2月毕业），专注于辅助机器人的物理人机交互仿真。开发基于MuJoCo的真实感数字人体与个性化控制器，采用Real2Sim2Real框架研究安全、直观的人机交互。目前构建人形机器人数据工厂，生成高保真远程操作数据以训练强大的视觉-语言-动作模型。]
 )
 
 
@@ -479,13 +479,13 @@
 #strong[#strong[博士] -- #strong[机械工程]]
   ],
   right-content: [
-    2021年9月 -- 2026年2月\(预计\)
+    2021年8月 -- 2026年2月（预计
   ],
 )
 #block(
   [
     #set par(spacing: 0pt)
-    #v(design-highlights-top-margin);#highlights([#strong[导师：] 洪伟德教授 \(Prof Ang Wei Tech\)],[#strong[拟定论文题目：] Human-in-the-Loop Simulation for Adaptive Assistive Robots: Personalising Human Models and Robot Control],[#strong[研究方向：] 基于物理的仿真、人机交互、机器学习、基础模型，大语言模型],)
+    #v(design-highlights-top-margin);#highlights([#strong[导师：] 洪伟德教授 \(Prof Ang Wei Tech\)],[#strong[论文题目：] Human-in-the-Loop Simulation for Adaptive Assistive Robots: Personalising Human Models and Robot Control],[#strong[研究领域：] 基于物理的仿真 · 人机交互 · 机器学习 · 基础模型 · 人形机器人],)
   ],
   inset: (
     left: design-entries-left-and-right-margin,
@@ -523,7 +523,7 @@
 
 #two-col-entry(
   left-content: [
-    #strong[人形机器人数据工厂 \(Humanoid\/Embodied AI Data Factory\)] 
+    #strong[#strong[人形机器人数据工厂] \(Humanoid\/Embodied AI Data Factory\)] 
   ],
   right-content: [
     2025年7月 -- 至今
@@ -531,7 +531,9 @@
 )
 #one-col-entry(
   content: [
-    #v(design-highlights-top-margin);#highlights([主导开发下一代远程操作框架，用于全身、双臂和灵巧操作，优化以降低操作员认知负荷并保持自然人体运动。],[构建可扩展的端到端数据生成管道，融合无标记动作捕捉、多传感器感知和实时重定向，支持物理类人形机器人和仿真代理。],[推进方法以缩小人类演示和机器人执行之间的具身差距，实现高通量收集丰富标注的数据集，用于训练强大的基于基础模型的视觉-语言-动作（VLA）策略。],)
+    #two-col(left-column-width: design-highlights-summary-left-margin, right-column-width: 1fr, left-content: [], right-content: [#v(design-highlights-top-margin);#align(left, [构建可扩展的端到端数据生成平台，支持高保真操作和类人形数据采集])], column-gutter: 0cm)
+
+#v(-design-text-leading)  #v(design-highlights-top-margin);#highlights([主导开发下一代远程操作框架，用于全身、双臂和灵巧操作，优化以降低操作员认知负荷并保持自然人体运动。],[构建可扩展的端到端数据生成管道，融合无标记动作捕捉、多传感器感知和实时重定向，支持物理类人形机器人和仿真代理。],[推进方法以缩小人类演示和机器人执行之间的具身差距，实现高通量收集丰富标注的数据集，用于训练强大的基于基础模型的视觉-语言-动作（VLA）策略。],)
   ],
 )
 
@@ -546,7 +548,9 @@
 )
 #one-col-entry(
   content: [
-    #v(design-highlights-top-margin);#highlights([主导开发了一套用于辅助机器人研究的人机闭环仿真框架，具备跨能力的个性化数字孪生。该管道集成骨骼、肌肉骨骼和软体模型，使用强化学习模拟多样化能力，实现真实、自适应的机器人测试。],[设计并验证了 Real2Sim2Real 框架，用于个性化调整机器人控制器，已应用于机器人辅助喂食与步态辅助机器人，通过仿真驱动的适应和现实世界测试改善人机交互。],[研究了仿真中的各种人机交互模式，包括软体交互动力学、质量-弹簧-阻尼模型和其他方法，以准确表现物理交互。],)
+    #two-col(left-column-width: design-highlights-summary-left-margin, right-column-width: 1fr, left-content: [], right-content: [#v(design-highlights-top-margin);#align(left, [物理人机交互研究的仿真框架，实现机器人系统个性化])], column-gutter: 0cm)
+
+#v(-design-text-leading)  #v(design-highlights-top-margin);#highlights([主导开发了一套用于辅助机器人研究的人机闭环仿真框架，具备跨能力的个性化数字孪生。该管道集成骨骼、肌肉骨骼和软体模型，使用强化学习模拟多样化能力，实现真实、自适应的机器人测试。],[设计并验证了 Real2Sim2Real 框架，用于个性化调整机器人控制器，已应用于机器人辅助喂食与步态辅助机器人，通过仿真驱动的适应和现实世界测试改善人机交互。],[研究了仿真中的各种人机交互模式，包括软体交互动力学、质量-弹簧-阻尼模型和其他方法，以准确表现物理交互。],)
   ],
 )
 
@@ -561,7 +565,9 @@
 )
 #one-col-entry(
   content: [
-    #v(design-highlights-top-margin);#highlights([设计并开发了一套完整的视觉引导移动第三机械臂协作机器人，用于协助护理人员完成从床到轮椅的中度辅助枢轴转移，涵盖机械设计、电子集成与控制系统。],[实现了基于计算机视觉的人体追踪算法，并开发了人机交互策略，以确保护理人员、患者和移动第三机械臂机器人之间的安全、直观操作。],)
+    #two-col(left-column-width: design-highlights-summary-left-margin, right-column-width: 1fr, left-content: [], right-content: [#v(design-highlights-top-margin);#align(left, [视觉引导的移动协作机器人，辅助护理人员完成患者转移])], column-gutter: 0cm)
+
+#v(-design-text-leading)  #v(design-highlights-top-margin);#highlights([设计并开发了一套完整的视觉引导移动第三机械臂协作机器人，用于协助护理人员完成从床到轮椅的中度辅助枢轴转移，涵盖机械设计、电子集成与控制系统。],[实现了基于计算机视觉的人体追踪算法，并开发了人机交互策略，以确保护理人员、患者和移动第三机械臂机器人之间的安全、直观操作。],)
   ],
 )
 
@@ -580,14 +586,14 @@
 )
 #one-col-entry(
   content: [
-    #v(design-highlights-top-margin);#highlights([指导7名本科毕业设计学生，并与跨学科团队（生物力学专家、治疗师、工程师、研究负责人等）合作，推进仿真器的开发与应用。],[撰写金额从20万新元至超过300万新元的大型多机构研究资金提案（目前处于评审阶段），以支持正在进行及即将开展的科研项目。],)
+    #v(design-highlights-top-margin);#highlights([指导7名本科毕业设计学生，与跨学科团队协作推进仿真平台开发],[撰写研究资金提案，金额从20万至300万新元，支持多项科研计划],)
   ],
 )
 
 #v(design-entries-vertical-space-between-entries)
 #two-col-entry(
   left-content: [
-    #strong[工程实习生], #link("https://oishii.com/")[Oishii] -- 新泽西州，美国
+    #strong[工程实习生], #link("https://oishii.com/")[Oishii] -- 美国新泽西州
   ],
   right-content: [
     2019年6月 -- 2020年6月
@@ -610,7 +616,7 @@
 
   ],
   right-content: [
-    Oct 2025
+    2025年10月
   ],
 )
 #one-col-entry(content:[
@@ -625,7 +631,7 @@
 
   ],
   right-content: [
-    May 2025
+    2025年5月
   ],
 )
 #one-col-entry(content:[
@@ -640,7 +646,7 @@
 
   ],
   right-content: [
-    Dec 2024
+    2024年12月
   ],
 )
 #one-col-entry(content:[
@@ -655,7 +661,7 @@
 
   ],
   right-content: [
-    Sept 2023
+    2023年9月
   ],
 )
 #one-col-entry(content:[
@@ -678,16 +684,16 @@
 )
 #one-col-entry(
   content: [
-    #two-col(left-column-width: design-highlights-summary-left-margin, right-column-width: 1fr, left-content: [], right-content: [#v(design-highlights-top-margin);#align(left, [荣获由NTUitive主办的年度创新挑战赛第一名。])], column-gutter: 0cm)
+    #two-col(left-column-width: design-highlights-summary-left-margin, right-column-width: 1fr, left-content: [], right-content: [#v(design-highlights-top-margin);#align(left, [NTUitive主办的年度创新竞赛第一名])], column-gutter: 0cm)
 
-#v(-design-text-leading)  #v(design-highlights-top-margin);#highlights([获得新币10,000新币MDT资助，用于开发创新智能花盆原型以解决城市园艺挑战],)
+#v(-design-text-leading)  #v(design-highlights-top-margin);#highlights([获得10,000新元MDT资助，开发智能园艺解决方案],)
   ],
 )
 
 #v(design-entries-vertical-space-between-entries)
 #two-col-entry(
   left-content: [
-    #strong[Overseas Entrepreneurship Program \(OEP\)推介日奖项] -- #strong[新加坡]
+    #strong[OEP创业竞赛奖] -- #strong[新加坡]
   ],
   right-content: [
     2020年9月 -- 2021年2月
@@ -695,9 +701,9 @@
 )
 #one-col-entry(
   content: [
-    #two-col(left-column-width: design-highlights-summary-left-margin, right-column-width: 1fr, left-content: [], right-content: [#v(design-highlights-top-margin);#align(left, [创立HortiCole初创公司，获得物联网农业解决方案资助。])], column-gutter: 0cm)
+    #two-col(left-column-width: design-highlights-summary-left-margin, right-column-width: 1fr, left-content: [], right-content: [#v(design-highlights-top-margin);#align(left, [创立HortiCole获得物联网农业解决方案资助])], column-gutter: 0cm)
 
-#v(-design-text-leading)  #v(design-highlights-top-margin);#highlights([获得新币5,000新币资助，用于开发低成本模块化物联网种植系统，并在6个月内完成原型],[进行市场调研，从400名参与者中获得64.5\%的强烈市场验证],)
+#v(-design-text-leading)  #v(design-highlights-top-margin);#highlights([获得5,000新元资助开发模块化IoT种植系统],[市场调研显示64.5\%强烈需求验证（400人参与）],)
   ],
 )
 
@@ -711,7 +717,7 @@
 )
 #v(design-entries-vertical-space-between-entries)
 #one-col-entry(
-  content: [#strong[机器人:] MuJoCo, OpenSim, Machine Learning, Reinforcement Learning, IsaacLabs, ROS, SolidWorks, SolidEdge, STM32, ESP32, Linux]
+  content: [#strong[机器人:] MuJoCo, OpenSim, Machine Learning, Reinforcement Learning, IsaacLabs, ROS, SolidWorks, SolidEdge]
 )
 #v(design-entries-vertical-space-between-entries)
 #one-col-entry(
