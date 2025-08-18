@@ -11,20 +11,20 @@ cv:
     #   username: sherwin0402
   sections:
     概要:
-      - 南洋理工大学（NTU）博士毕业年学生（预计2026年2月毕业），专注于辅助机器人的物理人机交互（pHRI）仿真。使用 MuJoCo 与 Real2Sim2Real 框架开发真实感数字人体与个性化控制器，研究安全、直观的人机交互。目前正在构建人形机器人数据工厂，用于生成可扩展、高保真的远程操作数据，以训练强大、可泛化的视觉-语言-动作（VLA）/基础模型（FM）策略。
+      - 南洋理工大学博士最后一年学生（预计2026年2月毕业），专注于辅助机器人的物理人机交互仿真。开发基于MuJoCo的真实感数字人体与个性化控制器，采用Real2Sim2Real框架研究安全、直观的人机交互。目前构建人形机器人数据工厂，生成高保真远程操作数据以训练强大的视觉-语言-动作模型。
+
     教育背景:
       - institution: '[南洋理工大学](https://www.ntu.edu.sg/)'
         area: '**机械工程**'
         degree: '**博士**'
-        date: 2021年9月 -- 2026年2月(预计)
+        date: 2021年8月 -- 2026年2月（预计）
         start_date: 2021-09
-        end_date: 2021-09 # ! Expected
+        end_date: 2026-02
         location: 新加坡
-        summary:
         highlights:
           - '**导师：** 洪伟德教授 (Prof Ang Wei Tech)'
-          - '**拟定论文题目：** Human-in-the-Loop Simulation for Adaptive Assistive Robots: Personalising Human Models and Robot Control'
-          - '**研究方向：** 基于物理的仿真、人机交互、机器学习、基础模型，大语言模型'
+          - '**论文题目：** Human-in-the-Loop Simulation for Adaptive Assistive Robots: Personalising Human Models and Robot Control'
+          - '**研究领域：** 基于物理的仿真 · 人机交互 · 机器学习 · 基础模型 · 人形机器人'
       - institution: '[南洋理工大学](https://www.ntu.edu.sg/)'
         area: '**机械工程**（机器人与机电一体化方向）'
         degree: '**本科**'
@@ -32,33 +32,27 @@ cv:
         start_date: 2017-08
         end_date: 2021-05
         location: 新加坡
-        summary:
         highlights:
           - "**绩点:** 4.84/5.00, 学年入选院长名单 (Dean's List) 2017/2018"
           - '**奖项:** 南洋奖学金 (Nanyang Scholarship)'
     研究项目:
       - name: '人形机器人数据工厂 (Humanoid/Embodied AI Data Factory)'
         date: 2025年7月 -- 至今
-        start_date: 2025-07
-        end_date: present
-        summary:
+        summary: 构建可扩展的端到端数据生成平台，支持高保真操作和类人形数据采集
         highlights:
           - '主导开发下一代远程操作框架，用于全身、双臂和灵巧操作，优化以降低操作员认知负荷并保持自然人体运动。'
           - '构建可扩展的端到端数据生成管道，融合无标记动作捕捉、多传感器感知和实时重定向，支持物理类人形机器人和仿真代理。'
           - '推进方法以缩小人类演示和机器人执行之间的具身差距，实现高通量收集丰富标注的数据集，用于训练强大的基于基础模型的视觉-语言-动作（VLA）策略。'
       - name: '人机闭环仿真平台(Human-In-The-Loop Robotic Simulator)'
         date: 2021年9月 -- 至今
-        start_date: 2021-09
-        end_date: present
-        location:
-        summary:
+        summary: 物理人机交互研究的仿真框架，实现机器人系统个性化
         highlights:
           - '主导开发了一套用于辅助机器人研究的人机闭环仿真框架，具备跨能力的个性化数字孪生。该管道集成骨骼、肌肉骨骼和软体模型，使用强化学习模拟多样化能力，实现真实、自适应的机器人测试。'
           - '设计并验证了 Real2Sim2Real 框架，用于个性化调整机器人控制器，已应用于机器人辅助喂食与步态辅助机器人，通过仿真驱动的适应和现实世界测试改善人机交互。'
           - '研究了仿真中的各种人机交互模式，包括软体交互动力学、质量-弹簧-阻尼模型和其他方法，以准确表现物理交互。'
       - name: '移动式第三机械臂机器人(Mobile Third Arm Robot)'
         date: 2020年 -- 2022年
-        summary:
+        summary: 视觉引导的移动协作机器人，辅助护理人员完成患者转移
         highlights:
           - '设计并开发了一套完整的视觉引导移动第三机械臂协作机器人，用于协助护理人员完成从床到轮椅的中度辅助枢轴转移，涵盖机械设计、电子集成与控制系统。'
           - '实现了基于计算机视觉的人体追踪算法，并开发了人机交互策略，以确保护理人员、患者和移动第三机械臂机器人之间的安全、直观操作。'
@@ -67,17 +61,14 @@ cv:
         position: 项目主管
         location: 新加坡
         date: 2021年8月 -- 至今
-        start_date: 2021-08
-        end_date: present
         highlights:
-          - '指导7名本科毕业设计学生，并与跨学科团队（生物力学专家、治疗师、工程师、研究负责人等）合作，推进仿真器的开发与应用。'
-          - '撰写金额从20万新元至超过300万新元的大型多机构研究资金提案（目前处于评审阶段），以支持正在进行及即将开展的科研项目。'
+          - '指导7名本科毕业设计学生，与跨学科团队协作推进仿真平台开发'
+          - '撰写研究资金提案，金额从20万至300万新元，支持多项科研计划'
+      
       - company: '[Oishii](https://oishii.com/)'
         position: 工程实习生
-        location: 新泽西州，美国
+        location: 美国新泽西州
         date: 2019年6月 -- 2020年6月
-        start_date: 2019-06
-        end_date: 2020-06
         highlights:
           - '设计了一套室内垂直农场结构，可容纳25万株植物，并采用创新托架系统，将建造与组装效率提升了90%。'
           - '主导开发了价值40万美元的研发设施，包含10个独立生长环境，追踪超过80项植物参数，以优化生长与产量。'
@@ -105,7 +96,8 @@ cv:
           - Lek Syn Lim
           - Wei Tech Ang
         journal: 'IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), † 贡献相同'
-        date: 2025-10
+        date: 2025年10月
+
       - title: A Human-In-The-Loop Simulation Framework for Evaluating Control Strategies in Gait Assistive Robots
         authors:
           - Yifan Wang†
@@ -116,7 +108,7 @@ cv:
           - Bingran Zuo
           - Wei Tech Ang
         journal: 'IEEE International Conference on Robotics and Automation (ICRA), † 贡献相同'
-        date: 2025-05
+        date: 2025年5月
       # - title: Simulating Safe Bite Transfer in Robot-Assisted Feeding with a Soft Head and Articulated Jaw
       #   authors:
       #     - Yi Heng San†
@@ -126,7 +118,7 @@ cv:
       #     - Yifan Wang
       #     - Wei Tech Ang
       #   journal: 'IEEE International Conference on Rehabilitation Robotics (ICORR), † 贡献相同'
-      #   date: 2025-05
+      #   date: 2025年5月
       - title: Personalised 3D Human Digital Twin with Soft-Body Feet for Walking Simulation
         authors:
           - Kum Yew Loke
@@ -136,7 +128,7 @@ cv:
           - Bingran Zuo
           - Wei Tech Ang
         journal: 'International Conference on Social Robotics'
-        date: 2024-12
+        date: 2024年12月
       - title: Creation and evaluation of human models with varied walking ability from motion capture for assistive device development
         authors:
           - '***Sherwin Stephen Chan***'
@@ -144,7 +136,7 @@ cv:
           - Henry Johan
           - Wei Tech Ang
         journal: 'IEEE International Conference on Rehabilitation Robotics (ICORR)'
-        date: 2023-09
+        date: 2023年9月
       # - title: Investigation of Modeling Differences between OpenSim and Visual3D for Gait Analysis of Healthy Gait
       #   authors:
       #     - Beth Eng Wan Xuan
@@ -154,21 +146,22 @@ cv:
       #     - Bingran Zuo
       #     - Wei Tech Ang
       #   journal: 'International Convention on Rehabilitation Engineering and Assistive Technology'
-      #   date: 2023-08
+      #   date: 2023年8月
     奖项与成就:
       - name: 'Dyson-NTU创新挑战赛'
         date: 2021年4月 -- 2021年9月
         location: 新加坡
-        summary: 荣获由NTUitive主办的年度创新挑战赛第一名。
+        summary: NTUitive主办的年度创新竞赛第一名
         highlights:
-          - '获得新币10,000新币MDT资助，用于开发创新智能花盆原型以解决城市园艺挑战'
-      - name: 'Overseas Entrepreneurship Program (OEP)推介日奖项'
+          - '获得10,000新元MDT资助，开发智能园艺解决方案'
+      
+      - name: 'OEP创业竞赛奖'
         date: 2020年9月 -- 2021年2月
         location: 新加坡
-        summary: 创立HortiCole初创公司，获得物联网农业解决方案资助。
+        summary: 创立HortiCole获得物联网农业解决方案资助
         highlights:
-          - '获得新币5,000新币资助，用于开发低成本模块化物联网种植系统，并在6个月内完成原型'
-          - '进行市场调研，从400名参与者中获得64.5%的强烈市场验证'
+          - '获得5,000新元资助开发模块化IoT种植系统'
+          - '市场调研显示64.5%强烈需求验证（400人参与）'
       # - name: 'SMRT-NTU创新挑战赛入围者'
       #   date: 2019年3月 -- 2019年4月
       #   location: 新加坡
@@ -179,7 +172,8 @@ cv:
       - label: 编程语言
         details: Python, C++, C
       - label: 机器人
-        details: MuJoCo, OpenSim, Machine Learning, Reinforcement Learning, IsaacLabs, ROS, SolidWorks, SolidEdge, STM32, ESP32, Linux
+        details: MuJoCo, OpenSim, Machine Learning, Reinforcement Learning, IsaacLabs, ROS, SolidWorks, SolidEdge
+        # STM32, ESP32, Linux
       - label: 语言能力
         details: 英语、中文、福建话（方言）、菲律宾语
     # Other Projects:
@@ -213,7 +207,7 @@ cv:
 design:
   theme: engineeringresumes
   page:
-    size: us-letter
+    size: a4  # Changed from us-letter for better international compatibility
     top_margin: 2cm
     bottom_margin: 2cm
     left_margin: 2cm
@@ -230,7 +224,7 @@ design:
   text:
     font_family: XCharter
     font_size: 10pt
-    leading: 0.6em
+    leading: 0.65em  # Slightly increased for better readability in Chinese
     alignment: justified
     date_and_location_column_alignment: right
   links:
@@ -239,40 +233,40 @@ design:
   header:
     name_font_family: XCharter
     name_font_size: 25pt
-    name_bold: false
+    name_bold: true  # Made bold for better visual hierarchy
     photo_width: 3.5cm
     vertical_space_between_name_and_connections: 0.7cm
     vertical_space_between_connections_and_first_section: 0.7cm
     horizontal_space_between_connections: 0.5cm
     connections_font_family: XCharter
-    separator_between_connections: '|'
+    separator_between_connections: '·'  # Changed to Chinese-friendly separator
     use_icons_for_connections: true
     alignment: center
   section_titles:
     type: with-parial-line
     font_family: XCharter
-    font_size: 1.2em
+    font_size: 1.3em  # Slightly larger for better hierarchy
     bold: true
     small_caps: false
-    line_thickness: 0.5pt
-    vertical_space_above: 0.55cm
-    vertical_space_below: 0.3cm
+    line_thickness: 0.8pt  # Slightly thicker
+    vertical_space_above: 0.6cm
+    vertical_space_below: 0.4cm  # Increased spacing
     line_type: with-full-line
   entries:
     date_and_location_width: 6cm
     left_and_right_margin: 0cm
-    horizontal_space_between_columns: 0.1cm
-    vertical_space_between_entries: 0.4cm
+    horizontal_space_between_columns: 0.15cm  # Slightly increased
+    vertical_space_between_entries: 0.5cm  # Increased for better separation
     allow_page_break_in_sections: true
     allow_page_break_in_entries: true
     short_second_row: false
     show_time_spans_in: []
   highlights:
     bullet: •
-    top_margin: 0.25cm
+    top_margin: 0.3cm  # Increased
     left_margin: 0cm
-    vertical_space_between_highlights: 0.19cm
-    horizontal_space_between_bullet_and_highlight: 0.3em
+    vertical_space_between_highlights: 0.25cm  # Increased
+    horizontal_space_between_bullet_and_highlight: 0.4em  # Increased
     summary_left_margin: 0cm
   entry_types:
     one_line_entry:

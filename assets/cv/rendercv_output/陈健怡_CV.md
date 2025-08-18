@@ -8,17 +8,17 @@
 
 # 概要
 
-南洋理工大学（NTU）博士毕业年学生（预计2026年2月毕业），专注于辅助机器人的物理人机交互（pHRI）仿真。使用 MuJoCo 与 Real2Sim2Real 框架开发真实感数字人体与个性化控制器，研究安全、直观的人机交互。目前正在构建人形机器人数据工厂，用于生成可扩展、高保真的远程操作数据，以训练强大、可泛化的视觉-语言-动作（VLA）/基础模型（FM）策略。
+南洋理工大学博士最后一年学生（预计2026年2月毕业），专注于辅助机器人的物理人机交互仿真。开发基于MuJoCo的真实感数字人体与个性化控制器，采用Real2Sim2Real框架研究安全、直观的人机交互。目前构建人形机器人数据工厂，生成高保真远程操作数据以训练强大的视觉-语言-动作模型。
 
 # 教育背景
 
 ## [南洋理工大学](https://www.ntu.edu.sg/), **博士** in **机械工程**
 
-- 2021年9月 -- 2026年2月(预计)
+- 2021年8月 -- 2026年2月（预计）
 - 新加坡
 - **导师：** 洪伟德教授 (Prof Ang Wei Tech)
-- **拟定论文题目：** Human-in-the-Loop Simulation for Adaptive Assistive Robots: Personalising Human Models and Robot Control
-- **研究方向：** 基于物理的仿真、人机交互、机器学习、基础模型，大语言模型
+- **论文题目：** Human-in-the-Loop Simulation for Adaptive Assistive Robots: Personalising Human Models and Robot Control
+- **研究领域：** 基于物理的仿真 · 人机交互 · 机器学习 · 基础模型 · 人形机器人
 
 ## [南洋理工大学](https://www.ntu.edu.sg/), **本科** in **机械工程**（机器人与机电一体化方向）
 
@@ -29,7 +29,7 @@
 
 # 研究项目
 
-## 人形机器人数据工厂 (Humanoid/Embodied AI Data Factory)
+## #strong[人形机器人数据工厂] (Humanoid/Embodied AI Data Factory)
 
 - 2025年7月 -- 至今
 - 主导开发下一代远程操作框架，用于全身、双臂和灵巧操作，优化以降低操作员认知负荷并保持自然人体运动。
@@ -55,13 +55,13 @@
 
 - 2021年8月 -- 至今
 - 新加坡
-- 指导7名本科毕业设计学生，并与跨学科团队（生物力学专家、治疗师、工程师、研究负责人等）合作，推进仿真器的开发与应用。
-- 撰写金额从20万新元至超过300万新元的大型多机构研究资金提案（目前处于评审阶段），以支持正在进行及即将开展的科研项目。
+- 指导7名本科毕业设计学生，与跨学科团队协作推进仿真平台开发
+- 撰写研究资金提案，金额从20万至300万新元，支持多项科研计划
 
 ## [Oishii](https://oishii.com/), 工程实习生
 
 - 2019年6月 -- 2020年6月
-- 新泽西州，美国
+- 美国新泽西州
 - 设计了一套室内垂直农场结构，可容纳25万株植物，并采用创新托架系统，将建造与组装效率提升了90%。
 - 主导开发了价值40万美元的研发设施，包含10个独立生长环境，追踪超过80项植物参数，以优化生长与产量。
 - 作为主测试工程师，带领12人工程团队制定测试与故障排查流程，成功推动全球最大草莓室内垂直农场投入运营。
@@ -70,22 +70,22 @@
 # 精选出版物
 
 ## ORBiT: Optimizing Robot-Assisted Bite Transfer Leveraging a Real2Sim2Real Framework 
-- Oct 2025
+- 2025年10月
 - ***Sherwin Stephen Chan†***, J Anne Yow†, Yi Heng San, Vasanthamaran Ravichandram, Yifan Wang, Lek Syn Lim, Wei Tech Ang
 - IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), † 贡献相同
 
 ## A Human-In-The-Loop Simulation Framework for Evaluating Control Strategies in Gait Assistive Robots 
-- May 2025
+- 2025年5月
 - Yifan Wang†, ***Sherwin Stephen Chan†***, Mingyuan Lei, Lek Syn Lim, Henry Johan, Bingran Zuo, Wei Tech Ang
 - IEEE International Conference on Robotics and Automation (ICRA), † 贡献相同
 
 ## Personalised 3D Human Digital Twin with Soft-Body Feet for Walking Simulation 
-- Dec 2024
+- 2024年12月
 - Kum Yew Loke, ***Sherwin Stephen Chan***, Mingyuan Lei, Henry Johan, Bingran Zuo, Wei Tech Ang
 - International Conference on Social Robotics
 
 ## Creation and evaluation of human models with varied walking ability from motion capture for assistive device development 
-- Sept 2023
+- 2023年9月
 - ***Sherwin Stephen Chan***, Mingyuan Lei, Henry Johan, Wei Tech Ang
 - IEEE International Conference on Rehabilitation Robotics (ICORR)
 
@@ -95,17 +95,17 @@
 
 - 2021年4月 -- 2021年9月
 - 新加坡
-- 获得新币10,000新币MDT资助，用于开发创新智能花盆原型以解决城市园艺挑战
+- 获得10,000新元MDT资助，开发智能园艺解决方案
 
-## Overseas Entrepreneurship Program (OEP)推介日奖项
+## OEP创业竞赛奖
 
 - 2020年9月 -- 2021年2月
 - 新加坡
-- 获得新币5,000新币资助，用于开发低成本模块化物联网种植系统，并在6个月内完成原型
-- 进行市场调研，从400名参与者中获得64.5%的强烈市场验证
+- 获得5,000新元资助开发模块化IoT种植系统
+- 市场调研显示64.5%强烈需求验证（400人参与）
 
 # 技能
 
 - 编程语言: Python, C++, C
-- 机器人: MuJoCo, OpenSim, Machine Learning, Reinforcement Learning, IsaacLabs, ROS, SolidWorks, SolidEdge, STM32, ESP32, Linux
+- 机器人: MuJoCo, OpenSim, Machine Learning, Reinforcement Learning, IsaacLabs, ROS, SolidWorks, SolidEdge
 - 语言能力: 英语、中文、福建话（方言）、菲律宾语
