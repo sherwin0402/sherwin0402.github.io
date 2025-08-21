@@ -23,8 +23,9 @@
 
 - 2017年8月 -- 2021年5月
 - 新加坡
-- **绩点:** 4.84/5.00, 学年入选院长名单 (Dean's List) 2017/2018
-- **奖项:** 南洋奖学金 (Nanyang Scholarship)
+- **绩点:** 4.84/5.00，一等荣耀学位
+- 学年入选院长名单 (Dean's List) 2017/2018（专业前5%）
+- **奖项:** 南洋奖学金（全额）
 
 # 研究项目
 
@@ -83,7 +84,7 @@
 - ***Sherwin Stephen Chan***, Mingyuan Lei, Henry Johan, Wei Tech Ang
 - IEEE International Conference on Rehabilitation Robotics (ICORR)
 
-# 奖项与成就
+# 荣誉与奖项
 
 ## Dyson-NTU创新挑战赛
 

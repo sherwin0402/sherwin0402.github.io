@@ -507,7 +507,7 @@
 #block(
   [
     #set par(spacing: 0pt)
-    #v(design-highlights-top-margin);#highlights([#strong[绩点:] 4.84\/5.00, 学年入选院长名单 \(Dean's List\) 2017\/2018],[#strong[奖项:] 南洋奖学金 \(Nanyang Scholarship\)],)
+    #v(design-highlights-top-margin);#highlights([#strong[绩点:] 4.84\/5.00，一等荣耀学位],[学年入选院长名单 \(Dean's List\) 2017\/2018（专业前5\%）],[#strong[奖项:] 南洋奖学金（全额）],)
   ],
   inset: (
     left: design-entries-left-and-right-margin,
@@ -655,7 +655,7 @@
 
 
 
-== 奖项与成就
+== 荣誉与奖项
 
 
 #two-col-entry(
