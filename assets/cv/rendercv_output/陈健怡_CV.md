@@ -1,14 +1,13 @@
 # 陈健怡's CV
 
-- Email: [sherwin0402@gmail.com](mailto:sherwin0402@gmail.com)
-- Location: 新加坡 | 微信: chenjianyi0402
+- Location: 新加坡 · 微信: chenjianyi0402
 - Website: [sherwin0402.github.io](https://sherwin0402.github.io/)
 - LinkedIn: [sherwin-chan](https://linkedin.com/in/sherwin-chan)
 
 
-# 概要
+# 自我介绍
 
-南洋理工大学博士最后一年学生（预计2026年2月毕业），专注于辅助机器人的物理人机交互仿真。开发基于MuJoCo的真实感数字人体与个性化控制器，采用Real2Sim2Real框架研究安全、直观的人机交互。目前构建人形机器人数据工厂，生成高保真远程操作数据以训练强大的视觉-语言-动作模型。
+南洋理工大学机械工程系博士候选人（预计 2026 年 2 月毕业），研究方向为辅助机器人的人机交互仿真。擅长使用 MuJoCo 构建高保真数字人体模型，并设计个性化控制器，通过 Real2Sim2Real 框架提升机器人交互的安全性与直观性。目前主导建设具身智能数据工厂，生成大规模高质量遥操作数据，用于训练视觉-语言-动作（VLA）基础模型策略。
 
 # 教育背景
 
@@ -17,7 +16,7 @@
 - 2021年8月 -- 2026年2月（预计）
 - 新加坡
 - **导师：** 洪伟德教授 (Prof Ang Wei Tech)
-- **论文题目：** Human-in-the-Loop Simulation for Adaptive Assistive Robots: Personalising Human Models and Robot Control
+- **论文题目：** Human-in-the-Loop Simulation for Adaptive Assistive Robots: Personalising Human Models and Robot Control(面向自适应辅助机器人的人机闭环仿真：个性化人体模型与机器人控制)
 - **研究领域：** 基于物理的仿真 · 人机交互 · 机器学习 · 基础模型 · 人形机器人
 
 ## [南洋理工大学](https://www.ntu.edu.sg/), **本科** in **机械工程**（机器人与机电一体化方向）
@@ -29,10 +28,10 @@
 
 # 研究项目
 
-## #strong[人形机器人数据工厂] (Humanoid/Embodied AI Data Factory)
+## 人形机器人数据工厂 (Humanoid/Embodied AI Data Factory)
 
 - 2025年7月 -- 至今
-- 主导开发下一代远程操作框架，用于全身、双臂和灵巧操作，优化以降低操作员认知负荷并保持自然人体运动。
+- 主导开发新一代全身、双臂及灵巧手遥操作框架，通过优化人机接口显著降低操作员认知负荷，并确保人类动作的自然性与保真度。
 - 构建可扩展的端到端数据生成管道，融合无标记动作捕捉、多传感器感知和实时重定向，支持物理类人形机器人和仿真代理。
 - 推进方法以缩小人类演示和机器人执行之间的具身差距，实现高通量收集丰富标注的数据集，用于训练强大的基于基础模型的视觉-语言-动作（VLA）策略。
 
@@ -40,8 +39,8 @@
 
 - 2021年9月 -- 至今
 - 主导开发了一套用于辅助机器人研究的人机闭环仿真框架，具备跨能力的个性化数字孪生。该管道集成骨骼、肌肉骨骼和软体模型，使用强化学习模拟多样化能力，实现真实、自适应的机器人测试。
-- 设计并验证了 Real2Sim2Real 框架，用于个性化调整机器人控制器，已应用于机器人辅助喂食与步态辅助机器人，通过仿真驱动的适应和现实世界测试改善人机交互。
-- 研究了仿真中的各种人机交互模式，包括软体交互动力学、质量-弹簧-阻尼模型和其他方法，以准确表现物理交互。
+- 设计与验证了Real2Sim2Real框架，成功将个性化机器人控制器应用于机器人辅助喂食与步态辅助机器人，通过仿真驱动优化并结合真实世界测试，显著提升了物理人机交互（pHRI）性能。
+- 研究了仿真中的人机交互模式，包括软体动力学、质量-弹簧-阻尼模型和其他方法，以准确表现物理交互。
 
 ## 移动式第三机械臂机器人(Mobile Third Arm Robot)
 
@@ -55,8 +54,8 @@
 
 - 2021年8月 -- 至今
 - 新加坡
-- 指导7名本科毕业设计学生，与跨学科团队协作推进仿真平台开发
-- 撰写研究资金提案，金额从20万至300万新元，支持多项科研计划
+- 指导7名本科生的毕业设计项目，并与包括生物力学专家、治疗师和工程师在内的跨学科团队紧密合作，共同推进仿真平台的开发与应用。
+- 撰写多项研究基金申请书，资金规模从20万新元至超300万新元（多机构合作项目，评审中），成功为在研与新增课题争取资金支持。
 
 ## [Oishii](https://oishii.com/), 工程实习生
 
@@ -78,11 +77,6 @@
 - 2025年5月
 - Yifan Wang†, ***Sherwin Stephen Chan†***, Mingyuan Lei, Lek Syn Lim, Henry Johan, Bingran Zuo, Wei Tech Ang
 - IEEE International Conference on Robotics and Automation (ICRA), † 贡献相同
-
-## Personalised 3D Human Digital Twin with Soft-Body Feet for Walking Simulation 
-- 2024年12月
-- Kum Yew Loke, ***Sherwin Stephen Chan***, Mingyuan Lei, Henry Johan, Bingran Zuo, Wei Tech Ang
-- International Conference on Social Robotics
 
 ## Creation and evaluation of human models with varied walking ability from motion capture for assistive device development 
 - 2023年9月
@@ -107,5 +101,5 @@
 # 技能
 
 - 编程语言: Python, C++, C
-- 机器人: MuJoCo, OpenSim, Machine Learning, Reinforcement Learning, IsaacLabs, ROS, SolidWorks, SolidEdge
-- 语言能力: 英语、中文、福建话（方言）、菲律宾语
+- 机器人: MuJoCo, OpenSim, 机器学习 (PyTorch), 强化学习, IsaacLab, ROS, SolidWorks, SolidEdge
+- 语言能力: 英语（流利），中文（流利），福建话（方言），菲律宾语
