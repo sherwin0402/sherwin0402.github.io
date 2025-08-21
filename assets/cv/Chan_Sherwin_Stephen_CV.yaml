@@ -34,7 +34,8 @@ cv:
         location: Singapore
         summary:
         highlights:
-          - "**GPA:** 4.84/5.00, Dean's List for 2017/2018"
+          - "**GPA:** 4.84/5.00, First Class Honours"
+          - "Dean's List for 2017/2018 (Top 5% of Cohort)"
           - '**Awards:** Nanyang Scholarship'
     research projects:
       - name: 'Embodied AI Data Factory'

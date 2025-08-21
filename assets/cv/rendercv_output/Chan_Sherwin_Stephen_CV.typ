@@ -508,7 +508,7 @@
 #block(
   [
     #set par(spacing: 0pt)
-    #v(design-highlights-top-margin);#highlights([#strong[GPA:] 4.84\/5.00, Dean's List for 2017\/2018],[#strong[Awards:] Nanyang Scholarship],)
+    #v(design-highlights-top-margin);#highlights([#strong[GPA:] 4.84\/5.00, First Class Honours],[Dean's List for 2017\/2018 \(Top 5\% of Cohort\)],[#strong[Awards:] Nanyang Scholarship],)
   ],
   inset: (
     left: design-entries-left-and-right-margin,
