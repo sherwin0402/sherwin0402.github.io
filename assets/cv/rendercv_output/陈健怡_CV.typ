@@ -463,7 +463,7 @@
 
 
 #one-col-entry(
-  content: [南洋理工大学机械工程系博士候选人（预计 2026 年 2 月毕业），研究方向为辅助机器人的人机交互仿真。擅长使用 MuJoCo 构建高保真数字人体模型，并设计个性化控制器，通过 Real2Sim2Real 框架提升机器人交互的安全性与直观性。目前主导建设具身智能数据工厂，生成大规模高质量遥操作数据，用于训练视觉-语言-动作（VLA）基础模型策略。]
+  content: [南洋理工大学机械工程系博士在读（预计 2026 年 2 月毕业），研究方向为辅助机器人的人机交互仿真。主要研究包括多层次人体模型、数字人体运动控制和人机交互仿真。通过仿真设计用户个性化控制器，并结合 Sim2Real 方法提升人机交互的安全性与舒适性。目前主导建设具身智能数据工厂，生成大规模高质量遥操作数据，用于训练视觉-语言-动作（VLA）基础模型策略。]
 )
 
 
@@ -484,7 +484,7 @@
 #block(
   [
     #set par(spacing: 0pt)
-    #v(design-highlights-top-margin);#highlights([#strong[导师：] 洪伟德教授 \(Prof Ang Wei Tech\)],[#strong[论文题目：] Human-in-the-Loop Simulation for Adaptive Assistive Robots: Personalising Human Models and Robot Control\(面向自适应辅助机器人的人机闭环仿真：个性化人体模型与机器人控制\)],[#strong[研究领域：] 基于物理的仿真 · 人机交互 · 机器学习 · 基础模型 · 人形机器人],)
+    #v(design-highlights-top-margin);#highlights([#strong[导师：] 洪伟德教授 \(Prof Ang Wei Tech\)],[#strong[论文题目：] Human-in-the-Loop Simulation for Adaptive Assistive Robots: Personalising Human Models and Robot Control\(面向自适应辅助机器人的人机闭环仿真：个性化人体模型与机器人控制\)],[#strong[研究领域：] 基于物理的仿真 · 人机交互 · 机器学习 · 机器人大模型 · 人形机器人],)
   ],
   inset: (
     left: design-entries-left-and-right-margin,
@@ -507,7 +507,7 @@
 #block(
   [
     #set par(spacing: 0pt)
-    #v(design-highlights-top-margin);#highlights([#strong[绩点:] 4.84\/5.00，一等荣耀学位],[学年入选院长名单 \(Dean's List\) 2017\/2018（专业前5\%）],[#strong[奖项:] 南洋奖学金（全额）],)
+    #v(design-highlights-top-margin);#highlights([#strong[绩点:] 4.84\/5.00，一等荣誉学位],[学年入选院长名单 \(Dean's List\) 2017\/2018（专业前5\%）],[#strong[奖项:] 南洋奖学金（全额）],)
   ],
   inset: (
     left: design-entries-left-and-right-margin,
@@ -530,9 +530,9 @@
 )
 #one-col-entry(
   content: [
-    #two-col(left-column-width: design-highlights-summary-left-margin, right-column-width: 1fr, left-content: [], right-content: [#v(design-highlights-top-margin);#align(left, [构建可扩展的端到端数据生成平台，支持高保真操作和类人形数据采集])], column-gutter: 0cm)
+    #two-col(left-column-width: design-highlights-summary-left-margin, right-column-width: 1fr, left-content: [], right-content: [#v(design-highlights-top-margin);#align(left, [构建可扩展的端到端数据生成平台，支持高保真遥操和类人形数据采集])], column-gutter: 0cm)
 
-#v(-design-text-leading)  #v(design-highlights-top-margin);#highlights([主导开发新一代全身、双臂及灵巧手遥操作框架，通过优化人机接口显著降低操作员认知负荷，并确保人类动作的自然性与保真度。],[构建可扩展的端到端数据生成管道，融合无标记动作捕捉、多传感器感知和实时重定向，支持物理类人形机器人和仿真代理。],[推进方法以缩小人类演示和机器人执行之间的具身差距，实现高通量收集丰富标注的数据集，用于训练强大的基于基础模型的视觉-语言-动作（VLA）策略。],)
+#v(-design-text-leading)  #v(design-highlights-top-margin);#highlights([主导开发新一代全身、双臂及灵巧手遥操作框架, 通过优化人机接口，显著降低操作员的认知负荷，并确保机器人动作在时空维度上与操作员保持高保真同步。],[面向人形机器人，构建可扩展的端到端数据采集标准流程，集成无标记动作捕捉、多模态传感器融合与实时运动重定向，为实机和仿真打通数据链路。],[优化实时重定向算法，缩小人类示教与机器人执行之间的域差异，实现高吞吐、富标注的数据生产，为视觉-语言-动作（VLA）策略的大规模训练提供高质量数据支撑。],)
   ],
 )
 
@@ -549,14 +549,14 @@
   content: [
     #two-col(left-column-width: design-highlights-summary-left-margin, right-column-width: 1fr, left-content: [], right-content: [#v(design-highlights-top-margin);#align(left, [物理人机交互研究的仿真框架，实现机器人系统个性化])], column-gutter: 0cm)
 
-#v(-design-text-leading)  #v(design-highlights-top-margin);#highlights([主导开发了一套用于辅助机器人研究的人机闭环仿真框架，具备跨能力的个性化数字孪生。该管道集成骨骼、肌肉骨骼和软体模型，使用强化学习模拟多样化能力，实现真实、自适应的机器人测试。],[设计与验证了Real2Sim2Real框架，成功将个性化机器人控制器应用于机器人辅助喂食与步态辅助机器人，通过仿真驱动优化并结合真实世界测试，显著提升了物理人机交互（pHRI）性能。],[研究了仿真中的人机交互模式，包括软体动力学、质量-弹簧-阻尼模型和其他方法，以准确表现物理交互。],)
+#v(-design-text-leading)  #v(design-highlights-top-margin);#highlights([主导开发了一套用于辅助机器人研究的人机闭环仿真框架。该管道集成骨骼、肌肉骨骼和软体模型，使用强化学习模拟个性化，多任务能力 （如平衡，走路，转弯等等）能力，以实现真实人机交互测试场景。],[设计与验证了Real2Sim2Real框架，成功将个性化机器人控制器应用于机器人辅助喂食与步态辅助机器人，通过仿真驱动优化并结合实验测试，显著提升了人机交互性能。],[研究了仿真中的人机交互模式，包括软体动力学、质量-弹簧-阻尼模型和其他方法，以准确表现物理交互。],)
   ],
 )
 
 #v(design-entries-vertical-space-between-entries)
 #two-col-entry(
   left-content: [
-    #strong[移动式第三机械臂机器人\(Mobile Third Arm Robot\)] 
+    #strong[“第三只手”移动协作机器人\(Mobile Third Arm Robot\)] 
   ],
   right-content: [
     2020年 -- 2022年
@@ -566,7 +566,7 @@
   content: [
     #two-col(left-column-width: design-highlights-summary-left-margin, right-column-width: 1fr, left-content: [], right-content: [#v(design-highlights-top-margin);#align(left, [视觉引导的移动协作机器人，辅助护理人员完成患者转移])], column-gutter: 0cm)
 
-#v(-design-text-leading)  #v(design-highlights-top-margin);#highlights([设计并开发了一套完整的视觉引导移动第三机械臂协作机器人，用于协助护理人员完成从床到轮椅的中度辅助枢轴转移，涵盖机械设计、电子集成与控制系统。],[实现了基于计算机视觉的人体追踪算法，并开发了人机交互策略，以确保护理人员、患者和移动第三机械臂机器人之间的安全、直观操作。],)
+#v(-design-text-leading)  #v(design-highlights-top-margin);#highlights([设计并开发了一套完整的视觉引导移动第三机械臂协作机器人，用于协助护理人员完成从床到轮椅的中度辅助枢轴转移，涵盖机械设计、电子集成与控制系统。],[实现了基于计算机视觉的人体追踪算法，并开发了人机交互策略，以确保护理人员、患者和协作机器人之间的安全、直观操作。],)
   ],
 )
 
@@ -585,7 +585,7 @@
 )
 #one-col-entry(
   content: [
-    #v(design-highlights-top-margin);#highlights([指导7名本科生的毕业设计项目，并与包括生物力学专家、治疗师和工程师在内的跨学科团队紧密合作，共同推进仿真平台的开发与应用。],[撰写多项研究基金申请书，资金规模从20万新元至超300万新元（多机构合作项目，评审中），成功为在研与新增课题争取资金支持。],)
+    #v(design-highlights-top-margin);#highlights([领导和协调生物力学专家、物理理疗师和工程师在内的跨学科团队紧密合作，共同推人机交互仿真平台的开发与应用。],[独立或参与撰写多项研究基金申请书，资金规模从20万新元至超300万新元，成功为在研与新增课题争取资金支持。],[指导7名本科生的毕业设计项目],)
   ],
 )
 
@@ -696,16 +696,24 @@
 == 技能
 
 
+
 #one-col-entry(
-  content: [#strong[编程语言:] Python, C++, C]
+  content: [
+    #strong[编程语言: Python, C++, C ｜ 机器人与仿真: MuJoCo, IsaacLab, ROS, OpenSim ｜ 机器学习: PyTorch, TensorFlow ｜ 工程软件: SolidWorks, SolidEdge, MATLAB] 
+
+    
+  ],
 )
+
 #v(design-entries-vertical-space-between-entries)
+
 #one-col-entry(
-  content: [#strong[机器人:] MuJoCo, OpenSim, 机器学习 \(PyTorch\), 强化学习, IsaacLab, ROS, SolidWorks, SolidEdge]
+  content: [
+    #strong[英语（流利）、中文（流利）、福建话、菲律宾语] 
+
+    
+  ],
 )
-#v(design-entries-vertical-space-between-entries)
-#one-col-entry(
-  content: [#strong[语言能力:] 英语（流利），中文（流利），福建话（方言），菲律宾语]
-)
+
 
 
