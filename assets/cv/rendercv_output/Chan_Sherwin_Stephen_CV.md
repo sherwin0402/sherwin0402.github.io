@@ -25,8 +25,7 @@ Final-year Ph.D. student at NTU (expected completion Feb 2026) specializing in p
 - Aug 2017 – May 2021
 - Singapore
 - **GPA:** 4.84/5.00, First Class Honours
-- Dean's List for 2017/2018 (Top 5% of Cohort)
-- **Awards:** Nanyang Scholarship
+- **Awards:** Nanyang Scholarship, Dean's List for 2017/2018 (Top 5% of Cohort)
 
 # Research Projects
 
