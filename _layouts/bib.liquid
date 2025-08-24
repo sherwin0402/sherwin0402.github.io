@@ -227,14 +227,44 @@
           <a href="{{ entry.supp | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" role="button">Supp</a>
         {% endif %}
       {% endif %}
-      {% if entry.video and site.enable_video_embedding %}
-        <a class="abstract btn btn-sm z-depth-0" role="button">Video</a>
-      {% elsif entry.video %}
-        {% if entry.video contains '://' %}
-          <a href="{{ entry.video }}" class="btn btn-sm z-depth-0" role="button">Video</a>
-        {% else %}
-          <a href="{{ entry.video | prepend: '/assets/video/' | relative_url }}" class="btn btn-sm z-depth-0" role="button">Video</a>
-        {% endif %}
+      {% if entry.video %}
+        {% assign video_url = entry.video %}
+        {% unless entry.video contains '://' %}
+          {% assign video_url = entry.video | prepend: '/assets/video/' | relative_url %}
+        {% endunless %}
+
+        <!-- Button-like <details> that expands inline -->
+        <details class="pub-media btn-summary">
+          <summary><span>Video</span></summary>
+
+          <div class="video-embed">
+            {% if video_url contains 'youtube.com' or video_url contains 'youtu.be' or video_url contains 'vimeo.com' %}
+              {% assign yt = video_url
+                  | replace: 'watch?v=', 'embed/'
+                  | replace: 'youtu.be/', 'www.youtube.com/embed/' %}
+              <div class="ratio-16x9">
+                <iframe
+                  src="{{ yt }}"
+                  title="Publication video"
+                  loading="lazy"
+                  allow="autoplay; encrypted-media"
+                  allowfullscreen
+                  referrerpolicy="no-referrer-when-downgrade"></iframe>
+              </div>
+            {% else %}
+              <video class="pub-video" controls preload="metadata" playsinline>
+                <source src="{{ video_url }}" type="video/mp4">
+                Your browser does not support HTML5 video.
+              </video>
+            {% endif %}
+
+            <div class="video-actions">
+              <a href="{{ video_url }}" target="_blank" rel="noopener" class="btn btn-sm z-depth-0">
+                Open in new tab
+              </a>
+            </div>
+          </div>
+        </details>
       {% endif %}
       {% if entry.blog %}
         <a href="{{ entry.blog }}" class="btn btn-sm z-depth-0" role="button">Blog</a>
@@ -365,13 +395,6 @@
         {% highlight bibtex %}
         {{- entry.bibtex | hideCustomBibtex -}}
         {% endhighlight %}
-      </div>
-    {% endif %}
-
-    {% if entry.video and site.enable_video_embedding %}
-      <!-- Hidden video block -->
-      <div class="abstract hidden">
-        <div style="text-align: center;">{% include video.liquid path=entry.video class="img-fluid rounded z-depth-1" controls=true %}</div>
       </div>
     {% endif %}
   </div>
