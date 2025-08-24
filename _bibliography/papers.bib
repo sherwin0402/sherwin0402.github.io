@@ -10,6 +10,9 @@
   note={* Denotes equal contribution},
   selected={true},
   abbr={IEEE IROS},
+  video={IROS2025_Bite_Transfer_Parameters_Real2Sim_and_Sim2Real.mp4},
+  pdf={papers/IROS2025_Bite_Transfer_Parameters_Real2Sim_and_Sim2Real.pdf},
+  abstract={Robot-assisted feeding has the potential to enhance the independence of individuals requiring assistance, yet the bite transfer process remains particularly challenging, especially for those with complex conditions. In this paper, we present ORBiT, a novel Real2Sim2Real framework designed to optimize bite transfer in robot-assisted feeding. By integrating motion capture-driven, high-fidelity soft-body simulation with systematic parameter tuning, ORBiT effectively replicates realistic head, neck and jaw dynamics during feeding interactions to provide a safe simulation-driven approach to optimize bite transfer strategies. In our approach, motion capture data drives a personalized dynamic head model that, together with a comprehensive parameter search over variables such as entry angle, exit angle, exit depth, height offset, and distance to mouth, identifies the bite transfer parameters that minimize contact forces on the user. The optimal parameters are then transferred to a real-world robotic system and validated through a pilot user study involving five subjects. Results from real user evaluations mirror the trends in simulation, indicating that bite transfer parameters, especially those related to entry and exit angles, substantially affect user comfort and overall satisfaction. Our findings validate that simulation-derived optimizations can effectively guide improvements in bite transfer strategies, laying the groundwork for a safe, personalized approach to robot-assisted feeding.}
 }
 
 @article{wang2025human,
@@ -22,7 +25,9 @@
   selected={true},
   abbr={IEEE ICRA},
   url={https://arxiv.org/pdf/2503.05825},
-  video={https://youtu.be/OvgHTey-MUw},
+  video={ICRA2025_HITL_Sim_of_MRBA.mp4},
+  pdf={papers/ICRA2025_HITL_Sim_of_MRBA.pdf},
+  poster={posters/ICRA2025_HITL_Sim_of_MRBA.pdf},
   abstract={As the global population ages, effective rehabilitation and mobility aids will become increasingly critical. Gait assistive robots are promising solutions, but designing adaptable controllers for various impairments poses a significant challenge. This paper presented a Human-In-The-Loop (HITL) simulation framework tailored specifically for gait assistive robots, addressing unique challenges posed by passive support systems. We incorporated a realistic physical human-robot interaction (pHRI) model to enable a quantitative evaluation of robot control strategies, highlighting the performance of a speedadaptive controller compared to a conventional PID controller in maintaining compliance and reducing gait distortion. We assessed the accuracy of the simulated interactions against that of the real-world data and revealed discrepancies in the adaptation strategies taken by the human and their effect on the human’s gait. This work underscored the potential of HITL simulation as a versatile tool for developing and fine-tuning personalized control policies for various users.}
 }
 
@@ -36,7 +41,9 @@
   selected={true},
   abbr={IEEE ICORR},
   url={https://arxiv.org/pdf/2502.18749},
-  video={https://youtu.be/hU0XDBeyYu8},
+  pdf={papers/ICORR2025_Head_modeling_and_bite_transfer.pdf},
+  poster={posters/ICORR2025_Head_modeling_and_bite_transfer.pdf},
+  video={ICORR2025_Head_modeling_and_bite_transfer.mp4},
   abstract={Ensuring safe and comfortable bite transfer during robot-assisted feeding is challenging due to the close physical human-robot interaction required. This paper presents a novel approach to modeling physical human-robot interaction in a physics-based simulator (MuJoCo) using soft-body dynamics. We integrate a flexible head model with a rigid skeleton while accounting for internal dynamics, enabling the flexible model to be actuated by the skeleton. Incorporating realistic soft-skin contact dynamics in simulation allows for systematically evaluating bite transfer parameters, such as insertion depth and entry angle, and their impact on user safety and comfort. Our findings suggest that a straight-in-straight-out strategy minimizes forces and enhances user comfort in robot-assisted feeding, assuming a static head. This simulation-based approach offers a safer and more controlled alternative to real-world experimentation.}
 }
 
@@ -51,6 +58,7 @@
   selected={false},
   abbr={Springer ICSR},
   url = {https://arxiv.org/pdf/2411.14701},
+  pdf = {papers/ICSR2024_Personalised_Human_Feet.pdf},
   abstract={With the increasing use of assistive robots in rehabilitation and assisted mobility of human patients, there has been a need for a deeper understanding of human-robot interactions particularly through simulations, allowing an understanding of these interactions in a digital environment. There is an emphasis on accurately modelling personalised 3D human digital twins in these simulations, to glean more insights on human-robot interactions. In this paper, we propose to integrate personalised soft-body feet, generated using the motion capture data of real human subjects, into a skeletal model and train it with a walking control policy. Through evaluation using ground reaction force and joint angle results, the soft-body feet were able to generate ground reaction force results comparable to real measured data and closely follow joint angle results of the bare skeletal model and the reference motion. This presents an interesting avenue to produce a dynamically accurate human model in simulation driven by their own control policy while only seeing kinematic information during training.}
 }
 
@@ -65,7 +73,9 @@
   selected={true},
   abbr={IEEE ICORR},
   url = {https://ieeexplore.ieee.org/abstract/document/10304741},
-  video = {https://youtu.be/FYTPnA0w9SU},
+  pdf = {papers/ICORR2023_Creation_Personalised_Human_Models.pdf},
+  poster = {posters/ICORR2023_Creation_Personalised_Human_Models.pdf},
+  video = {ICORR2023_Creation_Personalised_Human_Models.mp4},
   abstract={As the world ages, rehabilitation and assistive devices will play a key role in improving mobility. However, designing controllers for these devices presents several challenges, from varying degrees of impairment to unique adaptation strategies of users. To use computer simulation to address these challenges, simulating human motions is required. Recently, deep reinforcement learning (DRL) has been successfully applied to generate walking motions whose goal is to produce a stable human walking policy. However, from a rehabilitation perspective, it is more important to match the walking policy's ability to that of an impaired person with reduced ability. In this paper, we present the first attempt to investigate the correlation between DRL training parameters with the ability of the generated human walking policy to recover from perturbation. We show that the control policies can produce gait patterns resembling those of humans without perturbation and that varying perturbation parameters during training can create variation in the recovery ability of the human model. We also demonstrate that the control policy can produce similar behaviours when subjected to forces that users may experience while using a balance assistive device.}
 }
 
@@ -79,6 +89,7 @@
   selected={false},
   abbr={ACM i-CREATe},
   url = {https://dl.acm.org/doi/pdf/10.1145/3628228.3628492},
+  pdf = {papers/iCreate2023_Investigation_OpenSim_Visual3D.pdf},
   abstract={This study compares the biomechanical results of healthy individuals walking straight using OpenSim and Visual3D which differ in their optimization and modeling approaches for kinematics and kinetics calculation. The motion capture data of nine healthy subjects were processed on OpenSim and Visual3D according to each software’s recommended approach and their kinematics and kinetics information was analyzed. Our analysis shows that some of the differences in the kinematics and kinetics between the two software can be attributed to the modeling difference of the pelvis, hip and ankle.}
 }
 
