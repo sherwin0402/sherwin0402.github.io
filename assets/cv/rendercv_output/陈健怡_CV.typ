@@ -522,7 +522,7 @@
 
 #two-col-entry(
   left-content: [
-    #strong[人形机器人数据工厂 \(Humanoid\/Embodied AI Data Factory\)] 
+    #strong[具身智能数据工厂 \(Humanoid\/Embodied AI Data Factory\)] 
   ],
   right-content: [
     2025年7月 -- 至今
@@ -532,7 +532,7 @@
   content: [
     #two-col(left-column-width: design-highlights-summary-left-margin, right-column-width: 1fr, left-content: [], right-content: [#v(design-highlights-top-margin);#align(left, [构建可扩展的端到端数据生成平台，支持高保真遥操和类人形数据采集])], column-gutter: 0cm)
 
-#v(-design-text-leading)  #v(design-highlights-top-margin);#highlights([主导开发新一代全身、双臂及灵巧手遥操作框架, 通过优化人机接口，显著降低操作员的认知负荷，并确保机器人动作在时空维度上与操作员保持高保真同步。],[面向人形机器人，构建可扩展的端到端数据采集标准流程，集成无标记动作捕捉、多模态传感器融合与实时运动重定向，为实机和仿真打通数据链路。],[优化实时重定向算法，缩小人类示教与机器人执行之间的域差异，实现高吞吐、富标注的数据生产，为视觉-语言-动作（VLA）策略的大规模训练提供高质量数据支撑。],)
+#v(-design-text-leading)  #v(design-highlights-top-margin);#highlights([共同主导开发新一代全身、双臂及灵巧手遥操作框架, 通过优化人机接口，显著降低操作员的认知负荷，并确保机器人动作在时空维度上与操作员保持高保真同步。],[面向人形机器人，共同构建可扩展的端到端数据采集流程，集成无标记动作捕捉与多模态感知，实现从人体到机器人全身及灵巧手的精准动作重定向（Real2Sim），打通仿真与实机数据闭环。],[探索并优化实时重定向算法，引入物体感知机制以提升动作迁移合理性，结合无标记动捕作为外部笛卡尔参考，保障人机运动高时空同步性，缩小域差异，支撑高吞吐VLA数据生产。],)
   ],
 )
 
