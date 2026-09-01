@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Final Year PhD Candidate (Expected Completion on Feb 2026) | <a href='https://www.ntu.edu.sg/'>NTU</a>, Nanyang Technological University Singapore | <a href='https://www.linkedin.com/company/rris?originalSubdomain=sg/'> RRIS</a>, Rehabilitation Research Institute of Singapore
+subtitle: Co-Chief Technology Officer (Co-CTO) | Phridom AI | Ph.D. in Mechanical Engineering, NTU
 
 profile:
   align: left
@@ -18,21 +18,21 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 ## Professional Summary
-I am a final-year Ph.D. student at Nanyang Technological University (NTU), Singapore, advised by Professor Ang Wei Tech, on track to complete in February 2026. My thesis, *Human-in-the-Loop Simulation for Adaptive Assistive Robots: Personalising Human Models and Robot Control*, investigates physics-based simulation of physical human–robot interaction (pHRI) using MuJoCo for rehabilitative and assistive robots, spanning robot assisted feeding arms, gait-assist devices, and upper- and lower-limb exoskeletons.
+I am Co-Chief Technology Officer at Phridom AI in Shenzhen, where I lead hardware design for robot data-collection tools, simulation development, teleoperation, and end-to-end system integration. I received my Ph.D. in Mechanical Engineering from Nanyang Technological University (NTU), Singapore, in April 2026 under the supervision of Professor Ang Wei Tech.
 
-A core focus of my Ph.D. was developing digital human twins that capture individual abilities or disabilities and co-adapt with robots in simulation to create realistic, personalized representations of user behavior and adaptation in physically interactive scenarios. To date, I have authored or co-authored six peer-reviewed papers—including publications at ICRA, IROS, and other top robotics venues—demonstrating the application of these methods.
+My dissertation, *Human-in-the-Loop Simulation for Adaptive Assistive Robots: Personalising Human Models and Robot Control*, investigated physics-based simulation of physical human-robot interaction using MuJoCo for rehabilitative and assistive robots. A core focus was developing digital human twins that capture individual abilities or disabilities and co-adapt with robots in simulation.
 
-Beyond technical research, I have developed strong collaborative and leadership skills through guiding seven final-year project (FYP) students and working closely with cross-functional teams spanning biomechanics, clinical therapy, engineering, and academic research. I am actively involved in research strategy and grant writing, contributing to funding proposals ranging from smaller SGD 200K grants to multi-institutional proposals exceeding SGD 3 million.
+I have authored or co-authored six peer-reviewed papers, including publications at ICRA, IROS, and other robotics venues. At NTU, I guided seven final-year project students, collaborated with cross-functional teams, and contributed to funding proposals ranging from SGD 200K to multi-institutional proposals exceeding SGD 3 million.
 
 ## Current and Emerging Directions
-**Humanoid:** I'm currently building an Embodied AI Data Factory—an end-to-end platform for scalable, high-fidelity manipulation and humanoid data. I lead the research of teleoperation improvements for bimanual/dexterous control to cut cognitive load and preserve natural motion, integrating markerless mocap, multisensory perception, and real-time retargeting across simulation and hardware. By closing the human–robot embodiment gap, we aim to capture rich, domain-specific datasets that train robust, generalizable vision-language-action (VLA) models and speed real-world deployment.
+**Phridom AI:** I lead the design of robot data-collection hardware and teleoperation tools, develop simulation workflows, and integrate hardware, control, simulation, and teleoperation subsystems into reliable embodied-AI platforms.
 
-**Simulation:** I am also building soft-body models for higher-fidelity, realistic pHRI and exploring how foundation models can boost simulation fidelity and personalization—improving intent understanding and enabling generalization across users and tasks. To support this, I’m developing new IsaacLab workflows that pair physics-based simulation with data-driven priors to produce more accurate, transferable behaviors.
+**Embodied AI Data Factory:** From July to November 2025, I co-led the development of an end-to-end platform for scalable, high-fidelity humanoid data collection. The work combined teleoperation, markerless motion capture, multisensory perception, and real-time retargeting across simulation and hardware.
 
-I keep my scope broad across robotics and embodied AI—perception, planning, simulation, and interaction—and I’m open to new directions wherever the problems are compelling. The focus is utility: building systems that enhance human capability, safety, and quality of life.
+**Simulation:** I develop physics-based simulation workflows for robot-system design, testing, and validation, including digital humans, soft-body interaction models, MuJoCo, and Isaac Lab.
 
-## What's Next?
-Wrapping up my PhD, I’m keen to join teams tackling hard problems in embodied AI, simulation, or human-centered robotics—across research, product, or open source—to build personalized, interpretable systems grounded in real human needs.
+## Current Focus
+My focus is translating robotics research into reliable physical systems: practical data-collection tools, intuitive teleoperation, high-fidelity simulation, and robust integration from prototype to deployment.
 
 ## Personal Interests
 Outside of work, I enjoy 3D printing, designing models, mountain biking, and gaming. I’m also experimenting with self-hosted LLMs to streamline personal and investing workflows—an extension of my interest in intelligent systems. Lately, I’ve been inspired by open-source robotics initiatives like Arctos and OpenArm, and have started building a 3D-printed robotic arm at home for fun. I also enjoy reading about geopolitics, economics, and culture to broaden my perspective beyond tech.

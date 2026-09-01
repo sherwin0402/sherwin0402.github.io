@@ -1,0 +1,9 @@
+[project]
+name = "sherwin-cv"
+version = "0.1.0"
+requires-python = ">=3.12,<3.14"
+dependencies = [
+  "click==8.1.8",
+  "rendercv[full]==2.2",
+  "rendercv-fonts==0.4.0",
+]

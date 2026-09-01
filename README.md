@@ -484,13 +484,16 @@ bundle exec jekyll serve --livereload --incremental
 
 CV
 ```bash
+# Install the locked RenderCV environment (run once from the repository root)
+uv sync
+
 cd assets/cv
 # Render the CV for English
-rendercv render Chan_Sherwin_Stephen_CV.yaml
+uv run rendercv render Chan_Sherwin_Stephen_CV.yaml
 # Render the CV for Chinese
-rendercv render Chan_Sherwin_Stephen_CV_zh.yaml
+uv run rendercv render Chan_Sherwin_Stephen_CV_zh.yaml
 
 # To have rendercv run automatically on changes on yaml files, use the --watch flag
-rendercv render --watch Chan_Sherwin_Stephen_CV.yaml 
-rendercv render --watch Chan_Sherwin_Stephen_CV_zh.yaml
+uv run rendercv render --watch Chan_Sherwin_Stephen_CV.yaml
+uv run rendercv render --watch Chan_Sherwin_Stephen_CV_zh.yaml
 ```

@@ -1,0 +1,290 @@
+cv:
+  name: 陈健怡
+  location: 新加坡
+  email: sherwin0402@gmail.com
+  website: https://sherwin0402.github.io/
+  social_networks:
+    - network: LinkedIn
+      username: sherwin-chan
+    - network: GitHub
+      username: sherwin0402
+  sections:
+    自我介绍:
+      - Phridom AI 联席首席技术官，负责机器人数据采集工具的硬件设计、仿真开发、遥操作与端到端系统集成。于2026年4月获南洋理工大学机械工程博士学位，研究方向为辅助机器人的物理人机交互仿真。
+
+    教育背景:
+      - institution: '[南洋理工大学](https://www.ntu.edu.sg/)'
+        area: '**机械工程**'
+        degree: '**博士**'
+        date: 2021年8月 -- 2026年4月
+        start_date: 2021-09
+        end_date: 2026-04
+        location: 新加坡
+        highlights:
+          - '**导师：** 洪伟德教授（Prof Ang Wei Tech）'
+          - '**论文题目：** Human-in-the-Loop Simulation for Adaptive Assistive Robots: Personalising Human Models and Robot Control（面向自适应辅助机器人的人机闭环仿真：个性化人体模型与机器人控制）'
+          - '**研究领域：** 基于物理的仿真 · 人机交互 · 机器学习 · 机器人大模型 · 人形机器人'
+      - institution: '[南洋理工大学](https://www.ntu.edu.sg/)'
+        area: '**机械工程**（机器人与机电一体化方向）'
+        degree: '**本科**'
+        date: 2017年8月 -- 2021年5月
+        start_date: 2017-08
+        end_date: 2021-05
+        location: 新加坡
+        highlights:
+          - '**绩点：** 4.84/5.00，一等荣誉学位'
+          - '2017/2018学年入选院长名单（专业前5%）'
+          - '**奖项：** 南洋奖学金（全额）'
+
+    研究项目:
+      - name: 具身智能数据工厂（Humanoid/Embodied AI Data Factory）
+        date: 2025年7月 -- 2025年11月
+        summary: 构建可扩展的端到端数据生成平台，支持高保真遥操作与人形机器人数据采集。
+        highlights:
+          - 共同主导开发新一代全身、双臂及灵巧手遥操作框架，通过优化人机接口，降低操作员认知负荷，并保持机器人动作与人类示教的高保真同步。
+          - 面向人形机器人，共同构建可扩展的端到端数据采集流程，集成无标记动作捕捉与多模态感知，实现从人体到机器人全身及灵巧手的精准动作重定向（Real2Sim），打通仿真与实机数据闭环。
+          - 探索并优化实时重定向算法，引入物体感知机制提升动作迁移合理性，并以无标记动捕作为外部笛卡尔参考，缩小域差异，支撑高吞吐VLA数据生产。
+      - name: 人机闭环仿真平台（Human-In-The-Loop Robotic Simulator）
+        date: 2021年9月 -- 至今
+        summary: 面向物理人机交互研究的仿真框架，用于实现机器人系统个性化。
+        highlights:
+          - 主导开发用于辅助机器人研究的人机闭环仿真框架，集成骨骼、肌肉骨骼和软体模型，并使用强化学习模拟个性化、多任务能力（如平衡、行走和转弯），构建真实的人机交互测试场景。
+          - 设计并验证Real2Sim2Real框架，成功将个性化机器人控制器应用于机器人辅助喂食与步态辅助机器人，通过仿真驱动优化和实验测试提升人机交互性能。
+          - 研究仿真中的多种人机交互建模方法，包括软体动力学、质量-弹簧-阻尼模型等，以准确表现物理交互。
+      - name: “第三只手”移动协作机器人（Mobile Third Arm Robot）
+        date: 2020年 -- 2022年
+        summary: 视觉引导的移动协作机器人，用于辅助护理人员完成患者转移。
+        highlights:
+          - 设计并开发完整的视觉引导移动第三机械臂协作机器人，用于协助护理人员完成从床到轮椅的中度辅助枢轴转移，涵盖机械设计、电子集成与控制系统。
+          - 实现基于计算机视觉的人体追踪算法，并开发人机交互策略，确保护理人员、患者和协作机器人之间的安全、直观操作。
+      - name: 水下机器人系统设计与分析
+        date: 2018年 -- 2019年
+        summary: 面向自主水下航行器的3D打印机械臂与仿生柔性外壳。
+        highlights:
+          - 设计并3D打印仿生水下机械臂和柔性外壳结构，实现水下物体抓取，并在降低重量的同时提升结构在不同深度下的刚度。
+          - 运用有限元分析优化机械臂与外壳的强度、水动力性能及工作深度。
+
+    工作经历:
+      - company: 深圳市随动智能技术有限公司（Phridom AI）
+        position: 联席首席技术官（Co-CTO）
+        location: 中国深圳
+        date: 2025年12月 -- 至今
+        highlights:
+          - 负责机器人数据采集与遥操作工具的硬件设计与开发，涵盖机械结构、传感器集成及部署。
+          - 开发机器人仿真环境与工作流，用于系统设计、测试验证及实机集成。
+          - 负责机器人硬件、仿真、控制和遥操作子系统的端到端集成，构建可靠的具身智能平台。
+          - 与联席首席技术官共同制定公司研发与工程路线图及核心系统架构。
+      - company: 南洋理工大学
+        position: 项目主管
+        location: 新加坡
+        date: 2021年8月 -- 2025年11月
+        highlights:
+          - 主导人机闭环仿真平台项目，开发将高保真数字人体模型与辅助机器人结合的人机闭环仿真系统。
+          - 指导7名本科生毕业设计，并协调生物力学专家、物理治疗师、工程师及科研负责人等跨学科团队，推进仿真平台的开发与应用。
+          - 独立或参与撰写多项研究基金申请，资金规模从20万新元至超过300万新元，为在研及新增课题争取支持。
+      - company: '[Oishii](https://oishii.com/)'
+        position: 工程实习生
+        location: 美国新泽西州
+        date: 2019年6月 -- 2020年6月
+        highlights:
+          - 设计可容纳25万株植物的室内垂直农场结构，并采用创新托架系统，将建造与组装效率提升90%。
+          - 主导开发价值40万美元的研发设施，包含10个独立生长环境并追踪超过80项植物参数，以优化生长与产量。
+          - 作为主测试工程师带领12人工程团队制定测试与故障排查流程，推动全球最大草莓室内垂直农场投入运营。
+          - 参与筛选32名工程职位候选人，并指导19名新进技术人员提升机械与电气技能、融入公司工作规范。
+      - company: '[杭州嘉菱机械有限公司](http://www.kanon-machine.com/en/index.asp)'
+        position: 工程实习生
+        location: 中国杭州
+        date: 2016年12月 -- 2017年7月
+        highlights:
+          - 使用五轴数控机床协助加工注塑机零部件，并参与三菱注塑机的现场装配。
+          - 使用三坐标测量机（CMM）开展质量检测，验证机械零部件的尺寸精度。
+          - 参与与Engel、KraussMaffei、Grob及Makino Milling Machine Co. Ltd.等企业的商务谈判筹备与沟通。
+          - 协助验收一条由StarragHeckert提供、价值300万元人民币的柔性制造系统生产线。
+
+    出版物:
+      - title: 'ORBiT: Optimizing Robot-Assisted Bite Transfer Leveraging a Real2Sim2Real Framework'
+        authors:
+          - '***Sherwin Stephen Chan†***'
+          - J Anne Yow†
+          - Yi Heng San
+          - Vasanthamaran Ravichandram
+          - Yifan Wang
+          - Lek Syn Lim
+          - Wei Tech Ang
+        journal: 'IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)，† 共同第一作者'
+        date: 2025年10月
+      - title: A Human-In-The-Loop Simulation Framework for Evaluating Control Strategies in Gait Assistive Robots
+        authors:
+          - Yifan Wang†
+          - '***Sherwin Stephen Chan†***'
+          - Mingyuan Lei
+          - Lek Syn Lim
+          - Henry Johan
+          - Bingran Zuo
+          - Wei Tech Ang
+        journal: 'IEEE International Conference on Robotics and Automation (ICRA)，† 共同第一作者'
+        date: 2025年5月
+      - title: Simulating Safe Bite Transfer in Robot-Assisted Feeding with a Soft Head and Articulated Jaw
+        authors:
+          - Yi Heng San†
+          - Vasanthamaran Ravichandram†
+          - J Anne Yow†
+          - '***Sherwin Stephen Chan†***'
+          - Yifan Wang
+          - Wei Tech Ang
+        journal: 'IEEE International Conference on Rehabilitation Robotics (ICORR)，† 贡献相同'
+        date: 2025年5月
+      - title: Personalised 3D Human Digital Twin with Soft-Body Feet for Walking Simulation
+        authors:
+          - Kum Yew Loke
+          - '***Sherwin Stephen Chan***'
+          - Mingyuan Lei
+          - Henry Johan
+          - Bingran Zuo
+          - Wei Tech Ang
+        journal: International Conference on Social Robotics (ICSR)
+        date: 2024年12月
+      - title: Creation and Evaluation of Human Models with Varied Walking Ability from Motion Capture for Assistive Device Development
+        authors:
+          - '***Sherwin Stephen Chan***'
+          - Mingyuan Lei
+          - Henry Johan
+          - Wei Tech Ang
+        journal: IEEE International Conference on Rehabilitation Robotics (ICORR)
+        date: 2023年9月
+      - title: Investigation of Modeling Differences between OpenSim and Visual3D for Gait Analysis of Healthy Gait
+        authors:
+          - Beth Eng Wan Xuan
+          - '***Sherwin Stephen Chan***'
+          - Henry Johan
+          - Lek Syn Lim
+          - Bingran Zuo
+          - Wei Tech Ang
+        journal: International Convention on Rehabilitation Engineering and Assistive Technology (i-CREATe)
+        date: 2023年8月
+
+    技能:
+      - label: 编程语言
+        details: Python、C++、C
+      - label: 机器人与仿真
+        details: MuJoCo、OpenSim、Isaac Lab（Gym）、ROS、SolidWorks、SolidEdge、STM32、ESP32、Linux
+      - label: 机器学习
+        details: 强化学习、PyTorch、TensorFlow、基础模型、视觉-语言-动作模型
+      - label: 语言
+        details: 英语（流利）、中文（流利）、福建话、菲律宾语
+
+    荣誉与奖项:
+      - name: Dyson-NTU创新挑战赛
+        date: 2021年4月 -- 2021年9月
+        location: 新加坡
+        summary: 获得NTUitive主办的年度创新挑战赛第一名。
+        highlights:
+          - 获得10,000新元MDT资助，用于开发解决城市园艺难题的创新智能种植系统。
+      - name: 海外创业计划（OEP）路演奖
+        date: 2020年9月 -- 2021年2月
+        location: 新加坡
+        summary: 创立HortiCole，并为物联网农业解决方案获得项目资助。
+        highlights:
+          - 获得5,000新元资助，在六个月内开发低成本模块化IoT种植系统原型。
+          - 面向400名参与者开展市场调研，获得64.5%的强烈需求验证。
+      - name: SMRT-NTU创新挑战赛入围者
+        date: 2019年3月 -- 2019年4月
+        location: 新加坡
+        summary: 入围铁路基础设施检测方案创新挑战赛。
+        highlights:
+          - 开发用于检测浮置板下橡胶轴承及第一阶段混凝土的解决方案。
+
+design:
+  theme: engineeringresumes
+  page:
+    size: a4
+    top_margin: 2cm
+    bottom_margin: 2cm
+    left_margin: 2cm
+    right_margin: 2cm
+    show_page_numbering: true
+    show_last_updated_date: true
+  text:
+    font_family: XCharter
+    font_size: 10pt
+    leading: 0.7em
+    alignment: justified
+  header:
+    name_font_family: XCharter
+    name_font_size: 25pt
+    name_bold: true
+    connections_font_family: XCharter
+    separator_between_connections: '·'
+    use_icons_for_connections: true
+    alignment: center
+  section_titles:
+    type: with-parial-line
+    font_family: XCharter
+    font_size: 1.3em
+    bold: true
+    vertical_space_above: 0.65cm
+    vertical_space_below: 0.4cm
+  entries:
+    date_and_location_width: 6cm
+    left_and_right_margin: 0cm
+    horizontal_space_between_columns: 0.15cm
+    vertical_space_between_entries: 0.5cm
+    allow_page_break_in_sections: true
+    allow_page_break_in_entries: true
+    short_second_row: false
+  highlights:
+    bullet: •
+    top_margin: 0.3cm
+    left_margin: 0cm
+    vertical_space_between_highlights: 0.25cm
+    horizontal_space_between_bullet_and_highlight: 0.4em
+    summary_left_margin: 0cm
+  entry_types:
+    one_line_entry:
+      template: '**LABEL:** DETAILS'
+    education_entry:
+      main_column_first_row_template: |-
+        **INSTITUTION**, LOCATION
+        **DEGREE -- AREA**
+      degree_column_template:
+      degree_column_width: 1cm
+      main_column_second_row_template: |-
+        SUMMARY
+        HIGHLIGHTS
+      date_and_location_column_template: DATE
+    normal_entry:
+      main_column_first_row_template: '**NAME** -- **LOCATION**'
+      main_column_second_row_template: |-
+        SUMMARY
+        HIGHLIGHTS
+      date_and_location_column_template: DATE
+    experience_entry:
+      main_column_first_row_template: '**POSITION**, COMPANY -- LOCATION'
+      main_column_second_row_template: |-
+        SUMMARY
+        HIGHLIGHTS
+      date_and_location_column_template: DATE
+    publication_entry:
+      main_column_first_row_template: '**TITLE**'
+      main_column_second_row_template: |-
+        AUTHORS
+        URL (JOURNAL)
+      main_column_second_row_without_journal_template: |-
+        AUTHORS
+        URL
+      main_column_second_row_without_url_template: |-
+        AUTHORS
+        JOURNAL
+      date_and_location_column_template: DATE
+
+locale:
+  language: en
+  present: present
+  to: –
+  page_numbering_template: NAME - 第 PAGE_NUMBER 页 / 共 TOTAL_PAGES 页
+  last_updated_date_template: 更新于 TODAY
+
+rendercv_settings:
+  date: '2026-09-01'
+  render_command:
+  bold_keywords: []

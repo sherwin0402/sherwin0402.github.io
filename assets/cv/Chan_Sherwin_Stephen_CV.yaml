@@ -11,19 +11,19 @@ cv:
     #   username: sherwin0402
   sections:
     Summary:
-      - Final-year Ph.D. student at NTU (expected completion Feb 2026) specializing in physics-based simulation of physical human–robot interaction (pHRI) for assistive robots. Develops realistic digital human twins and personalized controllers in MuJoCo within a Real2Sim2Real workflow to study safe, intuitive HRI. Currently building an Embodied AI data factory for scalable, high-fidelity teleop data that trains robust, generalizable VLA/FM policies.
+      - Co-CTO at Phridom AI, leading hardware design for robot data-collection tools, simulation, teleoperation, and system integration. Ph.D. in Mechanical Engineering from NTU (April 2026), specializing in physics-based simulation and physical human–robot interaction.
     education:
       - institution: '[Nanyang Technological University](https://www.ntu.edu.sg/)'
         area: '**Mechanical Engineering**'
         degree: '**Ph.D.**'
-        date: Aug 2021 -- Feb 2026 (Expected)
+        date: Aug 2021 -- Apr 2026
         start_date: 2021-09
-        end_date: 2021-09 # ! Expected
+        end_date: 2026-04
         location: Singapore
         summary:
         highlights:
           - '**Advisor:** Prof Ang Wei Tech'
-          - '**Proposed Dissertation:** Human-in-the-Loop Simulation for Adaptive Assistive Robots: Personalising Human Models and Robot Control'
+          - '**Dissertation:** Human-in-the-Loop Simulation for Adaptive Assistive Robots: Personalising Human Models and Robot Control'
           - '**Research Interests:** Physics-Based Simulation, Human-Robot Interaction, Machine Learning, Foundation Models, Large Language Models'
       - institution: '[Nanyang Technological University](https://www.ntu.edu.sg/)'
         area: '**Mechanical Engineering** with a Specialization in Robotics and Mechatronics'
@@ -40,12 +40,11 @@ cv:
       - name: 'Embodied AI Data Factory'
         date:
         start_date: 2025-07
-        end_date: present
+        end_date: 2025-11
         summary: 
         highlights:
-          - Leading the development of a next-generation teleoperation framework for whole-body, dual-arm, and dexterous manipulation, optimised to lower operator cognitive load and preserve natural human motion.
-          - Building a scalable, end-to-end data generation pipeline that fuses markerless motion capture, multi-sensor perception, and real-time retargeting for both physical humanoids and simulated agents.
-          - Advancing methods to bridge the embodiment gap between human demonstrations and robot execution, enabling high-throughput collection of richly annotated datasets for training robust, foundation model–based vision-language-action (VLA) policies.
+          - Led development of a teleoperation and data-generation pipeline integrating markerless motion capture, multi-sensor perception, and real-time retargeting for humanoid robots and simulated agents.
+          - Advanced methods to bridge the embodiment gap between human demonstrations and robot execution, enabling high-throughput collection of richly annotated datasets for training robust, foundation model–based vision-language-action (VLA) policies.
       - name: 'Human-In-The-Loop Robotic Simulator'
         date:
         start_date: 2021-09
@@ -55,13 +54,11 @@ cv:
         highlights:
           - 'Led development of a human-in-the-loop simulation framework for assistive robotics, with personalized digital twins across abilities. The pipeline integrates skeletal, musculoskeletal, and soft-body models, using reinforcement learning to simulate diverse capabilities and enable realistic, adaptive robot testing.'
           - 'Designed and validated a Real2Sim2Real framework to personalize robotic controllers for robot-assisted feeding and gait-assistive robots, enabling improved pHRI through simulation-informed adaptation and real-world testing.'
-          - 'Investigated various human-robot interaction modalities in simulation, including soft body interaction dynamics, mass-spring-damper models, and other methods to accurately represent physical interactions.'
       - name: 'Mobile Third Arm Robot'
         date: 2020 -- 2022
         # summary: Vision-guided mobile third arm co-bot for patient transfers between bed and wheelchair.
         highlights:
-          - 'Designed and developed a complete vision guided mobile third arm cobot to assist caregivers in moderate assisted pivot transfers between a bed and wheelchair, covering mechanical design, electronics integration, and control systems.'
-          - 'Implemented a human-tracking computer vision algorithm and developed human-robot interaction strategies to enable safe, intuitive operation between the caregiver, patient, and mobile third arm robot.'
+          - 'Designed a vision-guided mobile third-arm cobot and human-tracking interaction system for safe, intuitive assisted patient transfers between a bed and wheelchair.'
       # - name: 'Design and Analysis of Underwater Robotic Systems'
       #   date: 2018 -- 2019
       #   summary: 3D printed underwater robotic manipulator for object grasping.
@@ -69,11 +66,19 @@ cv:
       #     - Designed and 3D printed a bio-inspired underwater robotic manipulator and flexible hull structure for an autonomous underwater vehicle, enabling object grasping and enhanced rigidity with reduced weight at depth.
       #     - Performed finite element analysis to optimize manipulator and hull designs for strength, hydrodynamic performance, and operational depth.
     Work experience:
+      - company: Phridom AI
+        position: Co-Chief Technology Officer (Co-CTO)
+        location: Shenzhen, China
+        start_date: 2025-12
+        end_date: present
+        highlights:
+          - Lead hardware design for robot data-collection and teleoperation tools, from mechanical and sensor integration through deployment.
+          - Develop simulation workflows and integrate hardware, control, and teleoperation subsystems into reliable embodied AI platforms.
       - company: Nanyang Technological University, Singapore
         position: Project Officer
         location: Singapore
         start_date: 2021-08
-        end_date: present
+        end_date: 2025-11
         highlights:
           # - Spearheaded the Human-In-The-Loop Robotic Simulator project, focusing on developing a platform that combines realistic human digital twins with assistive robots for human-in-the-loop simulations.
           - Mentored seven final-year project students and collaborated with cross-functional research teams, including biomechanics experts, therapists, engineers, and research leads, to advance the development and application of the simulator.
@@ -355,6 +360,6 @@ locale:
     - November
     - December
 rendercv_settings:
-  date: '2025-04-14'
+  date: '2026-09-01'
   render_command:
   bold_keywords: []
