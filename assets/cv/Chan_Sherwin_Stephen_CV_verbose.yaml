@@ -1,0 +1,294 @@
+cv:
+  name: Chan Sherwin Stephen
+  location: Singapore
+  email: sherwin0402@gmail.com
+  website: https://sherwin0402.github.io/
+  social_networks:
+    - network: LinkedIn
+      username: sherwin-chan
+    - network: GitHub
+      username: sherwin0402
+  sections:
+    Summary:
+      - Co-Chief Technology Officer at Phridom AI, leading hardware design for robot data-collection tools, simulation development, teleoperation, and end-to-end system integration. Ph.D. graduate in Mechanical Engineering from NTU (April 2026), specializing in physics-based simulation and physical human-robot interaction for assistive robots.
+
+    Education:
+      - institution: '[Nanyang Technological University](https://www.ntu.edu.sg/)'
+        area: '**Mechanical Engineering**'
+        degree: '**Ph.D.**'
+        date: Aug 2021 -- Apr 2026
+        start_date: 2021-09
+        end_date: 2026-04
+        location: Singapore
+        highlights:
+          - '**Advisor:** Prof Ang Wei Tech'
+          - '**Dissertation:** Human-in-the-Loop Simulation for Adaptive Assistive Robots: Personalising Human Models and Robot Control'
+          - '**Research Interests:** Physics-Based Simulation, Human-Robot Interaction, Machine Learning, Foundation Models, Large Language Models'
+      - institution: '[Nanyang Technological University](https://www.ntu.edu.sg/)'
+        area: '**Mechanical Engineering** with a Specialization in Robotics and Mechatronics'
+        degree: '**B.E.**'
+        start_date: 2017-08
+        end_date: 2021-05
+        location: Singapore
+        highlights:
+          - '**GPA:** 4.84/5.00, First Class Honours'
+          - "**Awards:** Nanyang Scholarship, Dean's List for 2017/2018 (Top 5% of Cohort)"
+
+    Research Projects:
+      - name: Embodied AI Data Factory
+        start_date: 2025-07
+        end_date: 2025-11
+        summary: A scalable, end-to-end data generation platform for high-fidelity teleoperation and humanoid data collection.
+        highlights:
+          - Led the development of a next-generation teleoperation framework for whole-body, dual-arm, and dexterous manipulation, optimized to lower operator cognitive load and preserve natural human motion.
+          - Built a scalable, end-to-end data generation pipeline that fuses markerless motion capture, multi-sensor perception, and real-time retargeting for both physical humanoids and simulated agents.
+          - Advanced methods to bridge the embodiment gap between human demonstrations and robot execution, enabling high-throughput collection of richly annotated datasets for training robust, foundation model-based vision-language-action (VLA) policies.
+      - name: Human-In-The-Loop Robotic Simulator
+        start_date: 2021-09
+        end_date: present
+        summary: A simulation framework for physical human-robot interaction investigation and personalization of robotic systems.
+        highlights:
+          - Led development of a human-in-the-loop simulation framework for assistive robotics, with personalized digital twins across abilities. The pipeline integrates skeletal, musculoskeletal, and soft-body models, using reinforcement learning to simulate diverse capabilities and enable realistic, adaptive robot testing.
+          - Designed and validated a Real2Sim2Real framework to personalize robotic controllers for robot-assisted feeding and gait-assistive robots, enabling improved pHRI through simulation-informed adaptation and real-world testing.
+          - Investigated human-robot interaction modalities in simulation, including soft-body interaction dynamics, mass-spring-damper models, and other methods for accurately representing physical interactions.
+      - name: Mobile Third Arm Robot
+        date: 2020 -- 2022
+        summary: A vision-guided mobile third-arm cobot for patient transfers between a bed and wheelchair.
+        highlights:
+          - Designed and developed a complete vision-guided mobile third-arm cobot to assist caregivers in moderate assisted pivot transfers, covering mechanical design, electronics integration, and control systems.
+          - Implemented a human-tracking computer vision algorithm and developed human-robot interaction strategies for safe, intuitive operation between the caregiver, patient, and robot.
+      - name: Design and Analysis of Underwater Robotic Systems
+        date: 2018 -- 2019
+        summary: A 3D-printed underwater robotic manipulator and flexible hull for an autonomous underwater vehicle.
+        highlights:
+          - Designed and 3D printed a bio-inspired underwater robotic manipulator and flexible hull structure, enabling object grasping and enhanced rigidity with reduced weight at depth.
+          - Performed finite element analysis to optimize the manipulator and hull designs for strength, hydrodynamic performance, and operational depth.
+
+    Work Experience:
+      - company: Phridom AI
+        position: Co-Chief Technology Officer (Co-CTO)
+        location: Shenzhen, China
+        start_date: 2025-12
+        end_date: present
+        highlights:
+          - Lead the hardware design and development of robot data-collection tools and teleoperation systems for embodied AI research and deployment.
+          - Develop simulation environments and workflows for robot-system design, testing, and validation before real-world integration.
+          - Own end-to-end integration across robot hardware, simulation, control, and teleoperation subsystems to build reliable embodied AI platforms.
+          - Co-define the company's research and engineering roadmap and core system architecture with the co-CTO.
+      - company: Nanyang Technological University, Singapore
+        position: Project Officer
+        location: Singapore
+        start_date: 2021-08
+        end_date: 2025-11
+        highlights:
+          - Spearheaded the Human-In-The-Loop Robotic Simulator project, developing a platform that combines realistic human digital twins with assistive robots for human-in-the-loop simulations.
+          - Mentored seven final-year project students and collaborated with cross-functional research teams, including biomechanics experts, therapists, engineers, and research leads, to advance the simulator's development and application.
+          - Prepared funding proposals ranging from SGD 200K grants to multi-institutional proposals exceeding SGD 3 million to support ongoing and upcoming research initiatives.
+      - company: '[Oishii](https://oishii.com/)'
+        position: Engineering Intern
+        location: New Jersey, USA
+        start_date: 2019-06
+        end_date: 2020-06
+        highlights:
+          - Designed an indoor vertical farm structure accommodating 250,000 plants with a novel rack system that increased construction and assembly efficiency by 90%.
+          - Pioneered development of a USD 400,000 R&D facility with ten independent growing environments tracking more than 80 plant parameters to determine optimal growth and yield.
+          - Led an engineering team of 12 as lead test engineer, implementing testing and troubleshooting schedules for all farm subsystems and bringing the world's largest indoor strawberry vertical farm facility into operation.
+          - Evaluated 32 engineering candidates and mentored 19 new engineering technicians to improve mechanical and electrical skills and align with company working norms.
+      - company: '[Hangzhou Jialing Machinery Co. Ltd](http://www.kanon-machine.com/en/index.asp)'
+        position: Engineering Intern
+        location: Hangzhou, China
+        start_date: 2016-12
+        end_date: 2017-07
+        highlights:
+          - Assisted in machining injection-molding machine parts using five-axis CNC machines and assembling Mitsubishi injection-molding machines on site.
+          - Performed CMM quality-control tests to verify the dimensional accuracy of machined parts.
+          - Planned and participated in business negotiations with Engel, KraussMaffei, Grob, and Makino Milling Machine Co. Ltd.
+          - Assisted with acceptance testing of a flexible manufacturing system production line worth RMB 3 million from StarragHeckert.
+
+    Publications:
+      - title: 'ORBiT: Optimizing Robot-Assisted Bite Transfer Leveraging a Real2Sim2Real Framework'
+        authors:
+          - '***Sherwin Stephen Chan†***'
+          - J Anne Yow†
+          - Yi Heng San
+          - Vasanthamaran Ravichandram
+          - Yifan Wang
+          - Lek Syn Lim
+          - Wei Tech Ang
+        journal: 'IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), † Denotes equal contribution'
+        date: 2025-10
+      - title: A Human-In-The-Loop Simulation Framework for Evaluating Control Strategies in Gait Assistive Robots
+        authors:
+          - Yifan Wang†
+          - '***Sherwin Stephen Chan†***'
+          - Mingyuan Lei
+          - Lek Syn Lim
+          - Henry Johan
+          - Bingran Zuo
+          - Wei Tech Ang
+        journal: 'IEEE International Conference on Robotics and Automation (ICRA), † Denotes equal contribution'
+        date: 2025-05
+      - title: Simulating Safe Bite Transfer in Robot-Assisted Feeding with a Soft Head and Articulated Jaw
+        authors:
+          - Yi Heng San†
+          - Vasanthamaran Ravichandram†
+          - J Anne Yow†
+          - '***Sherwin Stephen Chan†***'
+          - Yifan Wang
+          - Wei Tech Ang
+        journal: 'IEEE International Conference on Rehabilitation Robotics (ICORR), † Denotes equal contribution'
+        date: 2025-05
+      - title: Personalised 3D Human Digital Twin with Soft-Body Feet for Walking Simulation
+        authors:
+          - Kum Yew Loke
+          - '***Sherwin Stephen Chan***'
+          - Mingyuan Lei
+          - Henry Johan
+          - Bingran Zuo
+          - Wei Tech Ang
+        journal: International Conference on Social Robotics (ICSR)
+        date: 2024-12
+      - title: Creation and Evaluation of Human Models with Varied Walking Ability from Motion Capture for Assistive Device Development
+        authors:
+          - '***Sherwin Stephen Chan***'
+          - Mingyuan Lei
+          - Henry Johan
+          - Wei Tech Ang
+        journal: IEEE International Conference on Rehabilitation Robotics (ICORR)
+        date: 2023-09
+      - title: Investigation of Modeling Differences between OpenSim and Visual3D for Gait Analysis of Healthy Gait
+        authors:
+          - Beth Eng Wan Xuan
+          - '***Sherwin Stephen Chan***'
+          - Henry Johan
+          - Lek Syn Lim
+          - Bingran Zuo
+          - Wei Tech Ang
+        journal: International Convention on Rehabilitation Engineering and Assistive Technology (i-CREATe)
+        date: 2023-08
+
+    Skills:
+      - label: Programming Languages
+        details: Python, C++, C
+      - label: Robotics and Simulation
+        details: MuJoCo, OpenSim, Isaac Lab (Gym), ROS, SolidWorks, SolidEdge, STM32, ESP32, Linux
+      - label: Machine Learning
+        details: Reinforcement Learning, PyTorch, TensorFlow, Foundation Models, Vision-Language-Action Models
+      - label: Spoken Languages
+        details: English, Chinese, Hokkien (Dialect), Tagalog
+
+    Awards and Achievements:
+      - name: Dyson-NTU Innovation Challenge
+        date: 2021-04 -- 2021-09
+        location: Singapore
+        summary: Won first place in the annual innovation challenge organized by NTUitive.
+        highlights:
+          - Awarded an SGD 10,000 MDT grant to prototype an innovative smart planter addressing urban gardening challenges.
+      - name: Overseas Entrepreneurship Program (OEP) Pitch Day Award
+        date: 2020-09 -- 2021-02
+        location: Singapore
+        summary: Founded HortiCole and secured funding for an IoT agricultural solution.
+        highlights:
+          - Awarded SGD 5,000 to develop a low-cost, modular IoT planter system with an alpha prototype in six months.
+          - Conducted market research with 400 participants and received strong market validation of 64.5%.
+      - name: SMRT-NTU Innovation Challenge Finalist
+        date: 2019-03 -- 2019-04
+        location: Singapore
+        summary: Finalist in an innovation challenge to devise inspection solutions for railway infrastructure.
+        highlights:
+          - Developed a solution for inspecting rubber bearings and first-stage concrete beneath a floating slab.
+
+design:
+  theme: engineeringresumes
+  page:
+    size: a4
+    top_margin: 2cm
+    bottom_margin: 2cm
+    left_margin: 2cm
+    right_margin: 2cm
+    show_page_numbering: true
+    show_last_updated_date: true
+  text:
+    font_family: XCharter
+    font_size: 10pt
+    leading: 0.65em
+    alignment: justified
+  header:
+    name_font_family: XCharter
+    name_font_size: 25pt
+    name_bold: false
+    connections_font_family: XCharter
+    separator_between_connections: '|'
+    use_icons_for_connections: true
+    alignment: center
+  section_titles:
+    type: with-parial-line
+    font_family: XCharter
+    font_size: 1.2em
+    bold: true
+    vertical_space_above: 0.6cm
+    vertical_space_below: 0.35cm
+  entries:
+    date_and_location_width: 6cm
+    left_and_right_margin: 0cm
+    horizontal_space_between_columns: 0.1cm
+    vertical_space_between_entries: 0.5cm
+    allow_page_break_in_sections: true
+    allow_page_break_in_entries: true
+    short_second_row: false
+  highlights:
+    bullet: •
+    top_margin: 0.25cm
+    left_margin: 0cm
+    vertical_space_between_highlights: 0.2cm
+    horizontal_space_between_bullet_and_highlight: 0.3em
+    summary_left_margin: 0cm
+  entry_types:
+    one_line_entry:
+      template: '**LABEL:** DETAILS'
+    education_entry:
+      main_column_first_row_template: |-
+        **INSTITUTION**, LOCATION
+        **DEGREE in AREA**
+      degree_column_template:
+      degree_column_width: 1cm
+      main_column_second_row_template: |-
+        SUMMARY
+        HIGHLIGHTS
+      date_and_location_column_template: DATE
+    normal_entry:
+      main_column_first_row_template: '**NAME** -- **LOCATION**'
+      main_column_second_row_template: |-
+        SUMMARY
+        HIGHLIGHTS
+      date_and_location_column_template: DATE
+    experience_entry:
+      main_column_first_row_template: '**POSITION**, COMPANY -- LOCATION'
+      main_column_second_row_template: |-
+        SUMMARY
+        HIGHLIGHTS
+      date_and_location_column_template: DATE
+    publication_entry:
+      main_column_first_row_template: '**TITLE**'
+      main_column_second_row_template: |-
+        AUTHORS
+        URL (JOURNAL)
+      main_column_second_row_without_journal_template: |-
+        AUTHORS
+        URL
+      main_column_second_row_without_url_template: |-
+        AUTHORS
+        JOURNAL
+      date_and_location_column_template: DATE
+
+locale:
+  language: en
+  present: present
+  to: –
+  page_numbering_template: NAME - Page PAGE_NUMBER of TOTAL_PAGES
+  last_updated_date_template: Last updated in TODAY
+
+rendercv_settings:
+  date: '2026-09-01'
+  render_command:
+  bold_keywords: []
